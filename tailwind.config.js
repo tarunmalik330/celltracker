@@ -11,6 +11,10 @@ module.exports = {
       colors: {
         blue: "#03045e",
       },
+      lineHeight: {
+        xs: "100%",
+        sm: "120%",
+      },
     },
   },
   plugins: [],
