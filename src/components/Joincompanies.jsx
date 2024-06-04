@@ -1,12 +1,14 @@
 import React from "react";
 import CommonBtn from "./common/CommonBtn";
 import { joinCompanies } from "./common/Helper";
+import toplayer from "../assets/images/png/companies-toplayer.png";
 
 const Joincompanies = () => {
   return (
-    <div className="bg-join-companies-bg bg-cover bg-center bg-no-repeat">
+    <div className="bg-join-companies-bg bg-cover bg-center bg-no-repeat relative">
+      <img src={toplayer} alt="toplayer" className="absolute top-0 w-full" />
       <div className="container px-3 custom_container mx-auto">
-        <h2 className="text-white lg:text-5xl sm:text-4xl text-2lg text-center font-light sm:leading-xs leading-xxs lg:max-w-[664px] mx-auto lg:pb-[109px] sm:pb-[80px] pb-[65px] pt-[70px]">
+        <h2 className="text-white lg:text-5xl sm:text-4xl text-2lg text-center font-light sm:leading-xs leading-xxs lg:max-w-[664px] mx-auto lg:pb-[109px] sm:pb-[80px] pb-[65px] lg:pt-[222px] md:pt-[180px] sm:pt-[150px] pt-[126px]">
           Join <span className="font-extrabold">70,000+ companies</span> doing
           time tracking the easy way
         </h2>
@@ -23,7 +25,9 @@ const Joincompanies = () => {
               >
                 <h3 className="text-blue font-normal text-xxs leading-sm mb-[18px]">
                   Cell Tracker
-                  {id === 1 && <span className="font-extrabold"> Pro</span>}
+                  {id === 1 && (
+                    <span className="font-extrabold text-sky"> Pro</span>
+                  )}
                 </h3>
                 <p className="font-normal text-base leading-normal text-black opacity-70 mb-3">
                   {obj.description}
@@ -38,7 +42,7 @@ const Joincompanies = () => {
                 </p>
                 <p className="text-xsm flex gap-2 items-baseline text-blue font-normal leading-normal mb-[27px]">
                   {obj.billperseat}
-                  <span className="text-black opacity-70 text-base leading-normal text-sky">
+                  <span className="text-black opacity-70 text-base leading-normal">
                     {obj.billmonth}
                   </span>{" "}
                 </p>

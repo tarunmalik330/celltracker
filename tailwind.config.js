@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      backgroundSize: {
+        bgsize: "100% 100%",
+      },
       fontSize: {
         xxs: "32px",
         xsm: "40px",
@@ -11,18 +14,27 @@ module.exports = {
       },
       colors: {
         blue: "#03045e",
+        sky: "#00B5D8",
+        lightSky: "#03045e1a",
+        offWhite: "#FFFFFFCC",
+        grey: "#000000B2",
+        lghtGrey: "#000000b3",
       },
       lineHeight: {
+        xxs: "80%",
         xs: "100%",
         xxs: "116%",
         sm: "120%",
-        md: "169%",
+        md: "167%",
+        lg: "169%",
       },
       backgroundImage: {
         "find-phone-bg": "url('./assets/images/png/bg-find.png')",
         "join-companies-bg": "url('./assets/images/png/bg-join-companies.png')",
+
+        heroBg: "url('./assets/images/webp/headerBgimg.webp')",
       },
     },
+    plugins: [],
   },
-  plugins: [],
 };
