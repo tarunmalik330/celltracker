@@ -46,11 +46,11 @@ const HowItWorks = () => {
         <div className="flex gap-[14px] sm:flex-row flex-col max-sm:w-full sm:pt-[67px] pt-[22px]">
           <CommonBtn
             btnName="Create your Account"
-            className="capitalize bg-blue text-white"
+            className="capitalize bg-blue text-white py-[16.5px] px-[27.2px]"
           />
           <CommonBtn
             btnName="Got more Question?"
-            className="border border-solid !border-blue"
+            className="border border-solid !border-blue py-[16.5px] px-[27.3px]"
           />
         </div>
       </div>

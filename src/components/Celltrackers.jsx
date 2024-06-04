@@ -1,6 +1,7 @@
 import React from 'react';
 import { cellTrackerData } from './common/Helper';
 import heroLayer from '../assets/images/png/heroWhite-layer.png';
+import CommonBtn from "./common/CommonBtn";
 
 const Celltrackers = () => {
     return (
@@ -26,7 +27,10 @@ const Celltrackers = () => {
                     ))}
                 </div>
                 <div className='flex justify-center items-center'>
-                    <button className='py-[16px] px-[28px] bg-blue text-white rounded-[4px] text-base font-semibold leading-lg'>Create your Account</button>
+                    <CommonBtn
+                        btnName="Create your Account"
+                        className="capitalize bg-blue text-white py-[16.5px] px-[27.2px]"
+                    />
                 </div>
             </div>
         </div>
