@@ -5,6 +5,7 @@ import FindYourPhone from "../components/FindYourPhone";
 import Joincompanies from "../components/Joincompanies";
 import Celltrackers from "../components/Celltrackers";
 import HowItWorks from "../components/HowItWorks";
+import CreateYourAccount from "../components/CreateYourAccount";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Celltrackers />
       <HowItWorks />
       <Joincompanies />
+      <CreateYourAccount />
       <FindYourPhone />
       <Footer />
     </div>

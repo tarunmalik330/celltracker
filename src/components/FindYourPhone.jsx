@@ -7,8 +7,8 @@ const FindYourPhone = () => {
     <>
       <div className="sm:pt-[248px] pt-[210px]">
         <div className="container px-3 custom_container mx-auto">
-          <div className="rounded-[12px]">
-            <div className="flex rounded-[12px] bg-full bg-center bg-no-repeat bg-find-phone-bg flex-row  flex-wrap items-center lg:pb-0 md:pb-20 sm:pb-16 pb-[46px]">
+          <div className="rounded-xl">
+            <div className="flex rounded-xl bg-full xl:bg-cover bg-center bg-no-repeat bg-find-phone-bg flex-row  flex-wrap items-center lg:pb-0 md:pb-20 sm:pb-16 pb-[46px]">
               <div className="lg:w-[53%] w-full flex justify-center">
                 <img
                   src={findphone}
