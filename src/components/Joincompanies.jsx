@@ -17,7 +17,7 @@ const Joincompanies = () => {
             return (
               <div
                 key={id}
-                className={`pl-[34px] bg-white rounded-tl-xl rounded-tr-xl rounded-br-xl border-y border-s border-solid w-full h-full relative max-sm:px-6 shadow-[0px_16px_25.3px_0px_#00000014] ${
+                className={`pl-[34px] bg-white rounded-tl-xl sm:rounded-tr-xl rounded-br-xl border-y border-s border-solid w-full h-full relative max-sm:px-6 shadow-[0px_16px_25.3px_0px_#00000014] ${
                   id === 1
                     ? "max-w-[527px] sm:pt-[63px] sm:pb-[34px] pt-[60px] pb-[30px] lg:-translate-x-3"
                     : "max-w-[467px] max-sm:py-[75.5px] py-[34px]"
@@ -40,11 +40,15 @@ const Joincompanies = () => {
                   {obj.rightclick}
                   {obj.projects}
                 </p>
-                <p className="text-xsm flex gap-2 items-baseline text-blue font-normal leading-normal mb-[27px]">
-                  {obj.billperseat}
-                  <span className="text-black opacity-70 text-base leading-normal">
+                <p
+                  className={`${
+                    id === 1 && "max-sm:!h-[70px]"
+                  } lg:text-xsm text-4xl font-normal max-sm:max-w-[204px] h-[60px] !leading-[0] sm:!leading-normal mb-[27px] text-blue sm:pt-0 pt-4`}
+                >
+                  {obj.priceperseat}
+                  <sub className="lg:text-base text-sm !leading-normal text-black opacity-70">
                     {obj.billmonth}
-                  </span>{" "}
+                  </sub>
                 </p>
                 <div className="flex sm:flex-row flex-col items-center gap-4 max-sm:w-full">
                   <CommonBtn

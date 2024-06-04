@@ -19,7 +19,7 @@ export const joinCompanies = [
     rightclick: <RightTick />,
     seat: "1 seat",
     projects: "2 projects",
-    billperseat: "$0",
+    priceperseat: "$0",
     billmonth: "free forever",
   },
   {
@@ -27,7 +27,7 @@ export const joinCompanies = [
     rightclick: <RightTick />,
     seat: "Unlimited seats",
     projects: "Unlimited projects",
-    billperseat: "$10.80",
+    priceperseat: "$10.80",
     billmonth: "per seat/month (billed annually)",
   },
 ];

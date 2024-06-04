@@ -79,7 +79,7 @@ export const RightTick = () => {
         stroke="#03045E"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
