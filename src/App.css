@@ -1,3 +1,5 @@
-.custom_container {
-  @apply max-w-[1162px]
+@media (min-width:1200px) {
+  .custom_container {
+    @apply max-w-[1162px]
+  }
 }
