@@ -28,7 +28,6 @@ function App() {
           <Route path="/" exact element={<HomePage />}></Route>
           <Route path="landingpage" exact element={<LandingPage />}></Route>
         </Routes>
-        <HowItWork />
       </div>
       <div
         onClick={() => top()}

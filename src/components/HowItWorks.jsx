@@ -56,7 +56,7 @@ const HowItWorks = () => {
               ))}
             </div>
           </div>
-          <div className="flex gap-[14px] sm:flex-row flex-col max-sm:w-full sm:pt-[67px] pt-[22px]">
+          <div className="flex gap-[14px] sm:flex-row flex-col max-sm:w-full sm:pt-[70px] pt-[22px]">
             <CommonBtn
               btnName="Create your Account"
               className="capitalize bg-blue text-white py-[16.5px] px-[27.2px]"

@@ -22,7 +22,7 @@ import vectorimg2 from "../assets/images/webp/vectorImg2.webp";
 
 const CreateYourAccount = () => {
   return (
-    <div className="lg:pt-[220px] sm:pt-[180px] pt-[100px] relative">
+    <div className="lg:pt-[210px] sm:pt-[180px] pt-[100px] relative">
       <img
         src={vectorimg1}
         alt="vectorimg1"
