@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Navlogo, Navlogo2, Quick } from "../common/Icon";
-import CommonBtn from "./CommonBtn";
+import { Navlogo, Navlogo2, Quick } from "./common/Icon";
+import CommonBtn from "./common/CommonBtn";
 
 const Navbar = () => {
     const [nav, setnav] = useState(false);
