@@ -43,6 +43,13 @@ module.exports = {
         "join-companies-bg":
           "url('./assets/images/webp/bg-join-companies.webp')",
         heroBg: "url('./assets/images/webp/headerBgimg.webp')",
+        bluegradient:
+          "linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%)",
+        headerBg: "url('./assets/images/webp/headerBgimg.webp')",
+        heroBg: "url('./assets/images/png/lendingBgimg.png')",
+        needBg: "url('./assets/images/png/needBgimg.png')",
+        heroBoxbg:
+          "linear-gradient(0deg, #FFFFFF, #FFFFFF),linear- gradient(7.95deg, rgba(0, 181, 216, 0.05) - 3.4 %, rgba(0, 0, 128, 0.05) 114.66 %)",
       },
     },
     plugins: [],

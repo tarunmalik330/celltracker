@@ -50,7 +50,7 @@ const Navbar = () => {
             <li className="lg:block hidden">
               <CommonBtn
                 btnName="Create your Account"
-                className="capitalize bg-white hover:bg-blue hover:text-white hover:border-white text-blue py-[16.5px] px-[19.7px]"
+                className="capitalize bg-white hover:!bg-blue hover:!text-white hover:border-white text-blue py-[16.5px] px-[19.7px]"
               />
             </li>
             <li className="lg:hidden block w-full max-w-[314px]">
@@ -60,11 +60,11 @@ const Navbar = () => {
               />
             </li>
           </ul>
-          <button onClick={showNav} className="lg:hidden relative z-[4]">
+          <button onClick={showNav} className="lg:hidden relative z-[5]">
             {nav ? (
               <div className="flex lg:hidden flex-col relative z-50 justify-between w-[18px] h-[17px] cursor-pointer">
-                <span className="bg-black w-[11px] h-[2px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 translate-y-0 -bottom-[11px]"></span>
-                <span className="bg-black w-[11px] h-[2px] relative z-50  transition-all ease-linear duration-300 rotate-[-45deg] translate-x-0 translate-y-1 bottom-[8px]"></span>
+                <span className="bg-black w-[11px] h-[2px] sm:w-[25px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 translate-y-0 -bottom-[11px]"></span>
+                <span className="bg-black w-[11px] h-[2px] sm:w-[25px] relative z-50  transition-all ease-linear duration-300 rotate-[-45deg] translate-x-0 translate-y-1 bottom-[8px]"></span>
               </div>
             ) : (
               <div className="flex lg:hidden flex-col z-50 justify-between w-[24px] h-[24px] cursor-pointer relative">

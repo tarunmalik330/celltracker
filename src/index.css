@@ -4,10 +4,6 @@ body {
   font-family: "Mukta", sans-serif;
 }
 
-code {
-  font-family: "Mukta", sans-serif;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

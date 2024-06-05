@@ -132,3 +132,16 @@ export const worksData = [
     para: "Instantly track the location of a mobile phone at any time. No apps, no downloads, Locateaphone.com works with any Android or iPhone device. Locateaphone.com uses a range of different tools to find the location of a phone. Our unique phone location walkthrough process will determine the best tools to use for each situation.",
   },
 ];
+
+//---------------------NAVBAR------------------------
+export const navData = [
+  {
+    link: "Home",
+  },
+  {
+    link: "How It Works",
+  },
+  {
+    link: "Features",
+  },
+];
