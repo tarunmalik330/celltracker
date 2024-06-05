@@ -51,7 +51,10 @@ const Header = () => {
                     />
                   </div>
                   <div>
-                    <button className="relative flex items-center gap-1 bg-blue text-white text-sm sm:text-base font-semibold rounded-[4px] py-[14px] px-[24px] transition-transform ease-linear duration-300 hover:scale-95">
+                    <button aria-label="locate btn"
+                      rel="noopener noreferrer"
+                      className="relative flex items-center gap-1 bg-blue text-white text-sm sm:text-base font-semibold rounded-[4px] py-[14px] px-[24px] transition-transform ease-linear duration-300 hover:scale-95"
+                    >
                       <div className="flex items-center gap-1">
                         <Locate /> Locate
                       </div>

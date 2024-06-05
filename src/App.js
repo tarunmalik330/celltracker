@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import LandingPage from "./pages/LandingPage";
 import { useState, useEffect } from "react";
 import backtotop from "./assets/images/png/back-to-top.png";
+import HowItWork from "./components/lendingpage/HowItWork";
 
 function App() {
   // ----------------backToTop----------------
@@ -27,6 +28,7 @@ function App() {
           <Route path="/" exact element={<HomePage />}></Route>
           <Route path="landingpage" exact element={<LandingPage />}></Route>
         </Routes>
+        <HowItWork />
       </div>
       <div
         onClick={() => top()}
