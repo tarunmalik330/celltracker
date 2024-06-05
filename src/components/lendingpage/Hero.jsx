@@ -3,10 +3,8 @@ import NavBar from '../../components/lendingpage/NavBar';
 import heroImg from "../../assets/images/png/heroPhoneimg.png";
 import { Arrow, HeroLocation, India, Locate, Needhelp } from "../common/Icon";
 import vectorImg1 from '../../assets/images/png/verctorImg1.png';
-
 const Hero = () => {
   const [value, setValue] = useState("");
-
   const handleKeyPress = (event) => {
     // Allow only digits
     const charCode = event.charCode;
@@ -15,11 +13,30 @@ const Hero = () => {
     }
   };
   return (
-    <div className='bg-heroBg lg:bg-bgsize bg-cover bg-no-repeat '>
+    <div className='bg-heroBg max-lg:min-h-screen lg:h-[810px] lg:bg-bgsize bg-cover bg-no-repeat relative'>
       <NavBar />
       <div className="container custom_container mx-auto sm:px-3 px-6 mt-[56px] pb-[30px] lg:mt-[83px]">
-        <div className="flex flex-row flex-wrap items-center justify-center lg:justify-between">
-          <div className="lg:w-[49%] w-full lg:mb-[70px] xl:mb-[140px]">
+        <div className="flex flex-row flex-wrap items-center justify-center lg:justify-between relative">
+          <div className="lg:block hidden">
+            <img src={heroImg} alt="heroImg" className="w-full absolute right-0 xl:right-[-3%] top-0 xl:max-w-[612px] max-w-[470px]" />
+          </div>
+          <div className="bg-blueLight rounded-[12px] w-full max-w-[164px] md:max-w-[220px] lg:max-w-[247px] p-[16px_16px_16px_14px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-0 lg:bottom-[-80px] xl:bottom-[-48%] sm:bottom-[16%] lg:block hidden">
+            <div className="relative">
+              <img src={vectorImg1} alt="vector-img" className='absolute left-[-15px] bottom-[-7px] max-w-[39px]' />
+              <div className="flex justify-between sm:pb-0 pb-[5px]">
+                <HeroLocation />
+                <p className="text-blue font-normal text-xl !leading-md">
+                  Geolocation found!
+                </p>
+              </div>
+              <p className='text-blue text-2xl font-semibold leading-md'>+44 633 427 390</p>
+              <p className="text-black font-normal text-sm md:text-base leading-normal md:leading-normal mb-3 md:mb-[14px] max-w-[216px]">
+                3 Succession Walk, Fish Island, London E3 2RX, United Kingdom
+              </p>
+              <p className="font-light text-sm text-black flex justify-end mb-[1.6px]">June 02,2024   17:34</p>
+            </div>
+          </div>
+          <div className="lg:w-[49%] w-full lg:mt-[56px]">
             <h1 className="text-white text-xxs sm:text-6xl xl:text-md !leading-xs font-light xl:max-w-[553px] mb-2 lg:text-start text-center">
               <span className="font-extrabold">Locate any phone, </span>anywhere, anytime
             </h1>
@@ -57,13 +74,13 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="lg:w-[49%] md:w-[65%] sm:w-[70%] max-sm:max-w-[420px] w-full mt-[40px] lg:mt-0 relative">
-            <div className="bg-needBg bg-cover bg-no-repeat rounded-[12px] w-full max-w-[164px] md:max-w-[220px] lg:max-w-[247px] p-[16px_16px_12px_14px]  shadow-[0px_0px_24.6px_0px_#00000059] absolute right-0 md:right-[-5%] lg:right-0 lg:bottom-[22%] sm:bottom-[16%] md:bottom-[19%] bottom-[5%]">
+          <div className="lg:w-[49%] md:w-[65%] sm:w-[70%] max-sm:max-w-[318px] w-full mt-[68px] lg:mt-0 relative">
+            <div className="bg-blueLight rounded-[12px] w-full max-w-[205px] md:max-w-[220px] lg:max-w-[247px] p-[8px] md:p-[16px_16px_16px_14px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-[-4%] md:right-[-1%] sm:bottom-[16%] md:bottom-[1%] bottom-[-8%] lg:hidden block">
               <div className="relative">
-                <img src={vectorImg1} alt="vector-img" className='absolute left-[-15px] bottom-[-7px] max-w-[39px]' />
+                <img src={vectorImg1} alt="vector-img" className='absolute left-[-8px] md:left-[-15px] bottom-0 md:bottom-[-7px] max-w-[22px] md:max-w-[39px]' />
                 <div className="flex justify-between sm:pb-0 pb-[5px]">
                   <HeroLocation />
-                  <p className="text-blue font-normal text-xl !leading-md">
+                  <p className="text-blue font-normal text-lg md:text-xl !leading-md">
                     Geolocation found!
                   </p>
                 </div>
@@ -74,11 +91,12 @@ const Hero = () => {
                 <p className="font-light text-sm text-black flex justify-end">June 02,2024   17:34</p>
               </div>
             </div>
-            <img src={heroImg} alt="heroImg" className="w-full " />
+            <div className="lg:hidden block">
+              <img src={heroImg} alt="heroImg" className="w-full " />
+            </div>
           </div>
         </div>
       </div>
-
     </div>
   )
 }

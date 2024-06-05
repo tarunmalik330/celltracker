@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         blue: "#03045e",
         offBlue: "#00B5D81A",
+        blueLight: "#F2F6FA",
         sky: "#00B5D8",
         lightSky: "#03045e1a",
         offWhite: "#FFFFFFCC",
@@ -42,7 +43,6 @@ module.exports = {
         headerBg: "url('./assets/images/webp/headerBgimg.webp')",
         heroBg: "url('./assets/images/png/lendingBgimg.png')",
         needBg: "url('./assets/images/png/needBgimg.png')",
-        heroBoxbg: "linear-gradient(0deg, #FFFFFF, #FFFFFF),linear- gradient(7.95deg, rgba(0, 181, 216, 0.05) - 3.4 %, rgba(0, 0, 128, 0.05) 114.66 %)",
       },
     },
     plugins: [],
