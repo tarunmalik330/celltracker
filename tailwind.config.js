@@ -12,6 +12,9 @@ module.exports = {
         md: "64px",
         "2lg": "28px",
       },
+      boxShadow: {
+        button: "5px 5px 7px rgba(0, 0, 0, 0.15)",
+      },
       colors: {
         blue: "#03045e",
         sky: "#00B5D8",
@@ -19,6 +22,9 @@ module.exports = {
         offWhite: "#FFFFFFCC",
         grey: "#000000B2",
         lghtGrey: "#000000b3",
+        lighblue: "#03045E1A",
+        primary: "#FAFAFA",
+        secondary: "#959595",
       },
       lineHeight: {
         xxs: "80%",

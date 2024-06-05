@@ -4,8 +4,8 @@ const CommonBtn = (props) => {
   return (
     <>
       <button
-        className={`border-transparent border leading-normal font-semibold text-base rounded text-blue ${
-          props.padding ? "" : "py-4 px-7"
+        className={`leading-normal font-semibold text-base rounded text-blue hover:bg-white hover:text-blue hover:shadow-button transition-all ease-linear duration-300 hover:border-blue hover:border hover:border-solid border-transparent border ${
+          props.padding ? "" : "sm:py-[14px] py-3 px-7"
         } ${props.className}`}
       >
         {props.btnName}

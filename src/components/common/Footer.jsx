@@ -22,7 +22,7 @@ const Footer = () => {
                 return (
                   <li key={id}>
                     <a
-                      className="leading-normal font-normal text-black opacity-70 text-base capitalize"
+                      className="leading-normal font-normal text-black opacity-70 hover:opacity-100 transition-all ease-linear duration-300 text-base capitalize"
                       href=""
                     >
                       {obj.link}
