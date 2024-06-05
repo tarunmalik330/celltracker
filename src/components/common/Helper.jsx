@@ -10,6 +10,10 @@ import {
   Family,
   Webdevice,
   Network,
+  Compatible,
+  Covers,
+  Installation,
+  Private,
 } from "./Icon";
 
 // ============================== JOIN COMPANIES ==============================
@@ -90,6 +94,32 @@ export const cellTrackerData = [
     para: "Keep track of your family using our tools. Know that your children or elderly relatives are safe.",
   },
 ];
+
+//-----------universal-privacy---------
+export const privacyData = [
+  {
+    svg: <Compatible/>,
+    heading: "compatible for every phones",
+    para: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
+  },
+  {
+    svg: <Covers/>,
+    heading: "Covers all networks",
+    para: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
+  },
+  {
+    svg: <Installation/>,
+    heading: "No installation required",
+    para: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
+  },
+  {
+    svg: <Private/>,
+    heading: "Totally private",
+    para: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
+  },
+];
+
+//--------------how-it-works-----------------
 export const worksData = [
   {
     svg: <Webdevice />,

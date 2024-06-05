@@ -16,7 +16,7 @@ const Header = () => {
   };
   return (
     <>
-      <div className="bg-heroBg bg-bgsize min-h-screen bg-no-repeat ">
+      <div className="bg-heroBg lg:bg-bgsize bg-cover bg-no-repeat ">
         <Navbar />
         <div className="container xl:max-w-[1162px] mx-auto px-3 mt-[56px] pb-[30px] lg:mt-[63.86px]">
           <div className="flex flex-row flex-wrap items-center justify-between">
