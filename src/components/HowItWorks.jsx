@@ -10,7 +10,7 @@ const HowItWorks = () => {
     <div className='relative'>
       <img src={vectorImg1} alt="vectorimg" className='left-0 top-[9%] lg:top-[17%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute ' />
       <img src={vectorImg2} alt="vectorimg" className='right-0 bottom-0 lg:bottom-[-3%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute z-[2]' />
-      <div className="container xl:max-w-[1162px] mx-auto px-3 mt-[104px] pb-[57px]">
+      <div className="container custom_container mx-auto sm:px-3 px-6 mt-[104px] pb-[57px]">
         <div className="flex justify-center items-center flex-col">
           <h2 className="font-light text-blue text-2lg sm:text-xsm md:text-6xl !leading-xxs text-center mb-[12px] lg:mb-2">
             How it <span className="font-extrabold">works</span>

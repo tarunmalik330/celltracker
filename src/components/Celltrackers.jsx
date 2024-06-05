@@ -11,7 +11,7 @@ const Celltrackers = () => {
             <img src={heroLayer} alt="heroLayer" className='right-0 left-0 top-[-3%] sm:top-[-10%] lg:top-[-22%] w-full absolute z-0' />
             <img src={vectorImg1} alt="vectorimg" className='left-0 top-0 max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute ' />
             <img src={vectorImg2} alt="vectorimg" className='right-0 bottom-0 max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute ' />
-            <div className='container xl:max-w-[1162px] mx-auto px-3 relative z-1 pt-[70px]'>
+            <div className='container custom_container mx-auto sm:px-3 px-3 relative z-1 pt-[70px]'>
                 <div className='flex justify-center items-center flex-col'>
                     <h2 className='font-light text-blue text-2lg sm:text-xsm md:text-6xl !leading-xxs text-center mb-[12px] lg:mb-2'>Advantages of <span className='font-extrabold'>Celltracker</span></h2>
                     <p className='text-grey text-base font-normal !leading-normal md:max-w-[472px] text-center'>Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit elit rhoncus vestibulum fames libero id.</p>

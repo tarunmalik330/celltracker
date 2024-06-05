@@ -5,9 +5,9 @@ import toplayer from "../assets/images/png/companies-toplayer.png";
 
 const Joincompanies = () => {
   return (
-    <div className="bg-join-companies-bg bg-cover bg-center bg-no-repeat relative pb-[87px]">
-      <img src={toplayer} alt="toplayer" className="absolute top-0 w-full" />
-      <div className="containers px-3 custom_container mx-auto">
+    <div className="bg-join-companies-bg bg-cover bg-center bg-no-repeat relative pb-[93px]">
+      <img src={toplayer} alt="toplayer" className="absolute top-0 w-full -mt-[1px]" />
+      <div className="containers sm:px-3 px-6 custom_container mx-auto">
         <h2 className="text-white lg:text-5xl sm:text-4xl text-2lg text-center font-light sm:leading-xs leading-xxs md:max-w-[664px] mx-auto lg:pb-[109px] sm:pb-[80px] pb-[65px] lg:pt-[222px] md:pt-[180px] sm:pt-[150px] pt-[126px]">
           Join <span className="font-extrabold">70,000+ companies</span> doing
           time tracking the easy way

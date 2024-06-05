@@ -10,9 +10,9 @@ const FindYourPhone = () => {
         <img
           src={vectorImg1}
           alt="vectorimg"
-          className="left-0 top-[5%] lg:top-[56%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
+          className="left-0 top-[5%] lg:top-[56%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute sm:block hidden"
         />
-        <div className="container px-3 custom_container mx-auto">
+        <div className="container sm:px-3 px-6 custom_container mx-auto">
           <div className="rounded-xl">
             <div className="flex rounded-xl bg-full xl:bg-cover bg-center bg-no-repeat bg-find-phone-bg flex-row  flex-wrap items-center lg:pb-0 md:pb-20 sm:pb-16 pb-[46px]">
               <div className="lg:w-[53%] w-full flex justify-center">
