@@ -20,27 +20,25 @@ const Navbar = () => {
             {nav ? <Navlogo2 /> : <Navlogo />}
           </a>
           <ul
-            className={`flex items-center gap-[24px] duration-300 max-lg:fixed max-lg:w-full max-lg:h-full max-lg:justify-start max-lg:pt-[120px] max-lg:flex-col max-lg:z-[3] max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:bg-white ${
-              nav && "!left-0"
-            }`}
+            className={`flex items-center gap-[24px] duration-300 max-lg:fixed max-lg:w-full max-lg:h-full max-lg:justify-start max-lg:pt-[120px] max-lg:flex-col max-lg:z-[3] max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:bg-white ${nav && "!left-0"
+              }`}
           >
             <li className="flex items-center gap-[6px]">
               <Quick nav={nav} />
               <a
                 href="#"
-                className={`leading-normal text-base font-normal hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[1px] relative after:left-0 after:bottom-[-0px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear transition-all ease-linear duration-300 ${
-                  nav ? "text-black" : "text-white"
-                }`}
+                className={`leading-normal text-base font-normal hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[1px] relative after:left-0 after:bottom-[-0px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear transition-all ease-linear duration-300 ${nav ? "text-black" : "text-white"
+                  }`}
               >
                 Quick Help
               </a>
             </li>
             <li>
               <a
+                onClick={() => setnav(false)}
                 href="#Login"
-                className={`leading-normal text-base font-normal hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[1px] relative after:left-0 after:bottom-[0px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear transition-all ease-linear duration-300 ${
-                  nav ? "text-black" : "text-white"
-                }`}
+                className={`leading-normal text-base font-normal hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[1px] relative after:left-0 after:bottom-[0px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear transition-all ease-linear duration-300 ${nav ? "text-black" : "text-white"
+                  }`}
               >
                 Log in
               </a>

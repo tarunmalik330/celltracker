@@ -137,11 +137,14 @@ export const worksData = [
 export const navData = [
   {
     link: "Home",
+    path: "#home",
   },
   {
     link: "How It Works",
+    path: "#works",
   },
   {
     link: "Features",
+    path: "#features",
   },
 ];
