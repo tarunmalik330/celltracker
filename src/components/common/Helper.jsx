@@ -11,15 +11,6 @@ import {
   Webdevice,
   Network,
 } from "./Icon";
-//--------------navbar------------------
-export const navData = [
-  {
-    link: "Quick Help",
-  },
-  {
-    link: "Log in",
-  },
-];
 
 // ============================== JOIN COMPANIES ==============================
 export const joinCompanies = [

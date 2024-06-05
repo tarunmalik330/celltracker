@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "./common/Navbar";
+import Navbar from "../components/Navbar";
 import heroImg from '../assets/images/webp/heroImage.webp';
 import { Arrow, India, Locate, Needhelp } from "./common/Icon";
 import CommonBtn from "./common/CommonBtn";
