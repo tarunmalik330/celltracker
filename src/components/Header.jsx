@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import heroImg from "../assets/images/webp/heroImage.webp";
+import headerImg from "../assets/images/webp/heroImage.webp";
 import Navbar from "../components/Navbar";
 import { Arrow, India, Locate, Needhelp } from "./common/Icon";
 import CommonBtn from "./common/CommonBtn";
@@ -16,10 +16,10 @@ const Header = () => {
   };
   return (
     <>
-      <div className="bg-heroBg lg:bg-bgsize bg-cover bg-no-repeat ">
+      <div className="bg-headerBg lg:bg-bgsize bg-cover bg-no-repeat ">
         <Navbar />
         <div className="container custom_container mx-auto sm:px-3 px-6 mt-[56px] pb-[30px] lg:mt-[63.86px]">
-          <div className="flex flex-row flex-wrap items-center justify-between">
+          <div className="flex flex-row flex-wrap items-center justify-center lg:justify-between">
             <div className="lg:w-[46%] w-full lg:mb-[70px] xl:mb-[140px]">
               <h1 className="text-white text-xxs sm:text-6xl xl:text-md !leading-xs font-light xl:max-w-[520px] mb-2 lg:text-start text-center">
                 <span className="font-extrabold">Find the location</span> of any
@@ -51,7 +51,7 @@ const Header = () => {
                     />
                   </div>
                   <div>
-                    <button className="relative flex items-center gap-1 bg-blue text-white text-sm sm:text-base font-semibold rounded-[4px] py-[14px] px-[24px] transition-transform ease-linear duration-300 hover:scale-95">
+                    <button className="relative flex items-center gap-1 bg-blue text-white text-sm sm:text-base font-semibold rounded-[4px] py-[15.5px] px-[24px] transition-transform ease-linear duration-300 hover:scale-95">
                       <div className="flex items-center gap-1">
                         <Locate /> Locate
                       </div>
@@ -60,7 +60,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-[49%] md:w-[65%] sm:w-[70%] max-sm:max-w-[420px] w-full mx-auto mt-[40px] lg:mt-0 relative">
+            <div className="lg:w-[49%] md:w-[65%] sm:w-[70%] max-sm:max-w-[420px] w-full mt-[40px] lg:mt-0 relative">
               <div className="bg-needBg bg-cover bg-no-repeat rounded-tl-[12px] w-full rounded-br-[12px] max-w-[164px] md:max-w-[220px] lg:max-w-[280px] p-[8px] sm:p-[12px] lg:p-[18.25px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-0 md:right-[-5%] lg:right-0 lg:bottom-[22%] sm:bottom-[16%] md:bottom-[19%] bottom-[5%]">
                 <div className="flex justify-between sm:pb-0 pb-[5px]">
                   <p className="text-sky font-bold text-xl md:text-2xl !leading-md">
@@ -78,7 +78,7 @@ const Header = () => {
                   />
                 </div>
               </div>
-              <img src={heroImg} alt="heroImg" className="w-full " />
+              <img src={headerImg} alt="headerImg" className="w-full " />
             </div>
           </div>
         </div>

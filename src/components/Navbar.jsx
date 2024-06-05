@@ -61,8 +61,8 @@ const Navbar = () => {
           <button onClick={showNav} className="lg:hidden relative z-[5]">
             {nav ? (
               <div className="flex lg:hidden flex-col relative z-50 justify-between w-[18px] h-[17px] cursor-pointer">
-                <span className="bg-black w-[11px] h-[2px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 translate-y-0 -bottom-[11px]"></span>
-                <span className="bg-black w-[11px] h-[2px] relative z-50  transition-all ease-linear duration-300 rotate-[-45deg] translate-x-0 translate-y-1 bottom-[8px]"></span>
+                <span className="bg-black w-[11px] h-[2px] sm:w-[25px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 translate-y-0 -bottom-[11px]"></span>
+                <span className="bg-black w-[11px] h-[2px] sm:w-[25px] relative z-50  transition-all ease-linear duration-300 rotate-[-45deg] translate-x-0 translate-y-1 bottom-[8px]"></span>
               </div>
             ) : (
               <div className="flex lg:hidden flex-col z-50 justify-between w-[24px] h-[24px] cursor-pointer relative">
