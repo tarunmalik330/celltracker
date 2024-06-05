@@ -74,7 +74,7 @@ const Header = () => {
                 <div className="w-full">
                   <CommonBtn
                     btnName="Customer Support"
-                    className="capitalize bg-blue text-center text-nowrap text-white sm:py-[16.5px] sm:px-[28px] w-full !py-2 px-[18px]"
+                    className="capitalize bg-blue text-center text-nowrap text-white sm:!py-[16.5px] sm:px-[28px] w-full !py-2 px-[18px]"
                   />
                 </div>
               </div>

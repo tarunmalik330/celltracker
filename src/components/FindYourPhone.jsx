@@ -31,7 +31,7 @@ const FindYourPhone = () => {
                   nisi sit elit rhoncus vestibulum fames libero id.
                 </p>
                 <CommonBtn
-                  className="bg-white !leading-md max-sm:w-[266px] hover:bg-blue hover:border-white hover:text-white"
+                  className="bg-white sm:py-[15.15px] !leading-md max-sm:w-[266px] hover:bg-blue hover:border-white hover:text-white"
                   btnName="Start Now"
                 />
               </div>
