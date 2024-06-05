@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         blue: "#03045e",
         offBlue: "#00B5D81A",
+        blueLight: "#F2F6FA",
         sky: "#00B5D8",
         lightSky: "#03045e1a",
         offWhite: "#FFFFFFCC",
