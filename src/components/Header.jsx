@@ -1,9 +1,19 @@
-import React from "react";
-import Navbar from "./common/Navbar";
+import React, { useState } from "react";
 import heroImg from "../assets/images/webp/heroImage.webp";
+import Navbar from "../components/Navbar";
 import { Arrow, India, Locate, Needhelp } from "./common/Icon";
+import CommonBtn from "./common/CommonBtn";
 
 const Header = () => {
+  const [value, setValue] = useState("");
+
+  const handleKeyPress = (event) => {
+    // Allow only digits
+    const charCode = event.charCode;
+    if (charCode < 48 || charCode > 57) {
+      event.preventDefault();
+    }
+  };
   return (
     <>
       <div className="bg-heroBg bg-bgsize min-h-screen bg-no-repeat ">
@@ -31,14 +41,20 @@ const Header = () => {
                     <input
                       className="w-full pr-[5px] text-black outline-none"
                       type="tel"
+                      inputMode="numeric"
                       pattern="\d{10}"
                       placeholder=""
                       maxLength="10"
+                      value={value}
+                      onChange={(e) => setValue(e.target.value)}
+                      onKeyPress={handleKeyPress}
                     />
                   </div>
                   <div>
-                    <button className="flex items-center gap-1 bg-blue text-white text-sm sm:text-base font-semibold rounded-[4px] py-[14px] px-[24px] !leading-normal sm:!leading-lg">
-                      <Locate /> Locate
+                    <button className="relative flex items-center gap-1 bg-blue text-white text-sm sm:text-base font-semibold rounded-[4px] py-[14px] px-[24px] transition-transform ease-linear duration-300 hover:scale-95">
+                      <div className="flex items-center gap-1">
+                        <Locate /> Locate
+                      </div>
                     </button>
                   </div>
                 </div>
@@ -46,18 +62,21 @@ const Header = () => {
             </div>
             <div className="lg:w-[49%] md:w-[65%] sm:w-[70%] max-sm:max-w-[420px] w-full mx-auto mt-[40px] lg:mt-0 relative">
               <div className="bg-white rounded-tl-[12px] w-full rounded-br-[12px] max-w-[164px] md:max-w-[220px] lg:max-w-[280px] p-[8px] sm:p-[12px] lg:p-[18px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-0 md:right-[-5%] lg:right-0 lg:bottom-[22%] sm:bottom-[16%] md:bottom-[19%] bottom-[5%] ">
-                <div className="flex justify-between">
+                <div className="flex justify-between sm:pb-0 pb-[5px]">
                   <p className="text-sky font-bold text-xl md:text-2xl !leading-md">
                     Need help?
                   </p>
-                  <Needhelp />
+                  <Needhelp className="max-md:w-[24px] max-md:h-[24px]" />
                 </div>
-                <p className="text-blue font-normal text-sm md:text-base leading-normal md:leading-normal mb-[8px] md:mb-[12px] max-w-[198px]">
+                <p className="text-blue font-normal text-sm md:text-base leading-normal md:leading-normal mb-3 md:mb-[12px] max-w-[198px]">
                   Get help with technical, account and billing enquiries.
                 </p>
-                <button className="w-full py-[10px] px-[10px] md:py-[16px] text-sm sm:text-base font-semibold text-white text-center text-nowrap rounded-[4px] bg-blue sm:!leading-lg hover:bg-white hover:text-blue hover:shadow-button transition-all ease-linear duration-300 hover:border-blue hover:border hover:border-solid border-transparent border">
-                  Customer Support
-                </button>
+                <div className="w-full">
+                  <CommonBtn
+                    btnName="Customer Support"
+                    className="capitalize bg-blue text-center text-nowrap text-white sm:py-[16.5px] sm:px-[28px] w-full py-2 px-[18px]"
+                  />
+                </div>
               </div>
               <img src={heroImg} alt="heroImg" className="w-full " />
             </div>
