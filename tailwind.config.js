@@ -17,6 +17,7 @@ module.exports = {
       },
       colors: {
         blue: "#03045e",
+        offBlue:"#00B5D81A",
         sky: "#00B5D8",
         lightSky: "#03045e1a",
         offWhite: "#FFFFFFCC",
@@ -35,9 +36,9 @@ module.exports = {
         lg: "169%",
       },
       backgroundImage: {
+        bluegradient: "linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%)",
         "find-phone-bg": "url('./assets/images/png/bg-find.png')",
         "join-companies-bg": "url('./assets/images/png/bg-join-companies.png')",
-
         heroBg: "url('./assets/images/webp/headerBgimg.webp')",
       },
     },

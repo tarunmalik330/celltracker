@@ -16,7 +16,7 @@ const Header = () => {
   };
   return (
     <>
-      <div className="bg-heroBg bg-bgsize min-h-screen bg-no-repeat ">
+      <div className="bg-heroBg lg:bg-bgsize bg-cover bg-no-repeat ">
         <Navbar />
         <div className="container custom_container mx-auto sm:px-3 px-6 mt-[56px] pb-[30px] lg:mt-[63.86px]">
           <div className="flex flex-row flex-wrap items-center justify-between">
@@ -61,7 +61,7 @@ const Header = () => {
               </div>
             </div>
             <div className="lg:w-[49%] md:w-[65%] sm:w-[70%] max-sm:max-w-[420px] w-full mx-auto mt-[40px] lg:mt-0 relative">
-              <div className="bg-white rounded-tl-[12px] w-full rounded-br-[12px] max-w-[164px] md:max-w-[220px] lg:max-w-[280px] p-[8px] sm:p-[12px] lg:p-[18px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-0 md:right-[-5%] lg:right-0 lg:bottom-[22%] sm:bottom-[16%] md:bottom-[19%] bottom-[5%] ">
+              <div className="bg-white rounded-tl-[12px] w-full rounded-br-[12px] max-w-[164px] md:max-w-[220px] lg:max-w-[280px] p-[8px] sm:p-[12px] lg:p-[18.25px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-0 md:right-[-5%] lg:right-0 lg:bottom-[22%] sm:bottom-[16%] md:bottom-[19%] bottom-[5%]">
                 <div className="flex justify-between sm:pb-0 pb-[5px]">
                   <p className="text-sky font-bold text-xl md:text-2xl !leading-md">
                     Need help?
@@ -74,7 +74,7 @@ const Header = () => {
                 <div className="w-full">
                   <CommonBtn
                     btnName="Customer Support"
-                    className="capitalize bg-blue text-center text-nowrap text-white sm:py-[16.5px] sm:px-[28px] w-full py-2 px-[18px]"
+                    className="capitalize bg-blue text-center text-nowrap text-white sm:py-[16.5px] sm:px-[28px] w-full !py-2 px-[18px]"
                   />
                 </div>
               </div>
