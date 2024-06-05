@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Navlogo, Navlogo2, Quick } from "./common/Icon";
 import CommonBtn from "./common/CommonBtn";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setnav] = useState(false);
@@ -26,14 +27,15 @@ const Navbar = () => {
           >
             <li className="flex items-center gap-[6px]">
               <Quick nav={nav} />
-              <a
+              <Link
+                to="/landingpage"
                 href="#"
                 className={`leading-normal text-base font-normal hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[1px] relative after:left-0 after:bottom-[-0px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear transition-all ease-linear duration-300 ${
                   nav ? "text-black" : "text-white"
                 }`}
               >
                 Quick Help
-              </a>
+              </Link>
             </li>
             <li>
               <a
