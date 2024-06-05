@@ -52,7 +52,7 @@ const Joincompanies = () => {
                 </p>
                 <div className="flex sm:flex-row flex-col items-center gap-4 max-sm:w-full">
                   <CommonBtn
-                    className="bg-blue !px-[30px] !leading-lg !font-normal text-white max-sm:w-full"
+                    className="bg-blue sm:py-[15px] !px-[30px] !leading-lg !font-normal text-white max-sm:w-full"
                     btnName="Start your free trial"
                   />
                   {id === 1 && (
@@ -64,7 +64,7 @@ const Joincompanies = () => {
                 {id === 1 && (
                   <div className="absolute xl:right-[13%] md:right-[17%] right-1/2 translate-x-1/2 top-[-29px]">
                     <CommonBtn
-                      className="md:!py-4 !font-normal text-2xl md:!px-[35px] py-3 px-4 capitalize text-white bg-blue"
+                      className="!font-normal !text-2xl md:!px-[35px] py-3 px-4 capitalize text-white bg-blue"
                       btnName="Most Popular"
                     />
                   </div>
