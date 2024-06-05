@@ -40,6 +40,7 @@ module.exports = {
         "find-phone-bg": "url('./assets/images/png/bg-find.png')",
         "join-companies-bg": "url('./assets/images/png/bg-join-companies.png')",
         heroBg: "url('./assets/images/webp/headerBgimg.webp')",
+        needBg: "url('./assets/images/png/needBgimg.png')",
       },
     },
     plugins: [],

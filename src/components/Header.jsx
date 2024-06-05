@@ -61,7 +61,7 @@ const Header = () => {
               </div>
             </div>
             <div className="lg:w-[49%] md:w-[65%] sm:w-[70%] max-sm:max-w-[420px] w-full mx-auto mt-[40px] lg:mt-0 relative">
-              <div className="bg-white rounded-tl-[12px] w-full rounded-br-[12px] max-w-[164px] md:max-w-[220px] lg:max-w-[280px] p-[8px] sm:p-[12px] lg:p-[18.25px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-0 md:right-[-5%] lg:right-0 lg:bottom-[22%] sm:bottom-[16%] md:bottom-[19%] bottom-[5%]">
+              <div className="bg-needBg bg-cover bg-no-repeat rounded-tl-[12px] w-full rounded-br-[12px] max-w-[164px] md:max-w-[220px] lg:max-w-[280px] p-[8px] sm:p-[12px] lg:p-[18.25px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-0 md:right-[-5%] lg:right-0 lg:bottom-[22%] sm:bottom-[16%] md:bottom-[19%] bottom-[5%]">
                 <div className="flex justify-between sm:pb-0 pb-[5px]">
                   <p className="text-sky font-bold text-xl md:text-2xl !leading-md">
                     Need help?
