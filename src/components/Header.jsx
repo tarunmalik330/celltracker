@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./common/Navbar";
 import heroImg from '../assets/images/webp/heroImage.webp';
 import { Arrow, India, Locate, Needhelp } from "./common/Icon";
+import CommonBtn from "./common/CommonBtn";
 
 const Header = () => {
+  const [value, setValue] = useState('');
+
+  const handleKeyPress = (event) => {
+    // Allow only digits
+    const charCode = event.charCode;
+    if (charCode < 48 || charCode > 57) {
+      event.preventDefault();
+    }
+  };
   return (
     <>
       <div className="bg-heroBg bg-bgsize min-h-screen bg-no-repeat ">
@@ -23,9 +33,13 @@ const Header = () => {
                     <input
                       className="w-full pr-[5px] text-black outline-none"
                       type="tel"
+                      inputMode="numeric"
                       pattern="\d{10}"
                       placeholder=""
                       maxLength="10"
+                      value={value}
+                      onChange={(e) => setValue(e.target.value)}
+                      onKeyPress={handleKeyPress}
                     />
                   </div>
                   <div>
@@ -41,7 +55,12 @@ const Header = () => {
                   <Needhelp />
                 </div>
                 <p className='text-blue font-normal text-sm md:text-base leading-normal md:leading-normal mb-[8px] md:mb-[12px] max-w-[198px]'>Get help with technical, account and billing enquiries.</p>
-                <button className="w-full py-[10px] px-[10px] md:py-[16px] text-sm sm:text-base font-semibold text-white text-center text-nowrap rounded-[4px] bg-blue sm:!leading-lg">Customer Support</button>
+                <div className="w-full">
+                  <CommonBtn
+                    btnName="Customer Support"
+                    className="capitalize bg-blue text-white py-[16.5px] px-[28px] w-full"
+                  />
+                </div>
               </div>
               <img src={heroImg} alt="heroImg" className="w-full " />
             </div>

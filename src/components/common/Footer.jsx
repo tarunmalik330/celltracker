@@ -1,11 +1,13 @@
 import React from "react";
 import logo from "../../assets/images/svg/footer-logo.svg";
+import vectorImg2 from '../../assets/images/png/vectorImg2.png';
 import { footerLink, footerSocialLink } from "./Helper";
 
 const Footer = () => {
   return (
     <>
-      <div className="pt-[102px]">
+      <div className="pt-[102px] relative">
+        <img src={vectorImg2} alt="vectorimg" className='right-0 bottom-[19%] lg:bottom-[13%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute ' />
         <div className="container px-3 custom_container mx-auto">
           <div className="flex items-center md:justify-between md:flex-row max-md:gap-6 flex-col md:pb-12 pb-14">
             <a href="/">

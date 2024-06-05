@@ -1,11 +1,13 @@
 import React from "react";
 import findphone from "../assets/images/png/find-phone-img.png";
+import vectorImg1 from "../assets/images/png/verctorImg1.png";
 import CommonBtn from "./common/CommonBtn";
 
 const FindYourPhone = () => {
   return (
     <>
-      <div className="sm:pt-[248px] pt-[210px]">
+      <div className="sm:pt-[248px] pt-[210px] relative">
+        <img src={vectorImg1} alt="vectorimg" className='left-0 top-[5%] lg:top-[56%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute ' />
         <div className="container px-3 custom_container mx-auto">
           <div className="rounded-xl">
             <div className="flex rounded-xl bg-full xl:bg-cover bg-center bg-no-repeat bg-find-phone-bg flex-row  flex-wrap items-center lg:pb-0 md:pb-20 sm:pb-16 pb-[46px]">

@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Navlogo, Navlogo2, Quick } from "../common/Icon";
+import CommonBtn from "./CommonBtn";
 
 const Navbar = () => {
-    const [navBar, setnavBar] = useState(false);
+    const [nav, setnav] = useState(false);
     function showNav() {
-        setnavBar(!navBar);
+        setnav(!nav);
     }
-    if (navBar) {
+    if (nav) {
         document.body.classList.add("max-lg:overflow-hidden");
     } else {
         document.body.classList.remove("max-lg:overflow-hidden");
@@ -16,40 +17,44 @@ const Navbar = () => {
             <div className="container xl:max-w-[1164px] px-6 sm:px-3 mx-auto pt-[21.5px]">
                 <div className="flex justify-between items-center">
                     <a href="" className="relative z-[4]" aria-label="Navlogo">
-                        {navBar ? <Navlogo2 /> : <Navlogo />}
+                        {nav ? <Navlogo2 /> : <Navlogo />}
                     </a>
                     <ul
-                        className={`flex items-center gap-[24px] duration-300 max-lg:fixed max-lg:w-full max-lg:h-full max-lg:justify-start max-lg:pt-[120px] max-lg:flex-col max-lg:z-[3] max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:bg-white ${navBar && "!left-0"
+                        className={`flex items-center gap-[24px] duration-300 max-lg:fixed max-lg:w-full max-lg:h-full max-lg:justify-start max-lg:pt-[120px] max-lg:flex-col max-lg:z-[3] max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:bg-white ${nav && "!left-0"
                             }`}
                     >
                         <li className="flex items-center gap-[6px]">
-                            <Quick navBar={navBar} />
+                            <Quick nav={nav} />
                             <a
-                                onClick={() => setnavBar(!navBar)}
-                                href='#home'
-                                className={`leading-normal text-base font-normal hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[1px] relative after:left-0 after:bottom-[-0px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear transition-all ease-linear duration-300 ${navBar ? "text-black" : "text-white"}`}
+                                href='#'
+                                className={`leading-normal text-base font-normal hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[1px] relative after:left-0 after:bottom-[-0px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear transition-all ease-linear duration-300 ${nav ? "text-black" : "text-white"}`}
                             >
                                 Quick Help
                             </a>
                         </li>
                         <li>
                             <a
-                                onClick={() => setnavBar(!navBar)}
-                                href='#home'
-                                className={`leading-normal text-base font-normal hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[1px] relative after:left-0 after:bottom-[0px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear transition-all ease-linear duration-300 ${navBar ? "text-black" : "text-white"}`}
+                                href='#Login'
+                                className={`leading-normal text-base font-normal hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[1px] relative after:left-0 after:bottom-[0px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear transition-all ease-linear duration-300 ${nav ? "text-black" : "text-white"}`}
                             >
                                 Log in
                             </a>
                         </li>
-                        <button className="lg:hidden bg-blue text-base leading-[26.59px] font-semibold text-white py-4 px-7 rounded-[4px] mt-[115px] max-w-[314px] w-full">
-                            Create an Account
-                        </button>
-                        <button className="lg:block hidden bg-white text-base leading-[26.59px] font-semibold text-blue py-[16.3px] px-[28.3px] rounded-[4px]">
-                            Create an Account
-                        </button>
+                        <li className="lg:block hidden">
+                            <CommonBtn
+                                btnName="Create your Account"
+                                className="capitalize bg-white text-blue py-[16.5px] px-[19.7px]"
+                            />
+                        </li>
+                        <li className="lg:hidden block w-full max-w-[314px]">
+                            <CommonBtn
+                                btnName="Create your Account"
+                                className="capitalize bg-blue text-white py-[16.5px] px-[28px] mt-[115px] w-full"
+                            />
+                        </li>
                     </ul>
                     <button onClick={showNav} className="lg:hidden relative z-[4]">
-                        {navBar ? (
+                        {nav ? (
                             <div className="flex lg:hidden flex-col relative z-50 justify-between w-[18px] h-[17px] cursor-pointer">
                                 <span className="bg-black w-[11px] h-[2px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 translate-y-0 -bottom-[11px]"></span>
                                 <span className="bg-black w-[11px] h-[2px] relative z-50  transition-all ease-linear duration-300 rotate-[-45deg] translate-x-0 translate-y-1 bottom-[8px]"></span>
@@ -64,7 +69,7 @@ const Navbar = () => {
                     </button>
                 </div>
             </div>
-        </nav>
+        </nav >
     );
 };
 export default Navbar;
