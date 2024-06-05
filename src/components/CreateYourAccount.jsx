@@ -26,7 +26,7 @@ const CreateYourAccount = () => {
       <img
         src={vectorimg1}
         alt="vectorimg1"
-        className="absolute w-full sm:max-w-[106px] max-w-[41px] left-0 sm:top-[25%] top-[4%]"
+        className="absolute w-full sm:max-w-[106px] max-w-[41px] left-0 sm:top-[22%] top-[4%]"
       />
       <img
         src={vectorimg2}

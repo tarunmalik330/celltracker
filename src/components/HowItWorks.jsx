@@ -20,7 +20,7 @@ const HowItWorks = () => {
       />
       <div className="container custom_container mx-auto sm:px-3 px-6 mt-[104px] pb-[57px]">
         <div className="flex justify-center items-center flex-col">
-          <h2 className="font-light text-blue text-2lg sm:text-xsm md:text-6xl !leading-xxs text-center mb-[12px] lg:mb-2">
+          <h2 className="font-light text-blue text-2lg sm:text-5xl leading-xs text-center mb-[12px] lg:mb-2">
             How it <span className="font-extrabold">works</span>
           </h2>
           <p className="text-grey text-base font-normal !leading-normal md:max-w-[472px] text-center">

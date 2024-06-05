@@ -25,15 +25,16 @@ const Celltrackers = () => {
       />
       <div className="container custom_container mx-auto sm:px-3 px-3 relative z-1 sm:pt-[50px] pt-[70px]">
         <div className="flex justify-center items-center flex-col">
-          <h2 className="font-light text-blue text-2lg sm:text-xsm md:text-6xl !leading-xxs text-center mb-[12px] lg:mb-2">
-            Advantages of <span className="font-extrabold">Celltracker</span>
+          <h2 className="font-light text-blue text-2lg sm:text-5xl sm:!leading-xs leading-xxs text-center mb-[12px] lg:mb-2">
+            Advantages of{" "}
+            <span className="font-extrabold leading-xs">Celltracker</span>
           </h2>
           <p className="text-grey text-base font-normal !leading-normal md:max-w-[472px] text-center">
             Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi
             sit elit rhoncus vestibulum fames libero id.
           </p>
         </div>
-        <div className="flex flex-row flex-wrap items-center justify-between my-[50px]">
+        <div className="flex flex-row flex-wrap items-center justify-between mb-[50px] mt-[42px]">
           {cellTrackerData.map((data, index) => (
             <div
               key={index}
