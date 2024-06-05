@@ -39,8 +39,9 @@ module.exports = {
       backgroundImage: {
         bluegradient:
           "linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%)",
-        "find-phone-bg": "url('./assets/images/png/bg-find.png')",
-        "join-companies-bg": "url('./assets/images/png/bg-join-companies.png')",
+        "find-phone-bg": "url('./assets/images/webp/bg-find.webp')",
+        "join-companies-bg":
+          "url('./assets/images/webp/bg-join-companies.webp')",
         heroBg: "url('./assets/images/webp/headerBgimg.webp')",
       },
     },

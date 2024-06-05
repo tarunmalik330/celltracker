@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/svg/footer-logo.svg";
-import vectorImg2 from "../../assets/images/png/vectorImg2.png";
+import vectorImg2 from "../../assets/images/webp/vectorImg2.webp";
 import { footerLink, footerSocialLink } from "./Helper";
 
 const Footer = () => {

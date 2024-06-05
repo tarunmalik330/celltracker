@@ -1,23 +1,31 @@
 import React from "react";
 import worksimg from "../assets/images/webp/howItWorks-img.webp";
-import vectorImg1 from '../assets/images/png/verctorImg1.png';
-import vectorImg2 from '../assets/images/png/vectorImg2.png';
+import vectorImg1 from "../assets/images/webp/verctorImg1.webp";
+import vectorImg2 from "../assets/images/webp/vectorImg2.webp";
 import { worksData } from "./common/Helper";
 import CommonBtn from "./common/CommonBtn";
 
 const HowItWorks = () => {
   return (
-    <div className='relative'>
-      <img src={vectorImg1} alt="vectorimg" className='left-0 top-[9%] lg:top-[17%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute ' />
-      <img src={vectorImg2} alt="vectorimg" className='right-0 bottom-0 lg:bottom-[-3%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute z-[2]' />
+    <div className="relative">
+      <img
+        src={vectorImg1}
+        alt="vectorimg"
+        className="left-0 top-[9%] lg:top-[17%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
+      />
+      <img
+        src={vectorImg2}
+        alt="vectorimg"
+        className="right-0 bottom-0 lg:bottom-[-3%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute z-[2]"
+      />
       <div className="container custom_container mx-auto sm:px-3 px-6 mt-[104px] pb-[57px]">
         <div className="flex justify-center items-center flex-col">
           <h2 className="font-light text-blue text-2lg sm:text-xsm md:text-6xl !leading-xxs text-center mb-[12px] lg:mb-2">
             How it <span className="font-extrabold">works</span>
           </h2>
           <p className="text-grey text-base font-normal !leading-normal md:max-w-[472px] text-center">
-            Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
-            elit rhoncus vestibulum fames libero id.
+            Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi
+            sit elit rhoncus vestibulum fames libero id.
           </p>
           <div className="flex flex-row flex-wrap justify-between items-center mt-[70px] lg:mt-[100px]">
             <div className="lg:w-[50%] w-full">
@@ -35,8 +43,9 @@ const HowItWorks = () => {
                 >
                   <div>{data.svg}</div>
                   <h3
-                    className={`${index === 1 ? "mt-[6.5px]" : ""
-                      } font-normal text-xl md:text-2xl lg:max-w-[465px] !leading-sm text-blue mb-[6px]`}
+                    className={`${
+                      index === 1 ? "mt-[6.5px]" : ""
+                    } font-normal text-xl md:text-2xl lg:max-w-[465px] !leading-sm text-blue mb-[6px]`}
                   >
                     {data.heading}
                   </h3>

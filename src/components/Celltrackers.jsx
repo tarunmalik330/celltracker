@@ -1,8 +1,8 @@
 import React from "react";
 import { cellTrackerData } from "./common/Helper";
-import heroLayer from "../assets/images/png/heroWhite-layer.png";
-import vectorImg1 from "../assets/images/png/verctorImg1.png";
-import vectorImg2 from "../assets/images/png/vectorImg2.png";
+import heroLayer from "../assets/images/webp/heroWhite-layer.webp";
+import vectorImg1 from "../assets/images/webp/verctorImg1.webp";
+import vectorImg2 from "../assets/images/webp/vectorImg2.webp";
 import CommonBtn from "./common/CommonBtn";
 
 const Celltrackers = () => {

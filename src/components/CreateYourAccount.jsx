@@ -16,9 +16,9 @@ import {
 import visaimg from "../assets/images/svg/visaimg.svg";
 import thememastercard from "../assets/images/svg/theme-mastercard.svg";
 import CommonBtn from "./common/CommonBtn";
-import layer from "../assets/images/png/create-acc-toplayer.png";
-import vectorimg1 from "../assets/images/png/verctorImg1.png";
-import vectorimg2 from "../assets/images/png/vectorImg2.png";
+import layer from "../assets/images/webp/create-acc-toplayer.webp";
+import vectorimg1 from "../assets/images/webp/verctorImg1.webp";
+import vectorimg2 from "../assets/images/webp/vectorImg2.webp";
 
 const CreateYourAccount = () => {
   return (
