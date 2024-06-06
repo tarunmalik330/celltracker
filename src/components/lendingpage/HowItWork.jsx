@@ -5,10 +5,12 @@ import {
   Message,
   PhoneNumber,
 } from "../common/Icon";
+import vectorImg1 from '../../assets/images/webp/verctorImg1.webp';
 
 const HowItWork = () => {
   return (
-    <section className="pb-[45px]">
+    <div className="pb-[45px] relative ">
+      <img src={vectorImg1} alt="vectorimg" className='left-0 bottom-[-6%] md:bottom-[-5%] lg:bottom-[-30%] xl:bottom-[-14%] max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute' />
       <div className="container custom_container mx-auto px-6 sm:px-3">
         <div className="md:mt-[98px] mt-[61px]">
           <h2 className="text-blue sm:text-5xl text-2lg font-light leading-xs text-center">
@@ -76,8 +78,7 @@ const HowItWork = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
-
 export default HowItWork;

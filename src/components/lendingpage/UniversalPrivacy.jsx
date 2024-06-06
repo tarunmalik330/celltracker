@@ -5,7 +5,7 @@ import vectorImg2 from '../../assets/images/webp/vectorImg2.webp';
 const UniversalPrivacy = () => {
     return (
         <div className='relative mt-[52px] md:mt-[76px]'>
-            <img src={vectorImg2} alt="vectorimg" className='right-0 top-[-6%] md:top-[10%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute ' />
+            <img src={vectorImg2} alt="vectorimg" className='right-0 top-[-6%] md:top-[-5%] lg:top-[-30%] xl:top-[10%] max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute ' />
             <div className='container xl:max-w-[1162px] mx-auto px-3'>
                 <div className='flex justify-center items-center flex-col'>
                     <h2 className='font-light text-blue text-2lg sm:text-xsm md:text-6xl !leading-xxs text-center mb-[12px] lg:mb-2'>Universal <span className='font-extrabold'>Privacy</span></h2>
