@@ -7,10 +7,12 @@ import Celltrackers from "../components/Celltrackers";
 import HowItWorks from "../components/HowItWorks";
 import CreateYourAccount from "../components/CreateYourAccount";
 import Hero from "../components/lendingpage/Hero";
+import FindAnyone from "../components/lendingpage/FindAnyone";
 
 const HomePage = () => {
   return (
     <div>
+      <FindAnyone/>
       <Hero/>
       <Header />
       <Celltrackers />
