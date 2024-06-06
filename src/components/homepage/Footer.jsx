@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/images/svg/Logo.svg";
+import logo from "../../assets/images/svg/footer-logo.svg";
 import vectorImg2 from "../../assets/images/webp/vectorImg2.webp";
 import { footerLink, footerSocialLink } from "../common/Helper";
 

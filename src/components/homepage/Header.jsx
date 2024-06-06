@@ -28,7 +28,7 @@ const Header = () => {
                 <span className="font-extrabold">Find the location</span> of any
                 phone by its number
               </h1>
-              <p className="font-normal text-white text-sm sm:text-base sm:leading-normal leading-xl lg:max-w-[506px] mb-[32px] lg:mb-[24px] lg:text-start text-center md:px-14 lg:px-0">
+              <p className="font-normal text-white text-sm sm:text-base sm:leading-normal leading-xl lg:max-w-[506px] mb-[32px] lg:mb-[24px] lg:text-start text-center md:px-14 lg:px-0 px-6">
                 Add phones to your account & track them when neededAdd phones to
                 your account & track them when needed
               </p>

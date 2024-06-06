@@ -60,7 +60,7 @@ const CreateYourAccount = () => {
         </p>
         <div className="flex flex-row items-center flex-wrap lg:pt-[72px] sm:pt-[50px] pt-[33.7px] gap-[37px] xl:gap-0">
           <div
-            className="lg:w-5/12 w-full flex flex-col max-lg:justify-center max-lg:items-center"
+            className="lg:w-5/12 w-full flex flex-col max-lg:justify-center max-lg:items-center max-sm:items-start"
             data-aos="fade-right"
           >
             <p className="leading-sm text-blue sm:text-xxs text-2xl font-light mb-[26px]">

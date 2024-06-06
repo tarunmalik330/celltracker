@@ -30,20 +30,20 @@ const Joincompanies = () => {
                     : "max-w-[467px] max-sm:py-[75.5px] py-[34px]"
                 }`}
               >
-                <h3 className="text-blue font-normal text-xxs leading-sm mb-[18px]">
+                <h3 className="text-blue font-normal lg:text-xxs sm:text-2lg text-2xl leading-sm mb-[18px]">
                   Cell Tracker
                   {id === 1 && (
                     <span className="font-extrabold text-sky"> Pro</span>
                   )}
                 </h3>
-                <p className="font-normal text-base leading-normal text-black opacity-70 mb-3">
+                <p className="font-normal sm:text-base text-sm leading-normal text-black opacity-70 mb-3">
                   {obj.description}
                 </p>
-                <p className="font-normal text-base text-black opacity-70 leading-normal flex items-center gap-[6px] mb-[6px]">
+                <p className="font-normal sm:text-base text-sm text-black opacity-70 leading-normal flex items-center gap-[6px] mb-[6px]">
                   {obj.rightclick}
                   {obj.seat}
                 </p>
-                <p className="font-normal text-base text-black opacity-70 leading-normal flex items-center gap-[6px] mb-[44px]">
+                <p className="font-normal sm:text-base text-sm text-black opacity-70 leading-normal flex items-center gap-[6px] mb-[44px]">
                   {obj.rightclick}
                   {obj.projects}
                 </p>
@@ -63,7 +63,7 @@ const Joincompanies = () => {
                     btnName="Start your free trial"
                   />
                   {id === 1 && (
-                    <p className="font-normal text-base text-black opacity-70 leading-normal">
+                    <p className="font-normal sm:text-base text-sm text-black opacity-70 leading-normal">
                       No credit card required.
                     </p>
                   )}
