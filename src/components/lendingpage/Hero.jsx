@@ -14,7 +14,7 @@ const Hero = () => {
     }
   };
   return (
-    <div className="sm:bg-heroBg bg-headersmbg max-lg:min-h-screen lg:h-[810px] lg:bg-bgsize bg-cover bg-no-repeat relative">
+    <div className="bg-heroBg max-475:bg-headersmbg max-lg:min-h-screen lg:h-[810px] lg:bg-bgsize bg-cover bg-no-repeat relative">
       <NavBar />
       <div
         id="home"

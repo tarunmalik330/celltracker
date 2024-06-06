@@ -8,7 +8,7 @@ const UniversalPrivacy = () => {
             <img src={vectorImg2} alt="vectorimg" className='right-0 top-[-6%] md:top-[10%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute ' />
             <div className='container xl:max-w-[1162px] mx-auto px-3'>
                 <div className='flex justify-center items-center flex-col'>
-                    <h2 className='font-light text-blue text-2lg sm:text-xsm md:text-6xl !leading-xxs text-center mb-[12px] lg:mb-2'>Universal <span className='font-extrabold'>Privacy</span></h2>
+                    <h2 className='font-light text-blue text-2lg sm:text-xsm md:text-5xl !leading-xs text-center mb-[12px] lg:mb-2'>Universal <span className='font-extrabold'>Privacy</span></h2>
                     <p className='text-grey text-base font-normal !leading-normal md:max-w-[472px] text-center'>Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit elit rhoncus vestibulum fames libero id.</p>
                 </div>
                 <div className='flex flex-row flex-wrap items-center justify-between mt-[34px] md:mt-[56px]'>

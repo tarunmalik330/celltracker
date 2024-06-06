@@ -10,7 +10,7 @@ const HowItWork = () => {
   return (
     <section className="pb-[45px]">
       <div className="container custom_container mx-auto px-6 sm:px-3">
-        <div className="md:mt-[98px] mt-[61px]">
+        <div className="md:pt-[98px] pt-[61px]">
           <h2 className="text-blue sm:text-5xl text-2lg font-light leading-xs text-center">
             How it
             <span className="font-extrabold"> works</span>

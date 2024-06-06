@@ -4,7 +4,7 @@ import anyoneMobile from '../../assets/images/png/anyoneMobileimg.png';
 
 const FindAnyone = () => {
     return (
-        <div className='mt-[132px] mb-[33px]'>
+        <div className='mt-[132px] !mb-[33px]'>
             <div className="container sm:px-3 px-6 custom_container mx-auto" >
                 <div className="flex justify-center items-center flex-col">
                     <h2 className="font-light text-blue text-2lg sm:text-5xl sm:!leading-xs leading-xxs text-center mb-[12px] lg:mb-2">
