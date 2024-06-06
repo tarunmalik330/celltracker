@@ -41,8 +41,10 @@ const FindAnyone = () => {
           <div className="lg:w-[34%] max-lg:order-1 max-lg:mt-12  w-full">
             <div className=" max-w-[500px] lg:max-w-[376px] lg:h-[156px] h-[152px] rounded flex mx-auto relative overflow-hidden z-[1] after:absolute after:inset-0 after:bg-bluegradient after:opacity-0 after:transition-all after:ease-linear after:duration-300 hover:after:opacity-100 after:z-[-1] border border-gray-low-300 lg:p-[12px_18px_12px_0] p-[16px_16px_16px_0] group mb-[24px]">
               <div className="flex gap-[14px] items-center">
-                <div className="bg-offBlue inline-block group-hover:bg-white md:p-[17px_19px_17px_20px] p-[14px_16px] transition-all duration-300 ease-linear">
-                  <CellPhone />
+                <div className="bg-offBlue max-w-[61px] h-[57px] sm:max-w-[75px] sm:h-[70px] flex justify-center items-center group-hover:bg-white md:p-[17px_19px_17px_20px] p-[14px_16px] transition-all duration-300 ease-linear">
+                  <div>
+                    <CellPhone />
+                  </div>
                 </div>
                 <p className="font-normal text-lg xl:text-xl leading-[184%] group-hover:text-white group-hover:opacity-70 transition-all ease-linear duration-300 ">
                   Cell Tracker runs on all phones and configurations, of all
@@ -52,8 +54,10 @@ const FindAnyone = () => {
             </div>
             <div className=" max-w-[500px] lg:max-w-[376px] lg:h-[156px] h-[152px] rounded flex mx-auto relative overflow-hidden z-[1] after:absolute after:inset-0 after:bg-bluegradient after:opacity-0 after:transition-all after:ease-linear after:duration-300 hover:after:opacity-100 after:z-[-1] border border-gray-low-300 lg:p-[12px_18px_12px_0] p-[16px_16px_16px_0] group">
               <div className="flex gap-[14px] items-center">
-                <div className="bg-offBlue inline-block group-hover:bg-white md:p-[17px_19px_17px_20px] p-[14px_16px] transition-all duration-300 ease-linear">
-                  <MessageSvg />
+                <div className="bg-offBlue max-w-[61px] h-[57px] sm:max-w-[75px] sm:h-[70px] flex justify-center items-center group-hover:bg-white md:p-[17px_19px_17px_20px] p-[14px_16px] transition-all duration-300 ease-linear">
+                  <div>
+                    <MessageSvg />
+                  </div>
                 </div>
                 <p className="font-normal text-lg xl:text-xl leading-[184%] group-hover:text-white group-hover:opacity-70 transition-all ease-linear duration-300 ">
                   Customize the message you want the recipient to recieve. Or
@@ -72,8 +76,10 @@ const FindAnyone = () => {
           <div className="lg:w-[34%] w-full max-lg:mt-[18px] max-lg:order-2 ">
             <div className="max-w-[500px] lg:max-w-[376px] lg:h-[156px] h-[152px] rounded flex mx-auto relative overflow-hidden z-[1] after:absolute after:inset-0 after:bg-bluegradient after:opacity-0 after:transition-all after:ease-linear after:duration-300 hover:after:opacity-100 after:z-[-1] border border-gray-low-300 lg:p-[12px_18px_12px_0] p-[16px_16px_16px_0] group mb-[24px]">
               <div className="flex gap-[14px] items-center">
-                <div className="bg-offBlue inline-block group-hover:bg-white md:p-[17px_19px_17px_20px] p-[14px_16px] transition-all duration-300 ease-linear">
-                  <GrabLocation />
+                <div className="bg-offBlue max-w-[61px] h-[57px] sm:max-w-[75px] sm:h-[70px] flex justify-center items-center group-hover:bg-white md:p-[17px_19px_17px_20px] p-[14px_16px] transition-all duration-300 ease-linear">
+                  <div>
+                    <GrabLocation />
+                  </div>
                 </div>
                 <p className="font-normal text-lg xl:text-xl leading-[184%] group-hover:text-white group-hover:opacity-70 transition-all ease-linear duration-300 ">
                   Grab real-time location as precise coordinates
@@ -82,8 +88,10 @@ const FindAnyone = () => {
             </div>
             <div className="max-w-[500px] lg:max-w-[376px] lg:h-[156px] h-[152px] rounded flex mx-auto relative overflow-hidden z-[1] after:absolute after:inset-0 after:bg-bluegradient after:opacity-0 after:transition-all after:ease-linear after:duration-300 hover:after:opacity-100 after:z-[-1] border border-gray-low-300 lg:p-[12px_18px_12px_0] p-[16px_16px_16px_0] group">
               <div className="flex gap-[14px] items-center">
-                <div className="bg-offBlue inline-block group-hover:bg-white md:p-[17px_19px_17px_20px] p-[14px_16px] transition-all duration-300 ease-linear">
-                  <MobileNumber />
+                <div className="bg-offBlue max-w-[61px] h-[57px] sm:max-w-[75px] sm:h-[70px] flex justify-center items-center group-hover:bg-white md:p-[17px_19px_17px_20px] p-[14px_16px] transition-all duration-300 ease-linear">
+                  <div>
+                    <MobileNumber />
+                  </div>
                 </div>
                 <p className="font-normal text-lg xl:text-xl leading-[184%] group-hover:text-white group-hover:opacity-70 transition-all ease-linear duration-300 ">
                   Any mobile number in the world can be tracked
@@ -95,8 +103,10 @@ const FindAnyone = () => {
         <div className=" max-w-[500px] lg:max-w-[376px] mx-auto mt-[21px] w-full after:transition-all after:ease-linear after:duration-300 hover:after:opacity-100 after:z-[-1] group relative z-[1] after:absolute after:inset-0 after:bg-bluegradient after:opacity-0">
           <div className="max-md:mt-[18px] mt-[21px] border border-gray-low-300 rounded-[4px] lg:h-[156px] h-[152px] flex lg:p-[12px_18px_12px_0] p-[16px_16px_16px_0]">
             <div className="flex gap-[14px] items-center">
-              <div className="bg-offBlue inline-block group-hover:bg-white md:p-[17px_19px_17px_20px] p-[14px_16px] transition-all duration-300 ease-linear">
-                <UnlimitedLocation />
+              <div className="bg-offBlue max-w-[61px] h-[57px] sm:max-w-[75px] sm:h-[70px] flex justify-center items-center group-hover:bg-white md:p-[17px_19px_17px_20px] p-[14px_16px] transition-all duration-300 ease-linear">
+                <div>
+                  <UnlimitedLocation />
+                </div>
               </div>
               <p className="group-hover:text-white group-hover:opacity-70 duration-300  font-normal text-lg xl:text-xl leading-[184%]">
                 Send unlimited geo-location requests

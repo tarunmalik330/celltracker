@@ -1227,10 +1227,10 @@ export const HeroLocation = () => {
   );
 };
 // ========================== HOW IT WORK ==========================
-export const RoadmapLine = () => {
+export const RoadmapLine = (props) => {
   return (
     <svg
-      className="sm:w-[152px] sm:h-[19px] w-[111px] h-[14px]"
+      className={`${props.className}`}
       viewBox="0 0 152 19"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

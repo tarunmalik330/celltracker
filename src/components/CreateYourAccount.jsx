@@ -38,18 +38,15 @@ const CreateYourAccount = () => {
         alt="layer"
         className="absolute sm:top-[-67px] -top-[30px] max-sm:h-[65px] w-full z-10 h-[181px]"
       />
-      <div
-        id="Login"
-        className="container sm:px-3 px-6 mx-auto custom_container relative z-10"
-      >
-        <h2 className="capitalize text-blue text-2lg sm:text-4xl xl:text-5xl sm:leading-xs leading-xxs font-light text-center mb-2">
+      <div id="Login" className="container sm:px-3 px-6 mx-auto custom_container relative z-10">
+        <h2 className="capitalize text-blue sm:text-5xl text-2lg sm:leading-xs leading-xxs font-light text-center mb-2" data-aos="fade-up">
           Create your <span className="font-extrabold"> account</span>
         </h2>
-        <p className="leading-normal sm:text-base text-sm text-black opacity-70 font-normal text-center">
+        <p className="leading-normal sm:text-base text-sm text-black opacity-70 font-normal text-center" data-aos="fade-up">
           Join now and protect your family's phones
         </p>
         <div className="flex flex-row items-center flex-wrap lg:pt-[72px] sm:pt-[50px] pt-[33.7px] gap-[37px] xl:gap-0">
-          <div className="lg:w-5/12 w-full flex flex-col max-lg:justify-center max-lg:items-center">
+          <div className="lg:w-5/12 w-full flex flex-col max-lg:justify-center max-lg:items-center" data-aos="fade-right">
             <p className="leading-sm text-blue sm:text-xxs text-2xl font-light mb-[26px]">
               Get a <span className="font-extrabold">24 hour</span> trial!
             </p>
@@ -89,7 +86,7 @@ const CreateYourAccount = () => {
               </p>
             </div>
           </div>
-          <div className="xl:w-7/12 lg:w-6/12 w-full">
+          <div className="xl:w-7/12 lg:w-6/12 w-full" data-aos="fade-left">
             <div className="sm:pb-9 pb-[42px] border border-solid border-lighblue shadow-[0px_16px_25.3px_0px_#00000014] rounded-xl">
               <div className="bg-blue p-[20px] rounded-tl-xl rounded-tr-xl flex justify-between">
                 <p className="capitalize text-white sm:text-xxs text-2xl leading-sm flex gap-3 items-center">

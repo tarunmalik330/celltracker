@@ -20,10 +20,10 @@ const HowItWorks = () => {
       />
       <div className="container custom_container mx-auto sm:px-3 px-6 xl:mt-[104px] sm:mt-[90px] mt-[74px] xl:pb-[57px] sm:pb-8 pb-[90px]">
         <div className="flex justify-center items-center flex-col">
-          <h2 className="font-light text-blue text-2lg sm:text-4xl xl:text-5xl sm:leading-xs leading-xxs text-center mb-[12px] lg:mb-2">
+          <h2 className="font-light text-blue text-2lg sm:text-5xl sm:leading-xs leading-xxs text-center mb-[12px] lg:mb-2" data-aos="fade-up">
             How it <span className="font-extrabold">works</span>
           </h2>
-          <p className="text-grey text-base font-normal sm:!leading-normal leading-xl md:max-w-[472px] text-center">
+          <p className="text-grey text-base font-normal sm:!leading-normal leading-xl md:max-w-[472px] text-center" data-aos="fade-up">
             Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi
             sit elit rhoncus vestibulum fames libero id.
           </p>
@@ -41,7 +41,7 @@ const HowItWorks = () => {
               className="w-full min-w-[390px] sm:max-w-[510px]"
             />
           </div>
-          <div className="lg:w-[49%] w-full flex flex-col lg:items-end mt-[50px] lg:mt-0">
+          <div className="lg:w-[49%] w-full flex flex-col lg:items-end mt-[50px] lg:mt-0" data-aos="fade-up">
             {worksData.map((data, index) => (
               <div
                 key={index}
@@ -68,7 +68,7 @@ const HowItWorks = () => {
             ))}
           </div>
         </div>
-        <div className="flex justify-center items-center gap-[14px] sm:flex-row flex-col max-sm:w-full xl:pt-[70px] sm:mt-12 mt-[22px]">
+        <div className="flex justify-center items-center gap-[14px] sm:flex-row flex-col max-sm:w-full sm:pt-[70px] pt-[22px]" data-aos="fade-up">
           <CommonBtn
             btnName="Create your Account"
             className="capitalize bg-blue text-white py-[16.5px] px-[27.2px] max-sm:w-full"
