@@ -10,7 +10,7 @@ const Footer = () => {
         <img
           src={vectorImg2}
           alt="vectorimg"
-          className="right-0 bottom-[19%] lg:bottom-[13%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
+          className="right-0 bottom-[19%] lg:bottom-[13%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute pointer-events-none"
         />
         <div className="container sm:px-3 px-6 custom_container mx-auto">
           <div className="flex items-center md:justify-between md:flex-row max-md:gap-6 max-sm:gap-0 flex-col md:pb-12 pb-[58px]">

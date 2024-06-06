@@ -11,17 +11,17 @@ const Celltrackers = () => {
       <img
         src={heroLayer}
         alt="heroLayer"
-        className="right-0 left-0 top-[-3%] sm:top-[-10%] lg:top-[-22%] w-full absolute z-0"
+        className="right-0 left-0 top-[-3%] sm:top-[-10%] lg:top-[-22%] w-full absolute z-0 pointer-events-none"
       />
       <img
         src={vectorImg1}
         alt="vectorimg"
-        className="left-0 lg:top-[15%] top-0 max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
+        className="left-0 lg:top-[15%] top-0 max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute pointer-events-none"
       />
       <img
         src={vectorImg2}
         alt="vectorimg"
-        className="right-0 bottom-0 max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
+        className="right-0 bottom-0 max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute pointer-events-none"
       />
       <div className="container custom_container mx-auto sm:px-3 px-6 relative z-1 xl:pt-[50px] sm:pt-[30px] pt-[110px]">
         <div className="flex justify-center items-center flex-col">
