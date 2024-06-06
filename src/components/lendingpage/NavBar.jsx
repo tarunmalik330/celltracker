@@ -17,7 +17,7 @@ const NavBar = () => {
     <nav>
       <div className="container custom_container px-6 sm:px-3 mx-auto py-[20.72px] max-sm:pt-8 max-sm:pb-[10px]">
         <div className="flex justify-between items-center">
-          <a href="/" className="relative z-[4]" aria-label="logo">
+          <a href="/" className="relative z-[4]" aria-label="navlogo">
             {nav ? <Navlogo2 /> : <Navlogo />}
           </a>
           <ul
@@ -37,11 +37,11 @@ const NavBar = () => {
                 </Link>
               </li>
             ))}
-            <button className=" lg:hidden bg-blue text-base leading-[26.59px] font-semibold text-white py-4 px-7 rounded-[4px] hover:text-blue hover:bg-white hover:border-blue border-transparent border-2 w-full max-w-[314px] transition-all ease-linear duration-300">
+            <button aria-label="login" className=" lg:hidden bg-blue text-base leading-[26.59px] font-semibold text-white py-4 px-7 rounded-[4px] hover:text-blue hover:bg-white hover:border-blue border-transparent border-2 w-full max-w-[314px] transition-all ease-linear duration-300">
               Log In
             </button>
           </ul>
-          <button className="text-blue lg:block hidden text-base leading-[26.59px] font-semibold bg-white py-[14px] md:py-[15.22px] px-[27.07px] rounded-[4px] border-solid border-transparent border hover:border-white hover:bg-blue hover:text-white transition-all ease-linear duration-300">
+          <button aria-label="login" className="text-blue lg:block hidden text-base leading-[26.59px] font-semibold bg-white py-[14px] md:py-[15.22px] px-[27.07px] rounded-[4px] border-solid border-transparent border hover:border-white hover:bg-blue hover:text-white transition-all ease-linear duration-300">
             Log In
           </button>
           <button onClick={opennav} className="lg:hidden relative z-[4]">
