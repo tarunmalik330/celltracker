@@ -78,6 +78,7 @@ const Hero = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-[7px] w-full">
+                  <label className="hidden"></label>
                   <input
                     className="w-full pr-[5px] text-black outline-none"
                     type="tel"
@@ -91,7 +92,7 @@ const Hero = () => {
                   />
                 </div>
                 <div>
-                  <button className="relative flex items-center gap-1 bg-blue text-white text-sm sm:text-base font-semibold rounded-[4px] py-[15.5px] px-[24px] transition-transform ease-linear duration-300 hover:scale-95">
+                  <button aria-label="locate btn" className="relative flex items-center gap-1 bg-blue text-white text-sm sm:text-base font-semibold rounded-[4px] py-[15.5px] px-[24px] transition-transform ease-linear duration-300 hover:scale-95">
                     <div className="flex items-center gap-1">
                       <Locate /> Locate
                     </div>
