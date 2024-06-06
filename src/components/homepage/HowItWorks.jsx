@@ -1,9 +1,9 @@
 import React from "react";
-import worksimg from "../assets/images/webp/howItWorks-img.webp";
-import vectorImg1 from "../assets/images/webp/verctorImg1.webp";
-import vectorImg2 from "../assets/images/webp/vectorImg2.webp";
-import { worksData } from "./common/Helper";
-import CommonBtn from "./common/CommonBtn";
+import worksimg from "../../assets/images/webp/howItWorks-img.webp";
+import vectorImg1 from "../../assets/images/webp/verctorImg1.webp";
+import vectorImg2 from "../../assets/images/webp/vectorImg2.webp";
+import { worksData } from "../common/Helper";
+import CommonBtn from "../common/CommonBtn";
 
 const HowItWorks = () => {
   return (
