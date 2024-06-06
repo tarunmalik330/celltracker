@@ -38,7 +38,7 @@ const HowItWorks = () => {
             sit elit rhoncus vestibulum fames libero id.
           </p>
         </div>
-        <div className="flex flex-row flex-wrap justify-center lg:justify-end relative items-center mt-[30px] sm:mt-[20px] lg:mt-[100px]">
+        <div className="flex flex-row flex-wrap justify-center lg:justify-end relative items-center mt-[40px] sm:mt-[20px] lg:mt-[100px]">
           <img
             src={worksimg}
             alt="worksimg"
