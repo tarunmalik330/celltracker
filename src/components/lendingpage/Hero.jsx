@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import NavBar from '../../components/lendingpage/NavBar';
+import NavBar from "../../components/lendingpage/NavBar";
 import heroImg from "../../assets/images/png/heroPhoneimg.png";
 import { Arrow, HeroLocation, India, Locate, Needhelp } from "../common/Icon";
-import vectorImg1 from '../../assets/images/png/verctorImg1.png';
+import vectorImg1 from "../../assets/images/webp/verctorImg1.webp";
+
 const Hero = () => {
   const [value, setValue] = useState("");
   const handleKeyPress = (event) => {
@@ -38,10 +39,13 @@ const Hero = () => {
           </div>
           <div className="lg:w-[49%] w-full lg:mt-[56px]">
             <h1 className="text-white text-xxs sm:text-6xl xl:text-md !leading-xs font-light xl:max-w-[553px] mb-2 lg:text-start text-center">
-              <span className="font-extrabold">Locate any phone, </span>anywhere, anytime
+              <span className="font-extrabold">Locate any phone, </span>
+              anywhere, anytime
             </h1>
             <p className="font-normal text-white text-base leading-normal lg:max-w-[553px] mb-[32px] lg:mb-[24px] lg:text-start text-center md:px-14 lg:px-0">
-              Lorem ipsum dolor sit amet consectetur. Nisl vitae arcu volutpat nunc cursus. Lacus ornare aliquet condimentum elementum elementum nisl nibh sed. Egestas aliquam id quam nunc.
+              Lorem ipsum dolor sit amet consectetur. Nisl vitae arcu volutpat
+              nunc cursus. Lacus ornare aliquet condimentum elementum elementum
+              nisl nibh sed. Egestas aliquam id quam nunc.
             </p>
             <div className="flex lg:justify-start justify-center">
               <div className="sm:max-w-[448px] max-w-[327px] w-full bg-white rounded-[4px] pl-[10px] flex items-center justify-between">
@@ -84,11 +88,15 @@ const Hero = () => {
                     Geolocation found!
                   </p>
                 </div>
-                <p className='text-blue text-2xl font-semibold leading-md'>+44 633 427 390</p>
+                <p className="text-blue text-2xl font-semibold leading-md">
+                  +44 633 427 390
+                </p>
                 <p className="text-black font-normal text-sm md:text-base leading-normal md:leading-normal mb-3 md:mb-[12px] max-w-[216px]">
                   3 Succession Walk, Fish Island, London E3 2RX, United Kingdom
                 </p>
-                <p className="font-light text-sm text-black flex justify-end">June 02,2024   17:34</p>
+                <p className="font-light text-sm text-black flex justify-end">
+                  June 02,2024 17:34
+                </p>
               </div>
             </div>
             <div className="lg:hidden block">
@@ -98,6 +106,6 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 export default Hero;

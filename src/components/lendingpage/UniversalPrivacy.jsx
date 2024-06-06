@@ -1,6 +1,6 @@
 import React from 'react'
 import { privacyData } from '../common/Helper';
-import vectorImg2 from '../../assets/images/png/vectorImg2.png';
+import vectorImg2 from '../../assets/images/webp/vectorImg2.webp';
 
 const UniversalPrivacy = () => {
     return (

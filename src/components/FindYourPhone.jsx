@@ -1,6 +1,6 @@
 import React from "react";
-import findphone from "../assets/images/png/find-phone-img.png";
-import vectorImg1 from "../assets/images/png/verctorImg1.png";
+import findphone from "../assets/images/webp/find-phone-img.webp";
+import vectorImg1 from "../assets/images/webp/verctorImg1.webp";
 import CommonBtn from "./common/CommonBtn";
 
 const FindYourPhone = () => {

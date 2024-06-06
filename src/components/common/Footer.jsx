@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/svg/footer-logo.svg";
-import vectorImg2 from "../../assets/images/png/vectorImg2.png";
+import vectorImg2 from "../../assets/images/webp/vectorImg2.webp";
 import { footerLink, footerSocialLink } from "./Helper";
 
 const Footer = () => {
@@ -53,7 +53,7 @@ const Footer = () => {
               })}
             </div>
           </div>
-          <div className="border-[0.5px] border-solid border-blue"></div>
+          <div className="border-t-[0.5px] border-solid border-blue"></div>
           <p className="leading-normal text-center text-sm font-normal text-black opacity-70 pt-[18px] sm:pb-[17px] pb-5">
             © {new Date().getFullYear()} Cell Tracker. All Rights Reserved.
           </p>

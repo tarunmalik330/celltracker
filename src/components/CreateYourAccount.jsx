@@ -16,17 +16,17 @@ import {
 import visaimg from "../assets/images/svg/visaimg.svg";
 import thememastercard from "../assets/images/svg/theme-mastercard.svg";
 import CommonBtn from "./common/CommonBtn";
-import layer from "../assets/images/png/create-acc-toplayer.png";
-import vectorimg1 from "../assets/images/png/verctorImg1.png";
-import vectorimg2 from "../assets/images/png/vectorImg2.png";
+import layer from "../assets/images/webp/create-acc-toplayer.webp";
+import vectorimg1 from "../assets/images/webp/verctorImg1.webp";
+import vectorimg2 from "../assets/images/webp/vectorImg2.webp";
 
 const CreateYourAccount = () => {
   return (
-    <div className="lg:pt-[220px] sm:pt-[180px] pt-[100px] relative">
+    <div className="lg:pt-[210px] sm:pt-[180px] pt-[100px] relative">
       <img
         src={vectorimg1}
         alt="vectorimg1"
-        className="absolute w-full sm:max-w-[106px] max-w-[41px] left-0 sm:top-[25%] top-[4%]"
+        className="absolute w-full sm:max-w-[106px] max-w-[41px] left-0 sm:top-[22%] top-[4%]"
       />
       <img
         src={vectorimg2}
@@ -38,7 +38,7 @@ const CreateYourAccount = () => {
         alt="layer"
         className="absolute sm:top-[-67px] -top-[30px] max-sm:h-[65px] w-full z-10 h-[181px]"
       />
-      <div className="container sm:px-3 px-6 mx-auto custom_container relative z-10">
+      <div id="Login" className="container sm:px-3 px-6 mx-auto custom_container relative z-10">
         <h2 className="capitalize text-blue sm:text-5xl text-2lg sm:leading-xs leading-xxs font-light text-center mb-2">
           Create your <span className="font-extrabold"> account</span>
         </h2>
@@ -112,7 +112,9 @@ const CreateYourAccount = () => {
                     Your Address
                   </label>
                   <div className="border border-solid max-sm:h-[45px] bg-primary border-lighblue rounded flex items-center">
-                    <TracesIcon className="w-[48px] sm:h-[52px] h-[45px]" />
+                    <div className="w-12 sm:h-[52px] h-[45px] bg-gainsborogrey flex items-center justify-center">
+                      <TracesIcon className="sm:w-6 sm:h-6 w-5 h-5" />
+                    </div>
                     <input
                       required
                       type="text"
@@ -129,7 +131,9 @@ const CreateYourAccount = () => {
                     Email Address
                   </label>
                   <div className="border border-solid max-sm:h-[45px] bg-primary border-lighblue rounded flex items-center">
-                    <EmailAddressIcon className="w-[48px] sm:h-[52px] h-[45px]" />
+                    <div className="w-12 sm:h-[52px] h-[45px] bg-gainsborogrey flex items-center justify-center">
+                      <EmailAddressIcon className="sm:w-6 sm:h-6 w-5 h-5" />
+                    </div>
                     <input
                       required
                       type="text"
@@ -143,7 +147,9 @@ const CreateYourAccount = () => {
                     Card Number (Visa or Mastercard)
                   </label>
                   <div className="border border-solid max-sm:h-[45px] bg-primary border-lighblue rounded flex items-center">
-                    <ValidNumberIcon className="w-[48px] sm:h-[52px] h-[45px]" />
+                    <div className="w-12 sm:h-[52px] h-[45px] bg-gainsborogrey flex items-center justify-center">
+                      <ValidNumberIcon className="sm:w-6 sm:h-6 w-5 h-5" />
+                    </div>
                     <input
                       required
                       type="text"
@@ -158,7 +164,9 @@ const CreateYourAccount = () => {
                       Expiry Date
                     </label>
                     <div className="border border-solid max-sm:h-[45px] bg-primary border-lighblue rounded flex items-center">
-                      <CalenderIcon className="w-[48px] sm:h-[52px] h-[45px]" />
+                      <div className="w-12 sm:h-[52px] h-[45px] bg-gainsborogrey flex items-center justify-center">
+                        <CalenderIcon className="sm:w-6 sm:h-6 w-5 h-5" />
+                      </div>
                       <input
                         required
                         type="text"
@@ -172,7 +180,9 @@ const CreateYourAccount = () => {
                       Card Security Code
                     </label>
                     <div className="border border-solid max-sm:h-[45px] bg-primary border-lighblue rounded flex items-center">
-                      <SecurityCodeIcon className="w-[48px] sm:h-[52px] h-[45px]" />
+                      <div className="w-12 sm:h-[52px] h-[45px] bg-gainsborogrey flex items-center justify-center">
+                        <SecurityCodeIcon className="sm:w-6 sm:h-6 w-5 h-5" />
+                      </div>
                       <input
                         required
                         type="text"
