@@ -5,14 +5,21 @@ import {
   Message,
   PhoneNumber,
 } from "../common/Icon";
-import vectorImg1 from '../../assets/images/webp/verctorImg1.webp';
+import vectorImg1 from "../../assets/images/webp/verctorImg1.webp";
 
 const HowItWork = () => {
   return (
-    <div className="pb-[45px] relative">
-      <img src={vectorImg1} alt="vectorimg" className='left-0 bottom-[-6%] md:bottom-[-5%] lg:bottom-[-30%] xl:bottom-[-14%] max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute' />
-      <div className="container custom_container mx-auto px-6 sm:px-3">
-        <div className="md:pt-[98px] pt-[61px]">
+    <div className="pb-[45px] sm:mt-[98px] mt-[85px] sm:mb-0 xl:mb-[45px] relative ">
+      <img
+        src={vectorImg1}
+        alt="vectorimg"
+        className="left-0 bottom-[-6%] md:bottom-[-5%] lg:bottom-[-30%] xl:bottom-[-14%] max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute"
+      />
+      <div
+        id="works"
+        className="container custom_container mx-auto px-6 sm:px-3"
+      >
+        <div className="md:mt-[98px] mt-[61px]">
           <h2 className="text-blue sm:text-5xl text-2lg font-light leading-xs text-center">
             How it
             <span className="font-extrabold"> works</span>
@@ -26,7 +33,7 @@ const HowItWork = () => {
           <div className="w-full md:w-[40%] lg:w-[28%] xl:w-[22%] flex justify-center lg:justify-start">
             <div className="flex flex-col max-w-[267px] min-h-[233px] md:min-h-[298px] pt-7 px-2 items-center pb-8">
               <span>
-                <PhoneNumber />
+                <PhoneNumber className="w-[61px] h-[57px] sm:w-[75px] sm:h-[71px]" />
               </span>
               <h3 className="text-xl sm:text-2xl text-black font-normal leading-sm text-center mt-[14px]">
                 Provide target phone number
@@ -38,14 +45,14 @@ const HowItWork = () => {
             </div>
           </div>
           <div className="w-full md:w-[20%] lg:w-[18%] flex justify-center relative">
-            <span className="md:absolute rotate-[90deg] md:rotate-0 m-20 sm:mt-16 md:mt-0 top-[10%] sm:top-[15%]">
+            <span className="md:absolute rotate-[90deg] md:rotate-0 sm:m-20 mt-16 mb-12 sm:mt-16 md:mt-0 top-[10%] sm:top-[15%]">
               <RoadmapLine />
             </span>
           </div>
           <div className="w-full md:w-[40%] lg:w-[28%] xl:w-[22%] flex justify-center">
             <div className="flex flex-col max-w-[267px] min-h-[233px] md:min-h-[298px] pt-[28px] items-center pb-8">
               <span>
-                <Message />
+                <Message className="sm:w-[75px] w-[61px] h-[57px] sm:h-[70px]" />
               </span>
               <h3 className="text-xl sm:text-2xl text-black font-normal leading-sm text-center mt-[14px]">
                 Customize the message
@@ -58,14 +65,14 @@ const HowItWork = () => {
             </div>
           </div>
           <div className="w-full md:w-[8%] lg:w-[18%] flex md:absolute top-[40%] xl:rotate-0  xl:translate-x-0 xl:static xl:flex md:hidden justify-center relative">
-            <span className="md:absolute rotate-[90deg] md:rotate-0 m-20 sm:mt-16 md:mt-0 top-[10%] sm:top-[15%]">
+            <span className="md:absolute rotate-[90deg] md:rotate-0 sm:m-20 mt-16 mb-12 sm:mt-16 md:mt-0 top-[10%] sm:top-[15%]">
               <RoadmapLine />
             </span>
           </div>
           <div className="w-full md:w-[40%] lg:w-[28%] xl:w-[20%] flex justify-center lg:justify-end">
             <div className="flex flex-col max-w-[267px] min-h-[233px] md:min-h-[298px] pt-[28px] items-center pb-8">
               <span>
-                <ReceiveLocation />
+                <ReceiveLocation className="sm:w-[75px] sm:h-[71px] w-[61px] h-[57px]" />
               </span>
               <h3 className="text-xl sm:text-2xl text-black font-normal leading-sm text-center mt-[14px]">
                 Receive their precise location

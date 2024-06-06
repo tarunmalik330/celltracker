@@ -15,7 +15,7 @@ const NavBar = () => {
   }
   return (
     <nav>
-      <div className="container custom_container px-6 sm:px-3 mx-auto py-[20.72px]">
+      <div className="container custom_container px-6 sm:px-3 mx-auto py-[20.72px] max-sm:pt-8 max-sm:pb-[10px]">
         <div className="flex justify-between items-center">
           <a href="/" className="relative z-[4]" aria-label="logo">
             {nav ? <Navlogo2 /> : <Navlogo />}

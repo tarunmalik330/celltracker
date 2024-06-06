@@ -6,13 +6,13 @@ import {
   MobileNumber,
   UnlimitedLocation,
 } from "../common/Icon";
-import anyoneMobile from "../../assets/images/png/anyoneMobileimg.png";
+import anyoneMobile from "../../assets/images/webp/anyoneMobileimg.webp";
 import vectorImg1 from "../../assets/images/webp/verctorImg1.webp";
 import vectorImg2 from "../../assets/images/webp/vectorImg2.webp";
 
 const FindAnyone = () => {
   return (
-    <div className="xl:mt-[132px] sm:mt-[90px] mb-[33px] relative">
+    <div className="mt-[80px] sm:mt-[90px] xl:mt-[132px] lg:mb-[33px] relative">
       <img
         src={vectorImg1}
         alt="vectorimg"
@@ -23,7 +23,10 @@ const FindAnyone = () => {
         alt="vectorimg"
         className="right-0 bottom-0 max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
       />
-      <div className="container sm:px-3 px-6 custom_container mx-auto">
+      <div
+        id="features"
+        className="container sm:px-3 px-6 custom_container mx-auto"
+      >
         <div className="flex justify-center items-center flex-col">
           <h2 className="font-light text-blue text-2lg sm:text-5xl sm:!leading-xs leading-xxs text-center mb-[12px] lg:mb-2">
             Find Anyone Anywhere for{" "}

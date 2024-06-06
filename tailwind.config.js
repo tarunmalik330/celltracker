@@ -51,11 +51,11 @@ module.exports = {
         bluegradient:
           "linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%)",
         headerBg: "url('./assets/images/webp/headerBgimg.webp')",
-        heroBg: "url('./assets/images/png/lendingBgimg.png')",
-        needBg: "url('./assets/images/png/needBgimg.png')",
+        heroBg: "url('./assets/images/webp/lendingBgimg.webp')",
+        needBg: "url('./assets/images/webp/needBgimg.webp')",
         heroBoxbg:
           "linear-gradient(0deg, #FFFFFF, #FFFFFF),linear- gradient(7.95deg, rgba(0, 181, 216, 0.05) - 3.4 %, rgba(0, 0, 128, 0.05) 114.66 %)",
-        headersmbg: "url('./assets/images/png/lending-bgheader-sm.png')",
+        headersmbg: "url('./assets/images/webp/lending-bgheader-sm.webp')",
       },
     },
     plugins: [],

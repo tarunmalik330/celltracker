@@ -1230,8 +1230,7 @@ export const HeroLocation = () => {
 export const RoadmapLine = () => {
   return (
     <svg
-      width="152"
-      height="19"
+      className="sm:w-[152px] sm:h-[19px] w-[111px] h-[14px]"
       viewBox="0 0 152 19"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1250,11 +1249,10 @@ export const RoadmapLine = () => {
     </svg>
   );
 };
-export const PhoneNumber = () => {
+export const PhoneNumber = (props) => {
   return (
     <svg
-      width="75"
-      height="71"
+      className={`${props.className}`}
       viewBox="0 0 75 71"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1281,11 +1279,10 @@ export const PhoneNumber = () => {
     </svg>
   );
 };
-export const Message = () => {
+export const Message = (props) => {
   return (
     <svg
-      width="75"
-      height="70"
+      className={`${props.className}`}
       viewBox="0 0 75 70"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1314,11 +1311,10 @@ export const Message = () => {
     </svg>
   );
 };
-export const ReceiveLocation = () => {
+export const ReceiveLocation = (props) => {
   return (
     <svg
-      width="75"
-      height="71"
+      className={`${props.className}`}
       viewBox="0 0 75 71"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

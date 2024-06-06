@@ -1,9 +1,9 @@
 import React from "react";
 import HowItWork from "../components/lendingpage/HowItWork";
 import UniversalPrivacy from "../components/lendingpage/UniversalPrivacy";
-import Footer from "../components/common/Footer";
 import Hero from "../components/lendingpage/Hero";
 import FindAnyone from "../components/lendingpage/FindAnyone";
+import LendingFooter from "../components/lendingpage/LendingFooter";
 
 const LandingPage = () => {
   return (
@@ -12,7 +12,7 @@ const LandingPage = () => {
       <UniversalPrivacy />
       <FindAnyone />
       <HowItWork />
-      <Footer />
+      <LendingFooter/>
     </div>
   );
 };
