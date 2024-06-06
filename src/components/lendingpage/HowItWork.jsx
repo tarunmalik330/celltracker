@@ -13,7 +13,7 @@ const HowItWork = () => {
       <img
         src={vectorImg1}
         alt="vectorimg"
-        className="left-0 bottom-[-6%] md:bottom-[-5%] lg:bottom-[-30%] xl:bottom-[-14%] max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute"
+        className="left-0 bottom-[-6%] md:bottom-[-5%] lg:bottom-0 xl:bottom-[-14%] max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute pointer-events-none"
       />
       <div
         id="works"

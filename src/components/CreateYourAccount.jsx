@@ -26,17 +26,17 @@ const CreateYourAccount = () => {
       <img
         src={vectorimg1}
         alt="vectorimg1"
-        className="absolute w-full sm:max-w-[106px] max-w-[41px] left-0 sm:top-[22%] top-[4%]"
+        className="absolute w-full sm:max-w-[106px] max-w-[41px] left-0 sm:top-[22%] top-[4%] pointer-events-none"
       />
       <img
         src={vectorimg2}
         alt="vectorimg2"
-        className="absolute w-full sm:max-w-[106px] max-w-[41px] right-0 sm:bottom-[11%] bottom-[-6%]"
+        className="absolute w-full sm:max-w-[106px] max-w-[41px] right-0 sm:bottom-[11%] bottom-[-6%] pointer-events-none"
       />
       <img
         src={layer}
         alt="layer"
-        className="absolute sm:top-[-67px] -top-[30px] max-sm:h-[65px] w-full z-10 h-[181px]"
+        className="absolute sm:top-[-67px] -top-[30px] max-sm:h-[65px] w-full z-10 h-[181px] pointer-events-none"
       />
       <div id="Login" className="container sm:px-3 px-6 mx-auto custom_container relative z-10">
         <h2 className="capitalize text-blue sm:text-5xl text-2lg sm:leading-xs leading-xxs font-light text-center mb-2" data-aos="fade-up">

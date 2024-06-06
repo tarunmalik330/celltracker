@@ -16,12 +16,12 @@ const FindAnyone = () => {
       <img
         src={vectorImg1}
         alt="vectorimg"
-        className="left-0 top-[-6%] lg:top-[1%] xl:top-[10%] max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
+              className="left-0 top-[-6%] lg:top-[1%] xl:top-[10%] max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute pointer-events-none"
       />
       <img
         src={vectorImg2}
         alt="vectorimg"
-        className="right-0 bottom-0 max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
+              className="right-0 bottom-0 max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute pointer-events-none"
       />
       <div
         id="features"

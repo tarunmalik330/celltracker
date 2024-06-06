@@ -11,12 +11,12 @@ const HowItWorks = () => {
       <img
         src={vectorImg1}
         alt="vectorimg"
-        className="left-0 top-[9%] lg:top-[13%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
+        className="left-0 top-[9%] lg:top-[13%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute pointer-events-none"
       />
       <img
         src={vectorImg2}
         alt="vectorimg"
-        className="right-0 bottom-0 lg:bottom-[-3%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute z-[2]"
+        className="right-0 bottom-0 lg:bottom-[-3%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute z-[2] pointer-events-none"
       />
       <div className="container custom_container mx-auto sm:px-3 px-6 xl:mt-[104px] sm:mt-[90px] mt-[74px] xl:pb-[57px] sm:pb-8 pb-[90px]">
         <div className="flex justify-center items-center flex-col">
