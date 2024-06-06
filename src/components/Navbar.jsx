@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setnav] = useState(false);
-  function showNav() {
+  function opennav() {
     setnav(!nav);
   }
   if (nav) {
@@ -15,7 +15,7 @@ const Navbar = () => {
   }
   return (
     <nav>
-      <div className="container custom_container px-6 sm:px-3 mx-auto sm:pt-[21px] pt-8 sm:pb-0 pb-[10px]">
+      <div className="container custom_container px-6 sm:px-3 mx-auto sm:py-[30px] lg:pt-[21px] pt-8 lg:pb-0 pb-[10px]">
         <div className="flex justify-between items-center">
           <a href="" className="relative z-[4]" aria-label="Navlogo">
             {nav ? <Navlogo2 /> : <Navlogo />}
@@ -58,7 +58,7 @@ const Navbar = () => {
               />
             </li>
           </ul>
-          <button onClick={showNav} className="lg:hidden relative z-[5]">
+          <button onClick={opennav} className="lg:hidden relative z-[5]">
             {nav ? (
               <div className="flex lg:hidden flex-col relative z-50 justify-between w-[18px] h-[17px] cursor-pointer">
                 <span className="bg-black w-[11px] h-[2px] sm:w-[25px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 translate-y-0 -bottom-[11px]"></span>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import NavBar from "../../components/lendingpage/NavBar";
-import heroImg from "../../assets/images/png/heroPhoneimg.png";
+import heroImg from "../../assets/images/webp/heroPhoneimg.webp";
 import { Arrow, HeroLocation, India, Locate, Needhelp } from "../common/Icon";
 import vectorImg1 from "../../assets/images/webp/verctorImg1.webp";
 

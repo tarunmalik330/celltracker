@@ -9,9 +9,9 @@ import vectorImg1 from '../../assets/images/webp/verctorImg1.webp';
 
 const HowItWork = () => {
   return (
-    <div className="pb-[45px] relative ">
+    <div className="pb-[45px] lg:mt-[98px] mt-[97px] mb-[94px] lg:mb-[45px] relative ">
       <img src={vectorImg1} alt="vectorimg" className='left-0 bottom-[-6%] md:bottom-[-5%] lg:bottom-[-30%] xl:bottom-[-14%] max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute' />
-      <div className="container custom_container mx-auto px-6 sm:px-3">
+      <div id='works' className="container custom_container mx-auto px-6 sm:px-3">
         <div className="md:mt-[98px] mt-[61px]">
           <h2 className="text-blue sm:text-5xl text-2lg font-light leading-xs text-center">
             How it

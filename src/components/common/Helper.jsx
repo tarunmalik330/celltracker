@@ -40,12 +40,29 @@ export const joinCompanies = [
 export const footerLink = [
   {
     link: "Help",
+    path: "#help",
   },
   {
     link: "Contact us",
+    path: "#Login",
   },
   {
     link: "Found Phone",
+    path: "#foundphone",
+  },
+];
+export const footerLink2 = [
+  {
+    link: "Home",
+    path: "#home",
+  },
+  {
+    link: "How It Works",
+    path: "#works",
+  },
+  {
+    link: "Features",
+    path: "#features",
   },
 ];
 export const footerSocialLink = [
@@ -98,22 +115,22 @@ export const cellTrackerData = [
 //-----------universal-privacy---------
 export const privacyData = [
   {
-    svg: <Compatible/>,
+    svg: <Compatible />,
     heading: "compatible for every phones",
     para: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
   },
   {
-    svg: <Covers/>,
+    svg: <Covers />,
     heading: "Covers all networks",
     para: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
   },
   {
-    svg: <Installation/>,
+    svg: <Installation />,
     heading: "No installation required",
     para: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
   },
   {
-    svg: <Private/>,
+    svg: <Private />,
     heading: "Totally private",
     para: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
   },

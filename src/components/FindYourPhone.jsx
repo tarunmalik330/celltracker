@@ -6,7 +6,7 @@ import CommonBtn from "./common/CommonBtn";
 const FindYourPhone = () => {
   return (
     <>
-      <div className="sm:pt-[248px] pt-[270px] relative">
+      <div id='foundphone' className="sm:pt-[248px] pt-[270px] relative">
         <img
           src={vectorImg1}
           alt="vectorimg"
