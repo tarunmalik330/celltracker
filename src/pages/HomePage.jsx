@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import Footer from "../components/common/Footer";
+import Footer from "../components/Footer";
 import FindYourPhone from "../components/FindYourPhone";
 import Joincompanies from "../components/Joincompanies";
 import Celltrackers from "../components/Celltrackers";
