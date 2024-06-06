@@ -11,6 +11,8 @@ const HowItWork = () => {
   return (
     <div className="pb-[45px] sm:mt-[98px] mt-[85px] sm:mb-0 xl:mb-[45px] relative ">
       <img
+        width={106}
+        height={113}
         src={vectorImg1}
         alt="vectorimg"
         className="left-0 bottom-[-6%] md:bottom-[-5%] lg:bottom-0 xl:bottom-[-14%] max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute pointer-events-none"

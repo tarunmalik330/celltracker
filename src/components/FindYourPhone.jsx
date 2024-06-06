@@ -8,6 +8,8 @@ const FindYourPhone = () => {
     <>
       <div id="foundphone" className="sm:pt-[248px] pt-[270px] relative">
         <img
+          width={106}
+          height={113}
           src={vectorImg1}
           alt="vectorimg"
           className="left-0 top-[5%] lg:top-[56%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute sm:block hidden pointer-events-none"

@@ -24,11 +24,15 @@ const CreateYourAccount = () => {
   return (
     <div className="xl:pt-[210px] sm:pt-[100px] pt-[100px] relative">
       <img
+        width={106}
+        height={113}
         src={vectorimg1}
         alt="vectorimg1"
         className="absolute w-full sm:max-w-[106px] max-w-[41px] left-0 sm:top-[22%] top-[4%] pointer-events-none"
       />
       <img
+        width={106}
+        height={113}
         src={vectorimg2}
         alt="vectorimg2"
         className="absolute w-full sm:max-w-[106px] max-w-[41px] right-0 sm:bottom-[11%] bottom-[-6%] pointer-events-none"
@@ -38,15 +42,27 @@ const CreateYourAccount = () => {
         alt="layer"
         className="absolute sm:top-[-67px] -top-[30px] max-sm:h-[65px] w-full z-10 h-[181px] pointer-events-none"
       />
-      <div id="Login" className="container sm:px-3 px-6 mx-auto custom_container relative z-10">
-        <h2 className="capitalize text-blue sm:text-5xl text-2lg sm:leading-xs leading-xxs font-light text-center mb-2" data-aos="fade-up">
+      <div
+        id="Login"
+        className="container sm:px-3 px-6 mx-auto custom_container relative z-10"
+      >
+        <h2
+          className="capitalize text-blue sm:text-5xl text-2lg sm:leading-xs leading-xxs font-light text-center mb-2"
+          data-aos="fade-up"
+        >
           Create your <span className="font-extrabold"> account</span>
         </h2>
-        <p className="leading-normal sm:text-base text-sm text-black opacity-70 font-normal text-center" data-aos="fade-up">
+        <p
+          className="leading-normal sm:text-base text-sm text-black opacity-70 font-normal text-center"
+          data-aos="fade-up"
+        >
           Join now and protect your family's phones
         </p>
         <div className="flex flex-row items-center flex-wrap lg:pt-[72px] sm:pt-[50px] pt-[33.7px] gap-[37px] xl:gap-0">
-          <div className="lg:w-5/12 w-full flex flex-col max-lg:justify-center max-lg:items-center" data-aos="fade-right">
+          <div
+            className="lg:w-5/12 w-full flex flex-col max-lg:justify-center max-lg:items-center"
+            data-aos="fade-right"
+          >
             <p className="leading-sm text-blue sm:text-xxs text-2xl font-light mb-[26px]">
               Get a <span className="font-extrabold">24 hour</span> trial!
             </p>

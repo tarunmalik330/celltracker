@@ -36,6 +36,8 @@ const Hero = () => {
           >
             <div className="relative">
               <img
+                width={106}
+                height={113}
                 src={vectorImg1}
                 alt="vector-img"
                 className="absolute left-[-15px] bottom-[-7px] max-w-[39px]"

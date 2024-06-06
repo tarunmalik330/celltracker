@@ -8,6 +8,8 @@ const Footer = () => {
     <>
       <div className="lg:pt-[102px] sm:pt-[70px] pt-[58px] relative">
         <img
+          width={106}
+          height={113}
           src={vectorImg2}
           alt="vectorimg"
           className="right-0 bottom-[19%] lg:bottom-[13%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute pointer-events-none"
