@@ -56,8 +56,8 @@ const NavBar = () => {
           </button>
           <button aria-label="opennavbtn" onClick={opennav} className="lg:hidden relative z-[4]">
             {nav ? (
-              <div className="flex lg:hidden flex-col relative z-[40px] justify-between w-[18px] h-[17px] cursor-pointer">
-                <span className="bg-black w-[11px] h-[2px] sm:w-[25px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 translate-y-0 -bottom-[11px]"></span>
+              <div className="flex lg:hidden flex-col relative z-[40px] justify-center items-center w-[18px] h-[17px] cursor-pointer">
+                <span className="bg-black w-[11px] h-[2px] sm:w-[25px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 translate-y-0 bottom-[2px]"></span>
                 <span className="bg-black w-[11px] sm:w-[25px] h-[2px] relative z-50  transition-all ease-linear duration-300 rotate-[-45deg] translate-x-0 translate-y-1 bottom-[8px]"></span>
               </div>
             ) : (

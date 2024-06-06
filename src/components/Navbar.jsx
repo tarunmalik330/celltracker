@@ -25,7 +25,7 @@ const Navbar = () => {
             {nav ? <Navlogo2 /> : <Navlogo />}
           </a>
           <ul
-            className={`flex items-center gap-[24px] duration-300 max-lg:fixed max-lg:w-full max-lg:h-full max-lg:justify-start max-lg:pt-[120px] max-lg:flex-col max-lg:z-[3] max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:bg-white ${
+            className={`flex items-center gap-[24px] max-lg:fixed max-lg:w-full max-lg:h-full max-lg:justify-start max-lg:pt-[120px] max-lg:flex-col max-lg:z-[3] max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:bg-white transition-all ease-linear duration-300 ${
               nav && "!left-0"
             }`}
           >
@@ -72,9 +72,9 @@ const Navbar = () => {
             className="lg:hidden relative z-[5]"
           >
             {nav ? (
-              <div className="flex lg:hidden flex-col relative z-50 justify-between w-[18px] h-[17px] cursor-pointer">
-                <span className="bg-black w-[11px] h-[2px] sm:w-[25px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 translate-y-0 -bottom-[11px]"></span>
-                <span className="bg-black w-[11px] h-[2px] sm:w-[25px] relative z-50  transition-all ease-linear duration-300 rotate-[-45deg] translate-x-0 translate-y-1 bottom-[8px]"></span>
+              <div className="flex lg:hidden flex-col relative z-50 justify-center w-[18px] h-[17px] cursor-pointer">
+                <span className="bg-black w-[11px] h-[2px] sm:w-[25px] relative z-50 rotate-[45deg] translate-x-0 translate-y-0 bottom-[2px] transition-all ease-linear duration-300"></span>
+                <span className="bg-black w-[11px] h-[2px] sm:w-[25px] relative z-50 rotate-[-45deg] translate-x-0 translate-y-1 bottom-[8px] transition-all ease-linear duration-300"></span>
               </div>
             ) : (
               <div className="flex lg:hidden flex-col z-50 justify-between w-[24px] h-[24px] cursor-pointer relative">
