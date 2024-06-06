@@ -20,6 +20,8 @@ const FindYourPhone = () => {
                 data-aos="fade-right"
               >
                 <img
+                  width={606}
+                  height={669}
                   src={findphone}
                   alt="findphone"
                   className="lg:max-w-[609px] sm:max-w-[445px] min-[370px]:min-w-[380px] lg:h-[689px] sm:h-[507px] min-[370px]:h-[420px] h-[380px] w-full -translate-y-[24%] lg:-mb-[281px] sm:-mb-[110px] -mb-[110px] sm:mt-0 -mt-[50px]"
