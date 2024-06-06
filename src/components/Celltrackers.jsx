@@ -23,7 +23,7 @@ const Celltrackers = () => {
         alt="vectorimg"
         className="right-0 bottom-0 max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
       />
-      <div className="container custom_container mx-auto sm:px-3 px-6 relative z-1 sm:pt-[50px] pt-[100px]">
+      <div className="container custom_container mx-auto sm:px-3 px-6 relative z-1 sm:pt-[50px] pt-[110px]">
         <div className="flex justify-center items-center flex-col">
           <h2 className="font-light text-blue text-2lg sm:text-5xl sm:!leading-xs leading-xxs text-center mb-[12px] lg:mb-2">
             Advantages of{" "}
@@ -34,23 +34,21 @@ const Celltrackers = () => {
             sit elit rhoncus vestibulum fames libero id.
           </p>
         </div>
-        <div className="flex flex-row flex-wrap items-center justify-between sm:mb-[50px] mb-[24px] mt-[42px]">
+        <div className="flex flex-row flex-wrap items-center justify-between sm:mb-[50px] mb-[24px] sm:mt-[42px] mt-12">
           {cellTrackerData.map((data, index) => (
             <div
               key={index}
               className={`${
-                index === 1 || index === 3 ? "lg:mt-[23px]" : ""
+                index === 1 || index === 3 ? "lg:mt-[27px]" : ""
               } lg:w-[24%] sm:w-[48%] w-full mb-[18px] lg:mb-0`}
             >
-              <div className="lg:max-w-[271px] min-h-[184px] sm:min-h-[253px] bg-white p-[20px] shadow-[0px_16px_25.3px_0px_#00000014] border-[2px] border-solid border-lightSky rounded-[12px] hover:border-blue transition-all duration-300 ease-linear">
+              <div className="lg:max-w-[271px] h-[184px] sm:h-[253px] bg-white p-[20px] shadow-[0px_16px_25.3px_0px_#00000014] border-[2px] border-solid border-lightSky rounded-[12px] hover:border-blue transition-all duration-300 ease-linear">
                 <div>{data.svg}</div>
-                <h3 className="font-normal text-xl md:text-2xl !leading-sm text-blue sm:max-w-[231px] mb-[6px] mt-1">
+                <h3 className="font-normal text-xl md:text-2xl !leading-sm text-blue sm:max-w-[231px] mb-[6px] sm:mt-1 mt-4">
                   {data.heading}
                 </h3>
                 <p
-                  className={`${
-                    index === 0 ? "!leading-[144%]" : ""
-                  } sm:text-base text-sm font-normal !leading-normal sm:max-w-[231px] text-lghtGrey`}
+                  className='sm:text-base text-sm font-normal sm:max-w-[231px] leading-normal text-lghtGrey'
                 >
                   {data.para}
                 </p>

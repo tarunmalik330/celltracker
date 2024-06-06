@@ -29,7 +29,8 @@ const NavBar = () => {
               <li key={index}>
                 <Link
                   to="/"
-                  href="/"
+                  onClick={() => setnav(false)}
+                  href={data.path}
                   className="text-black lg:text-white text-base font-normal relative z-[1] after:w-0 after:bg-white after:h-[2px] after:bottom-[-2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   {data.link}

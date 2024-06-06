@@ -481,8 +481,7 @@ export const Arrow = () => {
 export const Location = () => {
   return (
     <svg
-      width="54"
-      height="49"
+      className="sm:w-[54px] sm:h-[54px] w-[41px] h-[37px]"
       viewBox="0 0 54 49"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -515,8 +514,7 @@ export const Location = () => {
 export const Android = () => {
   return (
     <svg
-      width="56"
-      height="50"
+      className="sm:w-[56px] sm:h-[50px] w-[35.34px] h-[40.39px]"
       viewBox="0 0 56 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -569,8 +567,7 @@ export const Android = () => {
 export const Simple = () => {
   return (
     <svg
-      width="49"
-      height="44"
+      className="sm:w-[49px] sm:h-[44px] w-[38px] h-[34px]"
       viewBox="0 0 49 44"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -611,8 +608,7 @@ export const Simple = () => {
 export const Family = () => {
   return (
     <svg
-      width="48"
-      height="44"
+      className="sm:w-12 sm:h-[44px] w-[37px] h-[34px]"
       viewBox="0 0 48 44"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -52,6 +52,7 @@ module.exports = {
         needBg: "url('./assets/images/png/needBgimg.png')",
         heroBoxbg:
           "linear-gradient(0deg, #FFFFFF, #FFFFFF),linear- gradient(7.95deg, rgba(0, 181, 216, 0.05) - 3.4 %, rgba(0, 0, 128, 0.05) 114.66 %)",
+        headersmbg: "url('./assets/images/png/lending-bgheader-sm.png')",
       },
     },
     plugins: [],

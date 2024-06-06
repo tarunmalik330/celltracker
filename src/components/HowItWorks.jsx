@@ -11,14 +11,14 @@ const HowItWorks = () => {
       <img
         src={vectorImg1}
         alt="vectorimg"
-        className="left-0 top-[9%] lg:top-[17%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
+        className="left-0 top-[9%] lg:top-[13%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
       />
       <img
         src={vectorImg2}
         alt="vectorimg"
         className="right-0 bottom-0 lg:bottom-[-3%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute z-[2]"
       />
-      <div className="container custom_container mx-auto sm:px-3 px-6 lg:mt-[104px] sm:mt-[90px] mt-[74px] sm:pb-[57px] pb-[68px]">
+      <div className="container custom_container mx-auto sm:px-3 px-6 lg:mt-[104px] sm:mt-[90px] mt-[74px] sm:pb-[57px] pb-[90px]">
         <div className="flex justify-center items-center flex-col">
           <h2 className="font-light text-blue text-2lg sm:text-5xl sm:leading-xs leading-xxs text-center mb-[12px] lg:mb-2">
             How it <span className="font-extrabold">works</span>
@@ -27,45 +27,56 @@ const HowItWorks = () => {
             Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi
             sit elit rhoncus vestibulum fames libero id.
           </p>
-          <div className="flex flex-row flex-wrap justify-between items-center mt-[59px] sm:mt-[70px] lg:mt-[100px]">
-            <div className="lg:w-[50%] w-full">
-              <img
-                src={worksimg}
-                alt="worksimg"
-                className="w-full max-w-[680px]"
-              />
-            </div>
-            <div className="lg:w-[49%] w-full flex flex-col lg:items-end mt-[50px] lg:mt-0">
-              {worksData.map((data, index) => (
-                <div
-                  key={index}
-                  className="lg:max-w-[536px] min-h-[240px] lg:min-h-[273px] bg-white p-[20px] shadow-[0px_16px_25.3px_0px_#00000014] border-[1px] border-solid border-lightSky hover:border-blue transition-all duration-300 ease-linear rounded-[12px] mb-[18px]"
+        </div>
+        <div className="flex flex-row flex-wrap justify-center lg:justify-end relative items-center mt-[40px] sm:mt-[70px] lg:mt-[100px]">
+          <img
+            src={worksimg}
+            alt="worksimg"
+            className="w-full max-w-[510px] xl:max-w-[680px] absolute xl:left-[-7%] left-0 lg:block hidden"
+          />
+          <div className="lg:w-[50%] w-full lg:hidden flex justify-center">
+            <img
+              src={worksimg}
+              alt="worksimg"
+              className="w-full min-w-[390px] sm:max-w-[510px]"
+            />
+          </div>
+          <div className="lg:w-[49%] w-full flex flex-col lg:items-end mt-[50px] lg:mt-0">
+            {worksData.map((data, index) => (
+              <div
+                key={index}
+                className={`${
+                  index === 0 ? "sm:px-5 px-[18px]" : ""
+                } lg:max-w-[536px] max-[576px]:h-[303px] min-h-[240px] lg:min-h-[273px] bg-white p-5 shadow-[0px_16px_25.3px_0px_#00000014] border-[1px] border-solid border-lightSky hover:border-blue transition-all duration-300 ease-linear rounded-[12px] mb-[18px]`}
+              >
+                <div className="max-sm:mb-4">{data.svg}</div>
+                <h3
+                  className={`${
+                    index === 1 ? "mt-[6.5px]" : ""
+                  } font-normal text-xl md:text-2xl lg:max-w-[465px] !leading-sm text-blue mb-[6px]`}
                 >
-                  <div className="max-sm:mb-2">{data.svg}</div>
-                  <h3
-                    className={`${
-                      index === 1 ? "mt-[6.5px]" : ""
-                    } font-normal text-xl md:text-2xl lg:max-w-[465px] !leading-sm text-blue mb-[6px]`}
-                  >
-                    {data.heading}
-                  </h3>
-                  <p className="sm:text-base text-sm font-normal !leading-normal text-lghtGrey">
-                    {data.para}
-                  </p>
-                </div>
-              ))}
-            </div>
+                  {data.heading}
+                </h3>
+                <p
+                  className={`${
+                    index === 1 ? "max-sm:!max-w-[275px]" : ""
+                  } sm:text-base text-sm font-normal !leading-normal text-lghtGrey`}
+                >
+                  {data.para}
+                </p>
+              </div>
+            ))}
           </div>
-          <div className="flex gap-[14px] sm:flex-row flex-col max-sm:w-full sm:pt-[70px] pt-[22px]">
-            <CommonBtn
-              btnName="Create your Account"
-              className="capitalize bg-blue text-white py-[16.5px] px-[27.2px]"
-            />
-            <CommonBtn
-              btnName="Got more Question?"
-              className="border border-solid !border-blue py-[16.5px] px-[27.3px]"
-            />
-          </div>
+        </div>
+        <div className="flex justify-center items-center gap-[14px] sm:flex-row flex-col max-sm:w-full sm:pt-[70px] pt-[22px]">
+          <CommonBtn
+            btnName="Create your Account"
+            className="capitalize bg-blue text-white py-[16.5px] px-[27.2px] max-sm:w-full"
+          />
+          <CommonBtn
+            btnName="Got more Question?"
+            className="border border-solid !border-blue py-[16.5px] px-[27.3px] max-sm:w-full"
+          />
         </div>
       </div>
     </div>

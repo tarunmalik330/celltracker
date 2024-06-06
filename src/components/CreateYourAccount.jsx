@@ -38,7 +38,7 @@ const CreateYourAccount = () => {
         alt="layer"
         className="absolute sm:top-[-67px] -top-[30px] max-sm:h-[65px] w-full z-10 h-[181px]"
       />
-      <div className="container sm:px-3 px-6 mx-auto custom_container relative z-10">
+      <div id="Login" className="container sm:px-3 px-6 mx-auto custom_container relative z-10">
         <h2 className="capitalize text-blue sm:text-5xl text-2lg sm:leading-xs leading-xxs font-light text-center mb-2">
           Create your <span className="font-extrabold"> account</span>
         </h2>
@@ -87,7 +87,7 @@ const CreateYourAccount = () => {
             </div>
           </div>
           <div className="xl:w-7/12 lg:w-6/12 w-full">
-            <div className="pb-9 border border-solid border-lighblue shadow-[0px_16px_25.3px_0px_#00000014] rounded-xl">
+            <div className="sm:pb-9 pb-[42px] border border-solid border-lighblue shadow-[0px_16px_25.3px_0px_#00000014] rounded-xl">
               <div className="bg-blue p-[20px] rounded-tl-xl rounded-tr-xl flex justify-between">
                 <p className="capitalize text-white sm:text-xxs text-2xl leading-sm flex gap-3 items-center">
                   <CardTongelSvg className="sm:w-[30px] sm:h-[30px] h-5 w-5" />

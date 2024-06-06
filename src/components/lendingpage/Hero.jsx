@@ -14,27 +14,42 @@ const Hero = () => {
     }
   };
   return (
-    <div className='bg-heroBg max-lg:min-h-screen lg:h-[810px] lg:bg-bgsize bg-cover bg-no-repeat relative'>
+    <div className="sm:bg-heroBg bg-headersmbg max-lg:min-h-screen lg:h-[810px] lg:bg-bgsize bg-cover bg-no-repeat relative">
       <NavBar />
-      <div className="container custom_container mx-auto sm:px-3 px-6 mt-[56px] pb-[30px] lg:mt-[83px]">
+      <div
+        id="home"
+        className="container custom_container mx-auto sm:px-3 px-6 mt-[56px] pb-[30px] lg:mt-[83px]"
+      >
         <div className="flex flex-row flex-wrap items-center justify-center lg:justify-between relative">
           <div className="lg:block hidden">
-            <img src={heroImg} alt="heroImg" className="w-full absolute right-0 xl:right-[-3%] top-0 xl:max-w-[612px] max-w-[470px]" />
+            <img
+              src={heroImg}
+              alt="heroImg"
+              className="w-full absolute right-0 xl:right-[-3%] top-0 xl:max-w-[612px] max-w-[470px]"
+            />
           </div>
           <div className="bg-blueLight rounded-[12px] w-full max-w-[164px] md:max-w-[220px] lg:max-w-[247px] p-[16px_16px_16px_14px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-0 lg:bottom-[-80px] xl:bottom-[-48%] sm:bottom-[16%] lg:block hidden">
             <div className="relative">
-              <img src={vectorImg1} alt="vector-img" className='absolute left-[-15px] bottom-[-7px] max-w-[39px]' />
+              <img
+                src={vectorImg1}
+                alt="vector-img"
+                className="absolute left-[-15px] bottom-[-7px] max-w-[39px]"
+              />
               <div className="flex justify-between sm:pb-0 pb-[5px]">
                 <HeroLocation />
                 <p className="text-blue font-normal text-xl !leading-md">
                   Geolocation found!
                 </p>
               </div>
-              <p className='text-blue text-2xl font-semibold leading-md'>+44 633 427 390</p>
+              <p className="text-blue text-2xl font-semibold leading-md">
+                +44 633 427 390
+              </p>
               <p className="text-black font-normal text-sm md:text-base leading-normal md:leading-normal mb-3 md:mb-[14px] max-w-[216px]">
                 3 Succession Walk, Fish Island, London E3 2RX, United Kingdom
               </p>
-              <p className="font-light text-sm text-black flex justify-end mb-[1.6px]">June 02,2024   17:34</p>
+              <p className="font-light text-sm text-black flex justify-end mb-[1.6px]">
+                June 02,2024 17:34
+              </p>
             </div>
           </div>
           <div className="lg:w-[49%] w-full lg:mt-[56px]">
@@ -81,7 +96,11 @@ const Hero = () => {
           <div className="lg:w-[49%] md:w-[65%] sm:w-[70%] max-sm:max-w-[318px] w-full mt-[68px] lg:mt-0 relative">
             <div className="bg-blueLight rounded-[12px] w-full max-w-[205px] md:max-w-[220px] lg:max-w-[247px] p-[8px] md:p-[16px_16px_16px_14px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-[-4%] md:right-[-1%] sm:bottom-[16%] md:bottom-[1%] bottom-[-8%] lg:hidden block">
               <div className="relative">
-                <img src={vectorImg1} alt="vector-img" className='absolute left-[-8px] md:left-[-15px] bottom-0 md:bottom-[-7px] max-w-[22px] md:max-w-[39px]' />
+                <img
+                  src={vectorImg1}
+                  alt="vector-img"
+                  className="absolute left-[-8px] md:left-[-15px] bottom-0 md:bottom-[-7px] max-w-[22px] md:max-w-[39px]"
+                />
                 <div className="flex justify-between sm:pb-0 pb-[5px]">
                   <HeroLocation />
                   <p className="text-blue font-normal text-lg md:text-xl !leading-md">

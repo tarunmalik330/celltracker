@@ -6,12 +6,10 @@ import Joincompanies from "../components/Joincompanies";
 import Celltrackers from "../components/Celltrackers";
 import HowItWorks from "../components/HowItWorks";
 import CreateYourAccount from "../components/CreateYourAccount";
-// import Hero from "../components/lendingpage/Hero";
 
 const HomePage = () => {
   return (
-    <div>
-      {/* <Hero/> */}
+    <div className="overflow-hidden">
       <Header />
       <Celltrackers />
       <HowItWorks />
