@@ -22,7 +22,7 @@ import vectorimg2 from "../assets/images/webp/vectorImg2.webp";
 
 const CreateYourAccount = () => {
   return (
-    <div className="lg:pt-[210px] sm:pt-[180px] pt-[100px] relative">
+    <div className="xl:pt-[210px] sm:pt-[100px] pt-[100px] relative">
       <img
         src={vectorimg1}
         alt="vectorimg1"
@@ -38,8 +38,11 @@ const CreateYourAccount = () => {
         alt="layer"
         className="absolute sm:top-[-67px] -top-[30px] max-sm:h-[65px] w-full z-10 h-[181px]"
       />
-      <div id="Login" className="container sm:px-3 px-6 mx-auto custom_container relative z-10">
-        <h2 className="capitalize text-blue sm:text-5xl text-2lg sm:leading-xs leading-xxs font-light text-center mb-2">
+      <div
+        id="Login"
+        className="container sm:px-3 px-6 mx-auto custom_container relative z-10"
+      >
+        <h2 className="capitalize text-blue text-2lg sm:text-4xl xl:text-5xl sm:leading-xs leading-xxs font-light text-center mb-2">
           Create your <span className="font-extrabold"> account</span>
         </h2>
         <p className="leading-normal sm:text-base text-sm text-black opacity-70 font-normal text-center">

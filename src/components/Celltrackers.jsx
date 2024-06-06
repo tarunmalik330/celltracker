@@ -23,9 +23,9 @@ const Celltrackers = () => {
         alt="vectorimg"
         className="right-0 bottom-0 max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
       />
-      <div className="container custom_container mx-auto sm:px-3 px-6 relative z-1 sm:pt-[50px] pt-[110px]">
+      <div className="container custom_container mx-auto sm:px-3 px-6 relative z-1 xl:pt-[50px] sm:pt-[30px] pt-[110px]">
         <div className="flex justify-center items-center flex-col">
-          <h2 className="font-light text-blue text-2lg sm:text-5xl sm:!leading-xs leading-xxs text-center mb-[12px] lg:mb-2">
+          <h2 className="font-light text-blue text-2lg sm:text-4xl xl:text-5xl sm:!leading-xs leading-xxs text-center mb-[12px] lg:mb-2">
             Advantages of{" "}
             <span className="font-extrabold leading-xs">Celltracker</span>
           </h2>
@@ -47,9 +47,7 @@ const Celltrackers = () => {
                 <h3 className="font-normal text-xl md:text-2xl !leading-sm text-blue sm:max-w-[231px] mb-[6px] sm:mt-1 mt-4">
                   {data.heading}
                 </h3>
-                <p
-                  className='sm:text-base text-sm font-normal sm:max-w-[231px] leading-normal text-lghtGrey'
-                >
+                <p className="sm:text-base text-sm font-normal sm:max-w-[231px] leading-normal text-lghtGrey">
                   {data.para}
                 </p>
               </div>

@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { navData } from "../common/Helper";
 import { Navlogo, Navlogo2 } from "../common/Icon";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [nav, setnav] = useState(false);
-  function showNav() {
+  function opennav() {
     setnav(!nav);
   }
   if (nav) {
@@ -26,13 +27,14 @@ const NavBar = () => {
           >
             {navData.map((data, index) => (
               <li key={index}>
-                <a
+                <Link
+                  to="/"
                   onClick={() => setnav(false)}
                   href={data.path}
                   className="text-black lg:text-white text-base font-normal relative z-[1] after:w-0 after:bg-white after:h-[2px] after:bottom-[-2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   {data.link}
-                </a>
+                </Link>
               </li>
             ))}
             <button className=" lg:hidden bg-blue text-base leading-[26.59px] font-semibold text-white py-4 px-7 rounded-[4px] hover:text-blue hover:bg-white hover:border-blue border-transparent border-2 w-full max-w-[314px] transition-all ease-linear duration-300">
@@ -42,7 +44,7 @@ const NavBar = () => {
           <button className="text-blue lg:block hidden text-base leading-[26.59px] font-semibold bg-white py-[14px] md:py-[15.22px] px-[27.07px] rounded-[4px] border-solid border-transparent border hover:border-white hover:bg-blue hover:text-white transition-all ease-linear duration-300">
             Log In
           </button>
-          <button onClick={showNav} className="lg:hidden relative z-[4]">
+          <button onClick={opennav} className="lg:hidden relative z-[4]">
             {nav ? (
               <div className="flex lg:hidden flex-col relative z-[40px] justify-between w-[18px] h-[17px] cursor-pointer">
                 <span className="bg-black w-[11px] h-[2px] sm:w-[25px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 translate-y-0 -bottom-[11px]"></span>

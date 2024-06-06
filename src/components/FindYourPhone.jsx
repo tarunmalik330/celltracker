@@ -6,7 +6,7 @@ import CommonBtn from "./common/CommonBtn";
 const FindYourPhone = () => {
   return (
     <>
-      <div className="sm:pt-[248px] pt-[270px] relative">
+      <div className="xl:pt-[248px] sm:pt-[200px] pt-[270px] relative">
         <img
           src={vectorImg1}
           alt="vectorimg"
@@ -14,7 +14,7 @@ const FindYourPhone = () => {
         />
         <div className="container sm:px-3 px-6 custom_container mx-auto">
           <div className="rounded-xl">
-            <div className="flex rounded-xl xl:bg-cover bg-center bg-no-repeat bg-find-phone-bg flex-row  flex-wrap items-center lg:pb-0 md:pb-20 sm:pb-16 pb-[46px]">
+            <div className="flex rounded-xl bg-center bg-no-repeat bg-find-phone-bg flex-row  flex-wrap items-center lg:pb-0 md:pb-20 sm:pb-16 pb-[46px]">
               <div className="lg:w-[53%] w-full flex justify-center">
                 <img
                   src={findphone}
@@ -23,10 +23,10 @@ const FindYourPhone = () => {
                 />
               </div>
               <div className="lg:w-[36%] w-full flex flex-col items-center">
-                <h2 className="text-white font-light sm:text-5xl text-2lg  leading-xs lg:mb-2 mb-3">
+                <h2 className="text-white font-light text-2lg sm:text-4xl xl:text-5xl leading-xs lg:mb-2 mb-3">
                   Find your <span className="font-extrabold">phone</span>
                 </h2>
-                <p className="text-white leading-normal text-base font-normal text-center lg:mb-8 mb-7 lg:px-0 px-2">
+                <p className="text-white leading-normal text-base font-normal text-center lg:mb-8 mb-7 lg:px-0 sm:px-24 px-2">
                   Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper
                   nisi sit elit rhoncus vestibulum fames libero id.
                 </p>

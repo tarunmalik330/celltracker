@@ -18,9 +18,9 @@ const HowItWorks = () => {
         alt="vectorimg"
         className="right-0 bottom-0 lg:bottom-[-3%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute z-[2]"
       />
-      <div className="container custom_container mx-auto sm:px-3 px-6 lg:mt-[104px] sm:mt-[90px] mt-[74px] sm:pb-[57px] pb-[90px]">
+      <div className="container custom_container mx-auto sm:px-3 px-6 xl:mt-[104px] sm:mt-[90px] mt-[74px] xl:pb-[57px] sm:pb-8 pb-[90px]">
         <div className="flex justify-center items-center flex-col">
-          <h2 className="font-light text-blue text-2lg sm:text-5xl sm:leading-xs leading-xxs text-center mb-[12px] lg:mb-2">
+          <h2 className="font-light text-blue text-2lg sm:text-4xl xl:text-5xl sm:leading-xs leading-xxs text-center mb-[12px] lg:mb-2">
             How it <span className="font-extrabold">works</span>
           </h2>
           <p className="text-grey text-base font-normal sm:!leading-normal leading-xl md:max-w-[472px] text-center">
@@ -28,7 +28,7 @@ const HowItWorks = () => {
             sit elit rhoncus vestibulum fames libero id.
           </p>
         </div>
-        <div className="flex flex-row flex-wrap justify-center lg:justify-end relative items-center mt-[40px] sm:mt-[70px] lg:mt-[100px]">
+        <div className="flex flex-row flex-wrap justify-center lg:justify-end relative items-center mt-[40px] sm:mt-[20px] lg:mt-[100px]">
           <img
             src={worksimg}
             alt="worksimg"
@@ -68,7 +68,7 @@ const HowItWorks = () => {
             ))}
           </div>
         </div>
-        <div className="flex justify-center items-center gap-[14px] sm:flex-row flex-col max-sm:w-full sm:pt-[70px] pt-[22px]">
+        <div className="flex justify-center items-center gap-[14px] sm:flex-row flex-col max-sm:w-full xl:pt-[70px] sm:mt-12 mt-[22px]">
           <CommonBtn
             btnName="Create your Account"
             className="capitalize bg-blue text-white py-[16.5px] px-[27.2px] max-sm:w-full"
