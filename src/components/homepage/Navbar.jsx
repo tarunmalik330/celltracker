@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Navlogo, Navlogo2, Quick } from "./common/Icon";
-import CommonBtn from "./common/CommonBtn";
+import { Navlogo, Navlogo2, Quick } from "../common/Icon";
+import CommonBtn from "../common/CommonBtn";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -18,6 +18,7 @@ const Navbar = () => {
       <div className="container custom_container px-6 sm:px-3 mx-auto sm:py-[30px] lg:pt-[21px] pt-8 lg:pb-0 pb-[10px]">
         <div className="flex justify-between items-center">
           <a
+            rel="noreferrer"
             href="https://celltracker.vercel.app/"
             className="relative z-[4]"
             aria-label="Navlogo"
@@ -43,6 +44,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
+                rel="noreferrer"
                 aria-label="log in"
                 onClick={() => setnav(false)}
                 href="#Login"

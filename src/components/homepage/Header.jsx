@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import headerImg from "../assets/images/webp/heroImage.webp";
-import Navbar from "../components/Navbar";
-import { Arrow, India, Locate, Needhelp } from "./common/Icon";
-import CommonBtn from "./common/CommonBtn";
+import headerImg from "../../assets/images/webp/heroImage.webp";
+import Navbar from "./Navbar";
+import { Arrow, India, Locate, Needhelp } from "../common/Icon";
+import CommonBtn from "../common/CommonBtn";
 
 const Header = () => {
   const [value, setValue] = useState("");

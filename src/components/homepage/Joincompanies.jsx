@@ -1,7 +1,7 @@
 import React from "react";
-import CommonBtn from "./common/CommonBtn";
-import { joinCompanies } from "./common/Helper";
-import toplayer from "../assets/images/webp/companies-toplayer.webp";
+import CommonBtn from "../common/CommonBtn";
+import { joinCompanies } from "../common/Helper";
+import toplayer from "../../assets/images/webp/companies-toplayer.webp";
 
 const Joincompanies = () => {
   return (
@@ -12,7 +12,10 @@ const Joincompanies = () => {
         className="absolute top-0 w-full -mt-[1px]"
       />
       <div className="containers sm:px-3 px-6 custom_container mx-auto lg:pt-[222px] md:pt-[180px] sm:pt-[150px] pt-[100px]">
-        <h2 className="text-white lg:text-5xl sm:text-4xl text-2lg text-center font-light sm:leading-xs leading-xxs md:max-w-[664px] mx-auto lg:pb-[109px] sm:pb-[80px] pb-[65px] max-sm:max-w-[295px]" data-aos="fade-up">
+        <h2
+          className="text-white lg:text-5xl sm:text-4xl text-2lg text-center font-light sm:leading-xs leading-xxs md:max-w-[664px] mx-auto lg:pb-[109px] sm:pb-[80px] pb-[65px] max-sm:max-w-[295px]"
+          data-aos="fade-up"
+        >
           Join <span className="font-extrabold">70,000+ companies</span> doing
           time tracking the easy way
         </h2>
@@ -25,7 +28,7 @@ const Joincompanies = () => {
                   id === 1
                     ? "max-w-[527px] sm:pt-[63px] sm:pb-[34px] pt-[60px] pb-[30px] lg:-translate-x-3"
                     : "max-w-[467px] max-sm:py-[75.5px] py-[34px]"
-                  }`}
+                }`}
               >
                 <h3 className="text-blue font-normal text-xxs leading-sm mb-[18px]">
                   Cell Tracker

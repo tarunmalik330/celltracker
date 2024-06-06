@@ -18,6 +18,7 @@ const NavBar = () => {
       <div className="container custom_container px-6 sm:px-3 mx-auto py-[20.72px] max-sm:pt-8 max-sm:pb-[10px]">
         <div className="flex justify-between items-center">
           <a
+            rel="noreferrer"
             href="https://celltracker.vercel.app/"
             className="relative z-[4]"
             aria-label="navlogo"
@@ -54,7 +55,11 @@ const NavBar = () => {
           >
             Log In
           </button>
-          <button aria-label="opennavbtn" onClick={opennav} className="lg:hidden relative z-[4]">
+          <button
+            aria-label="opennavbtn"
+            onClick={opennav}
+            className="lg:hidden relative z-[4]"
+          >
             {nav ? (
               <div className="flex lg:hidden flex-col relative z-[40px] justify-center items-center w-[18px] h-[17px] cursor-pointer">
                 <span className="bg-black w-[11px] h-[2px] sm:w-[25px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 translate-y-0 bottom-[2px]"></span>
