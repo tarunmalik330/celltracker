@@ -60,11 +60,11 @@ const Hero = () => {
             </div>
           </div>
           <div className="lg:w-[49%] w-full lg:mt-[56px]" data-aos="fade-right">
-            <h1 className="text-white text-xxs sm:text-6xl xl:text-md !leading-xs font-light xl:max-w-[553px] mb-2 lg:text-start text-center">
+            <h1 className="text-white text-xxs sm:text-6xl xl:text-md leading-xxs sm:!leading-xs font-light xl:max-w-[553px] sm:mb-2 mb-3 lg:text-start text-center">
               <span className="font-extrabold">Locate any phone, </span>
               anywhere, anytime
             </h1>
-            <p className="font-normal text-white text-base leading-normal lg:max-w-[553px] mb-[32px] lg:mb-[24px] lg:text-start text-center md:px-14 lg:px-0">
+            <p className="font-normal text-white text-sm sm:text-base leading-normal lg:max-w-[553px] mb-[32px] lg:mb-[24px] lg:text-start text-center md:px-14 lg:px-0">
               Lorem ipsum dolor sit amet consectetur. Nisl vitae arcu volutpat
               nunc cursus. Lacus ornare aliquet condimentum elementum elementum
               nisl nibh sed. Egestas aliquam id quam nunc.
