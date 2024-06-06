@@ -4,9 +4,18 @@ import HomePage from "./pages/HomePage";
 import LandingPage from "./pages/LandingPage";
 import { useState, useEffect } from "react";
 import backtotop from "./assets/images/webp/back-to-top.webp";
-import HowItWork from "./components/lendingpage/HowItWork";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  //----------------------AOS-Animation-----------------
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 800,
+    });
+    AOS.refresh();
+  }, []);
   // ----------------backToTop----------------
   const top = () => {
     document.documentElement.scrollTop = 0;

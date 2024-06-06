@@ -13,17 +13,17 @@ const HowItWork = () => {
       <img src={vectorImg1} alt="vectorimg" className='left-0 bottom-[-6%] md:bottom-[-5%] lg:bottom-[-30%] xl:bottom-[-14%] max-w-[41px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[106px] w-full absolute' />
       <div id='works' className="container custom_container mx-auto px-6 sm:px-3">
         <div className="md:mt-[98px] mt-[61px]">
-          <h2 className="text-blue sm:text-5xl text-2lg font-light leading-xs text-center">
+          <h2 className="text-blue sm:text-5xl text-2lg font-light leading-xs text-center" data-aos="fade-up">
             How it
             <span className="font-extrabold"> works</span>
           </h2>
-          <p className="max-w-[472px] max-sm:max-w-[277px] mx-auto font-normal text-sm md:text-base leading-normal text-center text-black opacity-70 mt-2">
+          <p className="max-w-[472px] max-sm:max-w-[277px] mx-auto font-normal text-sm md:text-base leading-normal text-center text-black opacity-70 mt-2" data-aos="fade-up">
             Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi
             sit elit rhoncus vestibulum fames libero id.
           </p>
         </div>
         <div className="flex flex-wrap mt-[46px] md:mt-[56px] relative z-[1] justify-center  px-9 xl:px-0">
-          <div className="w-full md:w-[40%] lg:w-[28%] xl:w-[22%] flex justify-center lg:justify-start">
+          <div className="w-full md:w-[40%] lg:w-[28%] xl:w-[22%] flex justify-center lg:justify-start" data-aos="zoom-in-up">
             <div className="flex flex-col max-w-[267px] min-h-[233px] md:min-h-[298px] pt-7 px-2 items-center pb-8">
               <span>
                 <PhoneNumber />
@@ -42,7 +42,7 @@ const HowItWork = () => {
               <RoadmapLine />
             </span>
           </div>
-          <div className="w-full md:w-[40%] lg:w-[28%] xl:w-[22%] flex justify-center">
+          <div className="w-full md:w-[40%] lg:w-[28%] xl:w-[22%] flex justify-center" data-aos="zoom-in-up">
             <div className="flex flex-col max-w-[267px] min-h-[233px] md:min-h-[298px] pt-[28px] items-center pb-8">
               <span>
                 <Message />
@@ -62,7 +62,7 @@ const HowItWork = () => {
               <RoadmapLine />
             </span>
           </div>
-          <div className="w-full md:w-[40%] lg:w-[28%] xl:w-[20%] flex justify-center lg:justify-end">
+          <div className="w-full md:w-[40%] lg:w-[28%] xl:w-[20%] flex justify-center lg:justify-end" data-aos="zoom-in-up">
             <div className="flex flex-col max-w-[267px] min-h-[233px] md:min-h-[298px] pt-[28px] items-center pb-8">
               <span>
                 <ReceiveLocation />
