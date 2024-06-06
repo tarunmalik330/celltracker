@@ -38,6 +38,7 @@ const Header = () => {
                     </p>
                   </div>
                   <div className="flex items-center gap-[7px] w-full">
+                    <label className="hidden"></label>
                     <input
                       className="w-full pr-[5px] text-black outline-none"
                       type="tel"
