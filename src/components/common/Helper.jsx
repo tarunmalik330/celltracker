@@ -40,7 +40,7 @@ export const joinCompanies = [
 export const footerLink = [
   {
     link: "Help",
-    path: "#help",
+    path: "#home",
   },
   {
     link: "Contact us",
