@@ -23,12 +23,17 @@ const Hero = () => {
         <div className="flex flex-row flex-wrap items-center justify-center lg:justify-between relative">
           <div className="lg:block hidden">
             <img
+              width={612}
+              height={599}
               src={heroImg}
               alt="heroImg"
               className="w-full absolute right-0 xl:right-[-3%] top-0 xl:max-w-[612px] max-w-[470px]"
             />
           </div>
-          <div className="bg-blueLight rounded-[12px] w-full max-w-[164px] md:max-w-[220px] lg:max-w-[247px] p-[16px_16px_16px_14px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-0 lg:bottom-[-80px] xl:bottom-[-48%] sm:bottom-[16%] lg:block hidden" data-aos="fade-left">
+          <div
+            className="bg-blueLight rounded-[12px] w-full max-w-[164px] md:max-w-[220px] lg:max-w-[247px] p-[16px_16px_16px_14px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-0 lg:bottom-[-80px] xl:bottom-[-48%] sm:bottom-[16%] lg:block hidden"
+            data-aos="fade-left"
+          >
             <div className="relative">
               <img
                 src={vectorImg1}
@@ -93,7 +98,10 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="lg:w-[49%] md:w-[65%] sm:w-[70%] max-sm:max-w-[318px] w-full mt-[68px] lg:mt-0 relative" data-aos="fade-left">
+          <div
+            className="lg:w-[49%] md:w-[65%] sm:w-[70%] max-sm:max-w-[318px] w-full mt-[68px] lg:mt-0 relative"
+            data-aos="fade-left"
+          >
             <div className="bg-blueLight rounded-[12px] w-full max-w-[205px] md:max-w-[220px] lg:max-w-[247px] p-[8px] md:p-[16px_16px_16px_14px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-[-4%] md:right-[-1%] sm:bottom-[16%] md:bottom-[1%] bottom-[-8%] lg:hidden block">
               <div className="relative">
                 <img
