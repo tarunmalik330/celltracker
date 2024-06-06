@@ -33,11 +33,15 @@ function App() {
         onClick={() => top()}
         className={
           backToTop
-            ? "shadow-[0_5px_16px_rgba(225,_225,_225,_1)] fixed bottom-[3%] h-[50px] w-[50px] flex items-center justify-center backTopBtn rounded-[50px] bg-blue backToTop_animate cursor-pointer transition-all ease-linear duration-300 right-[2%] z-30"
+            ? "shadow-[0_5px_16px_rgba(225,_225,_225,_1)] fixed bottom-[3%] sm:h-[50px] sm:w-[50px] h-10 w-10 flex items-center justify-center backTopBtn rounded-[50px] bg-blue backToTop_animate cursor-pointer transition-all ease-linear duration-300 right-[2%] z-30"
             : "hidden"
         }
       >
-        <img src={backtotop} alt="backtotop" />
+        <img
+          src={backtotop}
+          alt="backtotop"
+          className="sm:w-8 sm:h-8 w-6 h-6"
+        />
       </div>
     </>
   );

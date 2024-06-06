@@ -23,18 +23,18 @@ const Celltrackers = () => {
         alt="vectorimg"
         className="right-0 bottom-0 max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute "
       />
-      <div className="container custom_container mx-auto sm:px-3 px-3 relative z-1 sm:pt-[50px] pt-[70px]">
+      <div className="container custom_container mx-auto sm:px-3 px-6 relative z-1 sm:pt-[50px] pt-[100px]">
         <div className="flex justify-center items-center flex-col">
           <h2 className="font-light text-blue text-2lg sm:text-5xl sm:!leading-xs leading-xxs text-center mb-[12px] lg:mb-2">
             Advantages of{" "}
             <span className="font-extrabold leading-xs">Celltracker</span>
           </h2>
-          <p className="text-grey text-base font-normal !leading-normal md:max-w-[472px] text-center">
+          <p className="text-grey text-base font-normal sm:!leading-normal leading-xl md:max-w-[472px] text-center">
             Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi
             sit elit rhoncus vestibulum fames libero id.
           </p>
         </div>
-        <div className="flex flex-row flex-wrap items-center justify-between mb-[50px] mt-[42px]">
+        <div className="flex flex-row flex-wrap items-center justify-between sm:mb-[50px] mb-[24px] mt-[42px]">
           {cellTrackerData.map((data, index) => (
             <div
               key={index}
@@ -50,7 +50,7 @@ const Celltrackers = () => {
                 <p
                   className={`${
                     index === 0 ? "!leading-[144%]" : ""
-                  } text-base font-normal !leading-normal sm:max-w-[231px] text-lghtGrey`}
+                  } sm:text-base text-sm font-normal !leading-normal sm:max-w-[231px] text-lghtGrey`}
                 >
                   {data.para}
                 </p>
@@ -61,7 +61,7 @@ const Celltrackers = () => {
         <div className="flex justify-center items-center">
           <CommonBtn
             btnName="Create your Account"
-            className="capitalize bg-blue text-white py-[16.5px] px-[27.2px]"
+            className="capitalize bg-blue text-white py-[16.5px] px-[27.2px] max-sm:w-full"
           />
         </div>
       </div>

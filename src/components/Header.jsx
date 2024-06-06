@@ -21,11 +21,11 @@ const Header = () => {
         <div className="container custom_container mx-auto sm:px-3 px-6 mt-[56px] pb-[30px] lg:mt-[63.86px]">
           <div className="flex flex-row flex-wrap items-center justify-center lg:justify-between">
             <div className="lg:w-[46%] w-full lg:mb-[70px] xl:mb-[140px]">
-              <h1 className="text-white text-xxs sm:text-6xl xl:text-md sm:!leading-xs leading-xxs font-light xl:max-w-[520px] mb-2 lg:text-start text-center">
+              <h1 className="text-white text-xxs sm:text-6xl xl:text-md sm:!leading-xs leading-xxs font-light xl:max-w-[520px] sm:mb-2 mb-3 lg:text-start text-center">
                 <span className="font-extrabold">Find the location</span> of any
                 phone by its number
               </h1>
-              <p className="font-normal text-white text-base leading-normal lg:max-w-[506px] mb-[32px] lg:mb-[24px] lg:text-start text-center md:px-14 lg:px-0">
+              <p className="font-normal text-white text-base sm:leading-normal leading-xl lg:max-w-[506px] mb-[32px] lg:mb-[24px] lg:text-start text-center md:px-14 lg:px-0">
                 Add phones to your account & track them when neededAdd phones to
                 your account & track them when needed
               </p>
@@ -64,7 +64,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-[49%] md:w-[65%] sm:w-[70%] max-sm:max-w-[420px] w-full mt-[40px] lg:mt-0 relative">
+            <div className="lg:w-[49%] md:w-[65%] sm:w-[70%] max-sm:max-w-[420px] w-full sm:mt-[40px] mt-[22.18px] lg:mt-0 relative">
               <div className="bg-needBg bg-cover bg-no-repeat rounded-tl-[12px] w-full rounded-br-[12px] max-w-[164px] md:max-w-[220px] lg:max-w-[280px] p-[8px] sm:p-[12px] lg:p-[18.25px] shadow-[0px_0px_24.6px_0px_#00000059] absolute right-0 md:right-[-5%] lg:right-0 lg:bottom-[22%] sm:bottom-[16%] md:bottom-[19%] bottom-[5%]">
                 <div className="flex justify-between sm:pb-0 pb-[5px]">
                   <p className="text-sky font-bold text-xl md:text-2xl !leading-md">
@@ -82,7 +82,11 @@ const Header = () => {
                   />
                 </div>
               </div>
-              <img src={headerImg} alt="headerImg" className="w-full " />
+              <img
+                src={headerImg}
+                alt="headerImg"
+                className="w-full max-sm:max-w-[320px]"
+              />
             </div>
           </div>
         </div>

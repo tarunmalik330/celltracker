@@ -36,6 +36,7 @@ module.exports = {
         sm: "120%",
         md: "167%",
         lg: "169%",
+        xl: "132%",
       },
       backgroundImage: {
         bluegradient:

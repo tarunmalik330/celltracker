@@ -6,7 +6,7 @@ import CommonBtn from "./common/CommonBtn";
 const FindYourPhone = () => {
   return (
     <>
-      <div className="sm:pt-[248px] pt-[210px] relative">
+      <div className="sm:pt-[248px] pt-[260px] relative">
         <img
           src={vectorImg1}
           alt="vectorimg"
@@ -14,12 +14,12 @@ const FindYourPhone = () => {
         />
         <div className="container sm:px-3 px-6 custom_container mx-auto">
           <div className="rounded-xl">
-            <div className="flex rounded-xl bg-full xl:bg-cover bg-center bg-no-repeat bg-find-phone-bg flex-row  flex-wrap items-center lg:pb-0 md:pb-20 sm:pb-16 pb-[46px]">
+            <div className="flex rounded-xl xl:bg-cover bg-center bg-no-repeat bg-find-phone-bg flex-row  flex-wrap items-center lg:pb-0 md:pb-20 sm:pb-16 pb-[46px]">
               <div className="lg:w-[53%] w-full flex justify-center">
                 <img
                   src={findphone}
                   alt="findphone"
-                  className="lg:max-w-[609px] sm:max-w-[445px] min-[370px]:max-w-[380px] lg:h-[689px] sm:h-[507px] min-[370px]:h-[420px] h-[380px] w-full -translate-y-[24%] lg:-mb-[281px] sm:-mb-[110px] -mb-[110px]"
+                  className="lg:max-w-[609px] sm:max-w-[445px] min-[370px]:min-w-[380px] lg:h-[689px] sm:h-[507px] min-[370px]:h-[420px] h-[380px] w-full -translate-y-[24%] lg:-mb-[281px] sm:-mb-[110px] -mb-[110px] sm:mt-0 -mt-[50px]"
                 />
               </div>
               <div className="lg:w-[36%] w-full flex flex-col items-center">
@@ -31,7 +31,7 @@ const FindYourPhone = () => {
                   nisi sit elit rhoncus vestibulum fames libero id.
                 </p>
                 <CommonBtn
-                  className="bg-white sm:py-[15.15px] !leading-md max-sm:w-[266px] hover:bg-blue hover:border-white hover:text-white"
+                  className="bg-white sm:py-[15.15px] !leading-md max-sm:w-[266px] hover:!bg-blue hover:border-white hover:text-white"
                   btnName="Start Now"
                 />
               </div>
