@@ -54,7 +54,7 @@ const HowItWork = () => {
             </div>
           </div>
           <div className="w-full md:w-[20%] lg:w-[18%] flex justify-center relative">
-            <span className="md:absolute rotate-[90deg] md:rotate-0 sm:m-20 mt-16 mb-12 sm:mt-16 md:mt-0 top-[10%] sm:top-[15%]">
+            <span className="md:absolute rotate-[90deg] md:rotate-0 sm:m-20 mt-[60px] mb-12 sm:mt-16 md:mt-0 top-[10%] sm:top-[15%]">
               <RoadmapLine className="sm:w-[152px] sm:h-[19px] w-[111px] h-[14px]" />
             </span>
           </div>
@@ -77,7 +77,7 @@ const HowItWork = () => {
             </div>
           </div>
           <div className="w-full md:w-[8%] lg:w-[18%] flex md:absolute top-[40%] xl:rotate-0  xl:translate-x-0 xl:static xl:flex md:hidden justify-center relative">
-            <span className="md:absolute rotate-[90deg] md:rotate-0 sm:m-20 mt-16 mb-12 sm:mt-16 md:mt-0 top-[10%] sm:top-[15%]">
+            <span className="md:absolute rotate-[90deg] md:rotate-0 sm:m-20 mt-[60px] mb-12 sm:mt-16 md:mt-0 top-[10%] sm:top-[15%]">
               <RoadmapLine className="sm:w-[152px] sm:h-[19px] w-[111px] h-[14px]" />
             </span>
           </div>
