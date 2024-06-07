@@ -1,18 +1,21 @@
 import React, { useState } from "react";
 import headerImg from "../../assets/images/webp/heroImage.webp";
 import Navbar from "./Navbar";
-import { Arrow, India, Locate, Needhelp } from "../common/Icon";
+import { Arrow, France, India, Locate, Needhelp, SouthKorea, Uk } from "../common/Icon";
 import CommonBtn from "../common/CommonBtn";
 
 const Header = () => {
-  const [value, setValue] = useState("");
-
+  const [value, setValue] = useState('');
   const handleKeyPress = (event) => {
     // Allow only digits
     const charCode = event.charCode;
     if (charCode < 48 || charCode > 57) {
       event.preventDefault();
     }
+  };
+  const [selectedOption, setSelectedOption] = useState('');
+  const handleChange = (event) => {
+    setSelectedOption(event.target.value);
   };
   return (
     <>
@@ -35,10 +38,13 @@ const Header = () => {
               <div className="flex lg:justify-start justify-center">
                 <div className="sm:max-w-[448px] max-w-[327px] w-full bg-white rounded-[4px] pl-[10px] flex items-center justify-between">
                   <div className="flex items-center gap-[7px] pr-[7px]">
-                    <India />
-                    <p className="text-black text-base font-normal flex items-center gap-1">
-                      +91 <Arrow />
-                    </p>
+                    <span className="cursor-pointer pr-1.5">{selectedOption === '' && <India />}{selectedOption === 'UK' && <Uk />}{selectedOption === 'southkorea' && <SouthKorea />}{selectedOption === 'france' && <France />}</span>
+                    <select id="options" value={selectedOption} onChange={handleChange} className="outline-none cursor-pointer bg-white">
+                      <option value="" className="leading-6 text-sm sm:text-base sm:leading-[100%] text-black hover:bg-!blue">+91</option>
+                      <option value="UK" className="leading-6 text-sm sm:text-base sm:leading-[100%] text-black hover:bg-!blue">+44</option>
+                      <option value="southkorea" className="leading-6 text-sm sm:text-base sm:leading-[100%] text-black hover:!bg-blue">+82</option>
+                      <option value="france" className="leading-6 text-sm sm:text-base sm:leading-[100%] text-black hover:!bg-blue">+33</option>
+                    </select>
                   </div>
                   <div className="flex items-center gap-[7px] w-full">
                     <label className="hidden"></label>
@@ -58,7 +64,7 @@ const Header = () => {
                     <button
                       aria-label="locate btn"
                       rel="noopener noreferrer"
-                      className="relative flex items-center gap-1 bg-blue text-white text-sm sm:text-base font-semibold rounded-[4px] py-[14px] px-[24px] transition-transform ease-linear duration-300 hover:scale-95"
+                      className="relative flex items-center gap-1 bg-blue text-white text-sm sm:text-base font-semibold leading-lg rounded-[4px] py-[15.5px] px-[24px] transition-transform ease-linear duration-300 hover:scale-95"
                     >
                       <div className="flex items-center gap-1">
                         <Locate /> Locate

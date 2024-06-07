@@ -394,6 +394,61 @@ export const India = () => {
     </svg>
   );
 };
+export const Uk = () => {
+  return (
+    <svg className="rounded-md sm:w-[31px] sm:h-6" width="26" height="22" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clipPath="url(#clip0_4074_2)">
+        <path d="M0 0H31V23.25H0V0Z" fill="#012169" />
+        <path d="M3.63281 0L15.4516 8.76719L27.2219 0H31V3.00312L19.375 11.6734L31 20.2953V23.25H27.125L15.5 14.5797L3.92344 23.25H0V20.3437L11.5766 11.7219L0 3.1V0H3.63281Z" fill="white" />
+        <path d="M20.5375 13.6109L31 21.3125V23.25L17.8734 13.6109H20.5375ZM11.625 14.5797L11.9156 16.275L2.61562 23.25H0L11.625 14.5797ZM31 0V0.145312L18.9391 9.25156L19.0359 7.12031L28.5781 0H31ZM0 0L11.5766 8.525H8.67031L0 2.03437V0Z" fill="#C8102E" />
+        <path d="M11.6734 0V23.25H19.4234V0H11.6734ZM0 7.75V15.5H31V7.75H0Z" fill="white" />
+        <path d="M0 9.34844V13.9984H31V9.34844H0ZM13.2234 0V23.25H17.8734V0H13.2234Z" fill="#C8102E" />
+      </g>
+      <defs>
+        <clipPath id="clip0_4074_2">
+          <rect width="31" height="23.25" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  )
+}
+
+export const SouthKorea = () => {
+  return (
+    <svg className="rounded-md sm:w-[31px] sm:h-6 border-primary border" width="26" height="22" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <mask id="mask0_4074_28" maskUnits="userSpaceOnUse" x="0" y="0" width="31" height="24">
+        <path d="M0 0H31V23.2489H0V0Z" fill="white" />
+      </mask>
+      <g mask="url(#mask0_4074_28)">
+        <path fillRule="evenodd" clipRule="evenodd" d="M32.0758 23.2489H-1.08105V0H32.0758V23.2489Z" fill="white" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M15.7886 11.6426C15.7886 12.9974 15.2504 14.2968 14.2924 15.2548C13.3343 16.2128 12.035 16.751 10.6802 16.751C9.32534 16.751 8.026 16.2128 7.06799 15.2548C6.10998 14.2968 5.57178 12.9974 5.57178 11.6426C5.57178 10.2878 6.10998 8.98843 7.06799 8.03042C8.026 7.07241 9.32534 6.53421 10.6802 6.53421C12.035 6.53421 13.3343 7.07241 14.2924 8.03042C15.2504 8.98843 15.7886 10.2878 15.7886 11.6426Z" fill="white" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M22.1954 11.9423C22.1954 15.6203 19.2439 18.6082 15.5976 18.6082C11.9514 18.6082 9.00439 15.6203 9.00439 11.9423C9.00439 8.26424 11.9559 5.27186 15.6022 5.27186C19.2484 5.27186 22.1954 8.26424 22.1954 11.9423Z" fill="#C70000" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M2.10742 5.75772L5.90353 1.36677L6.80714 2.14324L3.0065 6.53873L2.10742 5.75772ZM3.3516 6.83388L7.1477 2.44294L8.05132 3.21487L4.25068 7.6149L3.3516 6.83388Z" fill="black" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M2.10742 5.75772L5.90353 1.36677L6.80714 2.14324L3.0065 6.53873L2.10742 5.75772Z" fill="black" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M2.10742 5.75772L5.90353 1.36677L6.80714 2.14324L3.0065 6.53873L2.10742 5.75772ZM4.62302 7.9373L8.41913 3.53727L9.32274 4.31828L5.5221 8.71377L4.62302 7.9373Z" fill="black" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M2.10742 5.75772L5.90353 1.36677L6.80714 2.14324L3.0065 6.53873L2.10742 5.75772Z" fill="black" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M2.10742 5.75772L5.90353 1.36678L6.80714 2.14325L3.0065 6.53874L2.10742 5.75772ZM25.211 1.36224L28.9798 5.78497L28.0717 6.5569L24.3028 2.13417L25.211 1.36224ZM22.6818 3.51911L26.4506 7.94185L25.5425 8.71378L21.7736 4.29105L22.6818 3.51911Z" fill="black" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M23.3123 6.0665L26.8723 2.98785L27.5398 3.75978L23.7255 7.18354L23.3032 6.0665H23.3123Z" fill="white" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M27.6988 16.9099L24.048 21.26L23.1535 20.5153L26.8043 16.1652L27.6988 16.9099ZM23.9572 2.42933L27.726 6.85206L26.8224 7.624L23.0581 3.19672L23.9572 2.42933ZM28.9384 17.9407L25.2831 22.2908L24.384 21.5461L28.0393 17.196L28.9384 17.9407ZM26.4364 15.861L22.7857 20.2111L21.8911 19.4664L25.5419 15.1163L26.4364 15.861Z" fill="black" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M9.09936 10.7662C9.30824 12.4463 9.61247 14.3171 12.1962 14.5078C13.1634 14.5669 15.0478 14.2808 15.6926 11.638C16.5463 9.10428 19.0982 8.37776 20.8373 9.74908C21.8317 10.3939 22.1042 11.4155 22.1678 12.1875C22.0906 14.6395 20.6738 16.7737 18.8621 17.7272C16.7733 18.9669 13.8854 18.9941 11.3561 17.1142C10.2164 16.0472 8.62258 14.0719 9.09936 10.7662Z" fill="#3D5897" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M24.1485 16.8463L27.7176 19.9159L27.0546 20.6878L23.0996 17.4276L24.144 16.8463H24.1485Z" fill="white" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M4.26363 16.2379L8.03249 20.6561L7.12433 21.428L3.35547 17.0098L4.26363 16.2379Z" fill="black" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M3.61475 19.875L7.18381 16.7919L7.85131 17.5638L4.03704 20.9921L3.61475 19.8705V19.875Z" fill="white" />
+        <path fillRule="evenodd" clipRule="evenodd" d="M5.51648 15.1708L9.28534 19.589L8.37718 20.3609L4.60832 15.9427L5.51648 15.1708ZM2.98726 17.3277L6.75612 21.7459L5.84796 22.5178L2.0791 18.0996L2.98726 17.3277Z" fill="black" />
+      </g>
+    </svg>
+  )
+}
+
+export const France = () => {
+  return (
+    <svg className="rounded-md sm:w-[32px] sm:h-6" width="26" height="22" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fillRule="evenodd" clipRule="evenodd" d="M0.312988 0.295807H31.313V23.5458H0.312988V0.295807Z" fill="white" />
+      <path fillRule="evenodd" clipRule="evenodd" d="M0.312988 0.295807H10.6447V23.5458H0.312988V0.295807Z" fill="#00267F" />
+      <path fillRule="evenodd" clipRule="evenodd" d="M20.981 0.295807H31.3127V23.5458H20.981V0.295807Z" fill="#F31830" />
+    </svg>
+  )
+}
 export const Locate = () => {
   return (
     <svg

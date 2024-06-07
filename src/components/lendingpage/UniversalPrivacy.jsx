@@ -21,7 +21,7 @@ const UniversalPrivacy = () => {
             Universal <span className="font-extrabold">Privacy</span>
           </h2>
           <p
-            className="text-grey text-base font-normal !leading-normal md:max-w-[472px] text-center"
+            className="text-grey text-sm sm:text-base font-normal !leading-normal md:max-w-[472px] text-center"
             data-aos="fade-up"
           >
             Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi
