@@ -514,7 +514,7 @@ export const Location = () => {
 export const Android = () => {
   return (
     <svg
-      className="sm:w-[56px] sm:h-[50px] w-[35.34px] h-[40.39px]"
+      className="sm:w-[56px] sm:h-[50px] w-[41px] h-[36px]"
       viewBox="0 0 56 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

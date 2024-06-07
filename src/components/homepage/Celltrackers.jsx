@@ -18,7 +18,7 @@ const Celltrackers = () => {
         height={113}
         src={vectorImg1}
         alt="vectorimg"
-        className="left-0 lg:top-[15%] top-0 max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute pointer-events-none"
+        className="left-0 lg:top-[15%] top-[3%] max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute pointer-events-none"
       />
       <img
         width={106}
@@ -37,7 +37,7 @@ const Celltrackers = () => {
             <span className="font-extrabold leading-xs">Celltracker</span>
           </h2>
           <p
-            className="text-grey text-base font-normal sm:!leading-normal leading-xl md:max-w-[472px] text-center"
+            className="text-grey text-sm sm:text-base font-normal sm:!leading-normal leading-xl md:max-w-[472px] text-center"
             data-aos="fade-up"
           >
             Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi
@@ -49,7 +49,7 @@ const Celltrackers = () => {
             <div
               key={index}
               className={`${
-                index === 1 || index === 3 ? "lg:mt-[27px]" : ""
+                index === 1 || index === 3 ? "lg:mt-[24px]" : ""
               } lg:w-[24%] sm:w-[48%] w-full mb-[18px] lg:mb-0`}
               data-aos="zoom-in"
             >
@@ -68,7 +68,7 @@ const Celltrackers = () => {
         <div className="flex justify-center items-center" data-aos="fade-up">
           <CommonBtn
             btnName="Create your Account"
-            className="capitalize bg-blue text-white sm:py-[16.5px] !py-[14px] px-[27.2px] max-sm:w-full"
+            className="capitalize bg-blue text-white sm:!py-[16.5px] !py-[14px] px-[27.2px] max-sm:w-full"
           />
         </div>
       </div>

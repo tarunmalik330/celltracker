@@ -24,7 +24,7 @@ const Header = () => {
               className="lg:w-[46%] w-full lg:mb-[70px] xl:mb-[140px]"
               data-aos="fade-right"
             >
-              <h1 className="text-white text-xxs sm:text-6xl xl:text-md sm:!leading-xs leading-xxs font-light xl:max-w-[520px] sm:mb-2 mb-3 lg:text-start text-center">
+              <h1 className="text-white text-xxs sm:text-6xl xl:text-md sm:!leading-xs leading-xxs font-light max-sm:max-w-[326px] xl:max-w-[520px] sm:mb-2 mb-3 lg:text-start text-center">
                 <span className="font-extrabold">Find the location</span> of any
                 phone by its number
               </h1>

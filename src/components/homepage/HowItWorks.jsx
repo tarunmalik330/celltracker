@@ -31,7 +31,7 @@ const HowItWorks = () => {
             How it <span className="font-extrabold">works</span>
           </h2>
           <p
-            className="text-grey text-base font-normal sm:!leading-normal leading-xl md:max-w-[472px] text-center"
+            className="text-grey text-sm sm:text-base font-normal sm:!leading-normal leading-xl md:max-w-[472px] text-center"
             data-aos="fade-up"
           >
             Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi
@@ -52,7 +52,7 @@ const HowItWorks = () => {
             />
           </div>
           <div
-            className="lg:w-[49%] w-full flex flex-col lg:items-end mt-[40px] lg:mt-0"
+            className="lg:w-[49%] w-full flex flex-col lg:items-end mt-[40px] md:mt-[30px] lg:mt-0"
             data-aos="fade-up"
           >
             {worksData.map((data, index) => (
@@ -65,8 +65,8 @@ const HowItWorks = () => {
                 <div className="max-sm:mb-4">{data.svg}</div>
                 <h3
                   className={`${
-                    index === 1 ? "mt-[6.5px]" : ""
-                  } font-normal text-xl md:text-2xl lg:max-w-[465px] !leading-sm text-blue mb-[6px]`}
+                    index === 1 ? "lg:mt-[8px]" : ""
+                  } font-normal text-xl md:text-2xl lg:max-w-[465px] !leading-sm text-blue mt-2 lg:mt-[15px] mb-[6px]`}
                 >
                   {data.heading}
                 </h3>
@@ -82,7 +82,7 @@ const HowItWorks = () => {
           </div>
         </div>
         <div
-          className="flex justify-center items-center gap-[14px] sm:flex-row flex-col max-sm:w-full sm:pt-[70px] pt-[22px]"
+          className="flex justify-center items-center gap-[14px] sm:flex-row flex-col max-sm:w-full sm:pt-[50px] pt-[22px]"
           data-aos="fade-up"
         >
           <CommonBtn
