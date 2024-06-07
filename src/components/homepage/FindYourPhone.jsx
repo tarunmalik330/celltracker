@@ -33,10 +33,10 @@ const FindYourPhone = () => {
                 className="lg:w-[36%] w-full flex flex-col items-center"
                 data-aos="fade-left"
               >
-                <h2 className="text-white font-light sm:text-5xl text-2lg  leading-xs lg:mb-2 mb-3">
+                <h2 className="text-white font-light sm:text-5xl text-2lg  sm:leading-xs leading-xsm lg:mb-2 mb-3">
                   Find your <span className="font-extrabold">phone</span>
                 </h2>
-                <p className="text-white leading-normal text-base font-normal text-center lg:mb-8 mb-7 lg:px-0 sm:px-24 px-2">
+                <p className="text-white leading-normal sm:text-base text-sm font-normal text-center lg:mb-8 mb-7 lg:px-0 sm:px-24 max-sm:max-w-[249px]">
                   Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper
                   nisi sit elit rhoncus vestibulum fames libero id.
                 </p>

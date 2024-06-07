@@ -22,7 +22,7 @@ import vectorimg2 from "../../assets/images/webp/vectorImg2.webp";
 
 const CreateYourAccount = () => {
   return (
-    <div className="xl:pt-[210px] sm:pt-[100px] pt-[100px] relative">
+    <div className="xl:pt-[210px] sm:pt-[100px] pt-[90px] relative">
       <img
         width={106}
         height={113}
@@ -47,7 +47,7 @@ const CreateYourAccount = () => {
         className="container sm:px-3 px-6 mx-auto custom_container relative z-10"
       >
         <h2
-          className="capitalize text-blue sm:text-5xl text-2lg sm:leading-xs leading-xxs font-light text-center mb-2"
+          className="capitalize text-blue sm:text-5xl text-2lg sm:leading-xs leading-xsm font-light text-center mb-2"
           data-aos="fade-up"
         >
           Create your <span className="font-extrabold"> account</span>
@@ -66,29 +66,29 @@ const CreateYourAccount = () => {
             <p className="leading-sm text-blue sm:text-xxs text-2xl font-light mb-[26px]">
               Get a <span className="font-extrabold">24 hour</span> trial!
             </p>
-            <div className="flex flex-col gap-[11px] pb-10">
+            <div className="flex flex-col sm:gap-[11px] gap-[18px] sm:pb-10 pb-[27.62px]">
               <p className="leading-normal sm:text-base text-sm  font-normal text-black opacity-70 flex items-center gap-2">
-                <LocationSvg />
+                <LocationSvg className="w-[38px] h-[30px] sm:w-[48px] sm:h-[41px]" />
                 Unlimited location searches
               </p>
               <p className="leading-normal sm:text-base text-sm  font-normal text-black opacity-70 flex items-center gap-2">
-                <TrackPhoneSvg />
+                <TrackPhoneSvg className="w-[38px] h-[30px] sm:w-[48px] sm:h-[41px]" />
                 Track up to 5 phones
               </p>
               <p className="leading-normal sm:text-base text-sm  font-normal text-black opacity-70 flex items-center gap-2">
-                <MultipleWaysSvg />
+                <MultipleWaysSvg className="w-[38px] h-[30px] sm:w-[48px] sm:h-[41px]" />
                 Multiple ways to locate a phone
               </p>
               <p className="leading-normal sm:text-base text-sm  font-normal text-black opacity-70 flex items-center gap-2">
-                <ProtectSvg />
+                <ProtectSvg className="w-[38px] h-[30px] sm:w-[48px] sm:h-[41px]" />
                 Protect your family
               </p>
               <p className="leading-normal sm:text-base text-sm  font-normal text-black opacity-70 flex items-center gap-2">
-                <MoneyBack />
+                <MoneyBack className="w-[38px] h-[30px] sm:w-[48px] sm:h-[41px]" />
                 14 day money back guarantees
               </p>
               <p className="leading-normal sm:text-base text-sm font-normal text-black opacity-70 flex items-center gap-2">
-                <PrivateSvg />
+                <PrivateSvg className="w-[38px] h-[30px] sm:w-[48px] sm:h-[41px]" />
                 Private & confidential
               </p>
             </div>
@@ -104,7 +104,7 @@ const CreateYourAccount = () => {
           </div>
           <div className="xl:w-7/12 lg:w-6/12 w-full" data-aos="fade-left">
             <div className="sm:pb-9 pb-[42px] border border-solid border-lighblue shadow-[0px_16px_25.3px_0px_#00000014] rounded-xl">
-              <div className="bg-blue p-[20px] rounded-tl-xl rounded-tr-xl flex justify-between">
+              <div className="bg-blue sm:p-5 p-6 rounded-tl-xl rounded-tr-xl flex justify-between">
                 <p className="capitalize text-white sm:text-xxs text-2xl leading-sm flex gap-3 items-center">
                   <CardTongelSvg className="sm:w-[30px] sm:h-[30px] h-5 w-5" />
                   Debit/Credit Card

@@ -30,7 +30,7 @@ const Celltrackers = () => {
       <div className="container custom_container mx-auto sm:px-3 px-6 relative z-1 xl:pt-[50px] sm:pt-[30px] pt-[90px]">
         <div className="flex justify-center items-center flex-col">
           <h2
-            className="font-light text-blue text-2lg sm:text-5xl sm:!leading-xs leading-xxs text-center mb-[12px] lg:mb-2"
+            className="font-light text-blue text-2lg sm:text-5xl sm:!leading-xs leading-xsm text-center mb-[12px] lg:mb-2"
             data-aos="fade-up"
           >
             Advantages of{" "}
@@ -68,7 +68,7 @@ const Celltrackers = () => {
         <div className="flex justify-center items-center" data-aos="fade-up">
           <CommonBtn
             btnName="Create your Account"
-            className="capitalize bg-blue text-white sm:py-[16.5px] px-[27.2px] max-sm:w-full"
+            className="capitalize bg-blue text-white sm:py-[16.5px] !py-[14px] px-[27.2px] max-sm:w-full"
           />
         </div>
       </div>

@@ -5,7 +5,7 @@ import toplayer from "../../assets/images/webp/companies-toplayer.webp";
 
 const Joincompanies = () => {
   return (
-    <div className="bg-join-companies-bg bg-cover bg-center bg-no-repeat relative pb-[93px]">
+    <div className="bg-join-companies-bg bg-cover bg-center bg-no-repeat relative pb-[83px]">
       <img
         src={toplayer}
         alt="toplayer"
@@ -59,7 +59,7 @@ const Joincompanies = () => {
                 </p>
                 <div className="flex sm:flex-row flex-col items-center gap-4 max-sm:w-full">
                   <CommonBtn
-                    className="bg-blue sm:py-[15px] !px-[30px] !leading-lg !font-normal text-white max-sm:w-full"
+                    className="bg-blue sm:py-[15px] py-[12.68px] !px-[30px] !leading-lg !font-normal text-white max-sm:w-full"
                     btnName="Start your free trial"
                   />
                   {id === 1 && (
@@ -69,7 +69,7 @@ const Joincompanies = () => {
                   )}
                 </div>
                 {id === 1 && (
-                  <div className="absolute xl:right-[13%] md:right-[17%] right-1/2 translate-x-1/2 top-[-29px]">
+                  <div className="absolute xl:right-[13%] py-[12.68px] md:right-[17%] right-1/2 translate-x-1/2 top-[-29px]">
                     <CommonBtn
                       className="!font-normal sm:!text-2xl text-xl text-nowrap md:!px-[35px] py-3 px-4 capitalize text-white bg-blue"
                       btnName="Most Popular"

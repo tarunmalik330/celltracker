@@ -708,11 +708,10 @@ export const Network = () => {
   );
 };
 // ================================ CREATE YOUR ACCOUNT ================================
-export const LocationSvg = () => {
+export const LocationSvg = (props) => {
   return (
     <svg
-      width="48"
-      height="41"
+      className={`${props.className}`}
       viewBox="0 0 48 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -734,11 +733,10 @@ export const LocationSvg = () => {
     </svg>
   );
 };
-export const TrackPhoneSvg = () => {
+export const TrackPhoneSvg = (props) => {
   return (
     <svg
-      width="48"
-      height="41"
+      className={`${props.className}`}
       viewBox="0 0 48 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -808,11 +806,10 @@ export const Compatible = () => {
     </svg>
   );
 };
-export const MultipleWaysSvg = () => {
+export const MultipleWaysSvg = (props) => {
   return (
     <svg
-      width="48"
-      height="41"
+      className={`${props.className}`}
       viewBox="0 0 48 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -834,11 +831,10 @@ export const MultipleWaysSvg = () => {
     </svg>
   );
 };
-export const ProtectSvg = () => {
+export const ProtectSvg = (props) => {
   return (
     <svg
-      width="48"
-      height="41"
+      className={`${props.className}`}
       viewBox="0 0 48 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -894,11 +890,10 @@ export const MoneyBack = () => {
     </svg>
   );
 };
-export const PrivateSvg = () => {
+export const PrivateSvg = (props) => {
   return (
     <svg
-      width="48"
-      height="41"
+      className={`${props.className}`}
       viewBox="0 0 48 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
