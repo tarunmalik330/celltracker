@@ -47,10 +47,10 @@ const CreateYourAccount = () => {
         className="container sm:px-3 px-6 mx-auto custom_container relative z-10"
       >
         <h2
-          className="capitalize text-blue sm:text-5xl text-2lg sm:leading-xs leading-xsm font-light text-center mb-2"
+          className="text-blue sm:text-5xl text-2lg sm:leading-xs leading-xsm font-light text-center mb-2"
           data-aos="fade-up"
         >
-          Create your <span className="font-extrabold"> account</span>
+          Create your <span className="font-extrabold capitalize"> account</span>
         </h2>
         <p
           className="leading-normal sm:text-base text-sm text-black opacity-70 font-normal text-center"
@@ -58,7 +58,7 @@ const CreateYourAccount = () => {
         >
           Join now and protect your family's phones
         </p>
-        <div className="flex flex-row items-center flex-wrap lg:pt-[72px] sm:pt-[50px] pt-[33.7px] gap-[37px] xl:gap-0">
+        <div className="flex flex-row items-center justify-center flex-wrap lg:pt-[72px] sm:pt-[50px] pt-[33.7px] gap-[37px] xl:gap-0">
           <div
             className="lg:w-5/12 w-full flex flex-col max-lg:justify-center max-lg:items-center max-sm:items-start"
             data-aos="fade-right"
@@ -97,14 +97,16 @@ const CreateYourAccount = () => {
                 Terms: Users must be 16 or over. Pricing options are shown on
                 the payment page. Create an account to start a 24 hour trial
                 with full access to all our tools. The service can be cancelled
-                by the user at any time from within their account.
-                <span className="text-sky">View full terms.</span>
+                by the user at any time from within their account.{" "}
+                <a href="/">
+                  <span className="text-sky">View full terms.</span>
+                </a>
               </p>
             </div>
           </div>
           <div className="xl:w-7/12 lg:w-6/12 w-full" data-aos="fade-left">
             <div className="sm:pb-9 pb-[42px] border border-solid border-lighblue shadow-[0px_16px_25.3px_0px_#00000014] rounded-xl">
-              <div className="bg-blue sm:p-5 p-6 rounded-tl-xl rounded-tr-xl flex justify-between">
+              <div className="bg-blue sm:p-5 py-6 px-2 rounded-tl-xl rounded-tr-xl flex justify-between">
                 <p className="capitalize text-white sm:text-xxs text-2xl leading-sm flex gap-3 items-center">
                   <CardTongelSvg className="sm:w-[30px] sm:h-[30px] h-5 w-5" />
                   Debit/Credit Card
@@ -124,7 +126,7 @@ const CreateYourAccount = () => {
               </div>
               <form className="sm:pt-[30px] pt-[42px] sm:px-6 px-2" action="">
                 <div className="mb-5">
-                  <label className="capitalize text-blue font-normal sm:text-base text-sm  leading-normal mb-2">
+                  <label className="capitalize text-blue font-normal sm:text-base text-sm  leading-normal !mb-2 inline-block">
                     Your Address
                   </label>
                   <div className="border border-solid max-sm:h-[45px] bg-primary border-lighblue rounded flex items-center">
@@ -138,12 +140,12 @@ const CreateYourAccount = () => {
                       className="sm:px-[14px] pl-5 placeholder:text-blue placeholder:font-normal placeholder:sm:text-base placeholder:text-sm font-normal sm:text-base text-sm text-blue leading-normal w-full outline-none bg-transparent"
                     />
                   </div>
-                  <p className="mt-1 text-secondary sm:text-base text-sm  font-normal leading-normal">
+                  <p className="mt-1 capitalize text-secondary sm:text-base text-sm  font-normal leading-normal">
                     Our enter address manually
                   </p>
                 </div>
                 <div className="mb-5">
-                  <label className="capitalize text-blue font-normal sm:text-base text-sm  leading-normal mb-2">
+                  <label className="capitalize text-blue font-normal sm:text-base text-sm  leading-normal mb-2 inline-block">
                     Email Address
                   </label>
                   <div className="border border-solid max-sm:h-[45px] bg-primary border-lighblue rounded flex items-center">
@@ -152,14 +154,14 @@ const CreateYourAccount = () => {
                     </div>
                     <input
                       required
-                      type="text"
+                      type="email"
                       placeholder="Email Address"
                       className="sm:px-[14px] pl-5 capitalize placeholder:text-blue placeholder:font-normal placeholder:sm:text-base placeholder:text-sm font-normal sm:text-base text-sm  text-blue leading-normal w-full outline-none bg-transparent"
                     />
                   </div>
                 </div>
                 <div className="mb-5">
-                  <label className="capitalize text-blue font-normal sm:text-base text-sm leading-normal mb-2">
+                  <label className="capitalize text-blue font-normal sm:text-base text-sm leading-normal mb-2 inline-block">
                     Card Number (Visa or Mastercard)
                   </label>
                   <div className="border border-solid max-sm:h-[45px] bg-primary border-lighblue rounded flex items-center">
@@ -176,7 +178,7 @@ const CreateYourAccount = () => {
                 </div>
                 <div className="sm:mb-[46px] mb-[38px] flex gap-[17px]">
                   <div className="lg:max-w-[307px] w-full">
-                    <label className="capitalize text-blue font-normal sm:text-base text-sm leading-normal mb-2">
+                    <label className="capitalize text-blue font-normal sm:text-base text-sm leading-normal mb-2 inline-block">
                       Expiry Date
                     </label>
                     <div className="border border-solid max-sm:h-[45px] bg-primary border-lighblue rounded flex items-center">
@@ -192,7 +194,7 @@ const CreateYourAccount = () => {
                     </div>
                   </div>
                   <div className="lg:max-w-[307px] w-full">
-                    <label className="capitalize text-blue font-normal sm:text-base text-sm leading-normal mb-2">
+                    <label className="capitalize text-blue font-normal sm:text-base text-sm leading-normal mb-2 inline-block">
                       Card Security Code
                     </label>
                     <div className="border border-solid max-sm:h-[45px] bg-primary border-lighblue rounded flex items-center">
@@ -203,7 +205,7 @@ const CreateYourAccount = () => {
                         required
                         type="text"
                         placeholder="E.x @ 0123"
-                        className="sm:px-[14px] pl-5 placeholder:text-blue placeholder:font-normal placeholder:sm:text-base placeholder:text-sm capitalize font-normal sm:text-base text-sm  text-blue leading-normal w-full outline-none bg-transparent"
+                        className="sm:px-[14px] pl-5 placeholder:text-blue placeholder:font-normal placeholder:sm:text-base placeholder:text-sm capitalize font-normal sm:text-base text-sm text-blue leading-normal w-full outline-none bg-transparent"
                       />
                     </div>
                   </div>

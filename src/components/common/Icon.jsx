@@ -856,11 +856,9 @@ export const ProtectSvg = (props) => {
     </svg>
   );
 };
-export const MoneyBack = () => {
+export const MoneyBack = (props) => {
   return (
-    <svg
-      width="48"
-      height="41"
+    <svg className={`${props.className}`}
       viewBox="0 0 48 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

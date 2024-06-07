@@ -25,6 +25,7 @@ export const joinCompanies = [
     projects: "2 projects",
     priceperseat: "$0",
     billmonth: "free forever",
+    btn: "30-Day Free Trial",
   },
   {
     description: "Perfect for teams, startups, and growing businesses.",
@@ -33,6 +34,7 @@ export const joinCompanies = [
     projects: "Unlimited projects",
     priceperseat: "$10.80",
     billmonth: "per seat/month (billed annually)",
+    btn: "Start your free trial",
   },
 ];
 

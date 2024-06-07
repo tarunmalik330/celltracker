@@ -5,13 +5,13 @@ import toplayer from "../../assets/images/webp/companies-toplayer.webp";
 
 const Joincompanies = () => {
   return (
-    <div className="bg-join-companies-bg bg-cover bg-center bg-no-repeat relative pb-[83px]">
+    <div className="bg-join-companies-bg bg-cover bg-center bg-no-repeat relative pb-[100px]">
       <img
         src={toplayer}
         alt="toplayer"
         className="absolute top-0 w-full -mt-[1px]"
       />
-      <div className="containers sm:px-3 px-6 custom_container mx-auto lg:pt-[222px] md:pt-[180px] sm:pt-[150px] pt-[100px]">
+      <div className="containers sm:px-3 px-6 custom_container mx-auto xl:pt-[222px] md:pt-[180px] sm:pt-[150px] pt-[100px]">
         <h2
           className="text-white lg:text-5xl sm:text-4xl text-2lg text-center font-light sm:leading-xs leading-xxs md:max-w-[664px] mx-auto lg:pb-[109px] sm:pb-[80px] pb-[65px] max-sm:max-w-[295px]"
           data-aos="fade-up"
@@ -53,15 +53,16 @@ const Joincompanies = () => {
                   } lg:text-xsm text-4xl font-normal max-sm:max-w-[204px] h-[60px] !leading-[0] sm:!leading-normal mb-[27px] text-blue sm:pt-0 pt-4`}
                 >
                   {obj.priceperseat}
-                  <sub className="lg:text-base text-sm !leading-normal text-black opacity-70">
+                  <sub className="lg:text-base pl-2 text-sm !leading-normal text-black opacity-70">
                     {obj.billmonth}
                   </sub>
                 </p>
                 <div className="flex sm:flex-row flex-col items-center gap-4 max-sm:w-full">
                   <CommonBtn
                     className="bg-blue sm:py-[15px] py-[12.68px] !px-[30px] !leading-lg !font-normal text-white max-sm:w-full"
-                    btnName="Start your free trial"
+                    btnName={obj.btn}
                   />
+                  
                   {id === 1 && (
                     <p className="font-normal sm:text-base text-sm text-black opacity-70 leading-normal">
                       No credit card required.
@@ -70,10 +71,9 @@ const Joincompanies = () => {
                 </div>
                 {id === 1 && (
                   <div className="absolute xl:right-[13%] py-[12.68px] md:right-[17%] right-1/2 translate-x-1/2 top-[-29px]">
-                    <CommonBtn
-                      className="!font-normal sm:!text-2xl text-xl text-nowrap md:!px-[35px] py-3 px-4 capitalize text-white bg-blue"
-                      btnName="Most Popular"
-                    />
+                    <div className="!font-normal leading-normal sm:!text-2xl text-xl text-nowrap md:!px-[35px] py-3 px-4 capitalize text-white bg-blue sm:py-[16.5px] rounded hover:bg-white hover:text-blue hover:shadow-button transition-all ease-linear duration-300 hover:border-blue hover:border hover:border-solid border-transparent border">
+                      Most Popular
+                    </div>
                   </div>
                 )}
               </div>
