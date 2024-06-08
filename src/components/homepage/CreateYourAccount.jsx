@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import {
   LocationSvg,
   TrackPhoneSvg,
@@ -22,12 +23,43 @@ import vectorimg2 from "../../assets/images/webp/vector2.webp";
 import { Link } from "react-router-dom";
 
 const CreateYourAccount = () => {
+  const [inputData, setInputData] = useState({
+    ExpireDate: "",
+  });
+  const handleExpireDateChange = (e) => {
+    const { name, value } = e.target;
+    const maxLengths = {
+      SecuitryCode: 3,
+      CardNumber: 16,
+      ExpireDate: 4, // Set the maxLength for ExpireDate including the slash
+    };
+    if (name === "ExpireDate") {
+      // Remove all non-digits and limit length to 4 (2 for month and 2 for year)
+      let numericValue = value.replace(/\D/g, "").slice(0, 4);
+
+      // Add a slash after the month if the length is more than 2
+      let formattedValue =
+        numericValue.length > 2
+          ? numericValue.slice(0, 2) + "/" + numericValue.slice(2)
+          : numericValue;
+
+      setInputData({
+        ...inputData,
+        [name]: formattedValue,
+      });
+    }
+  };
+
   const handleInput = (e) => {
-    const value = e.target.value;
+    const { name, value } = e.target;
+    const maxLength = {
+      expirydate: 4,
+    };
     if (value.length > 16) {
       e.target.value = value.slice(0, 16);
     }
   };
+
   return (
     <div id="Login" className="xl:pt-[210px] sm:pt-[100px] pt-[90px] relative">
       <img
@@ -196,9 +228,13 @@ const CreateYourAccount = () => {
                       </div>
                       <input
                         required
-                        type="date"
+                        name="ExpireDate"
+                        value={inputData.ExpireDate}
+                        onChange={handleExpireDateChange}
+                        type="text"
+                        id="expiredate"
                         placeholder="MM/YY"
-                        className="sm:px-[14px] pl-5 placeholder:text-blue placeholder:font-normal placeholder:sm:text-base placeholder:text-sm capitalize font-normal sm:text-base text-sm  text-blue leading-normal w-full outline-none bg-transparent"
+                        className="sm:px-[14px] pl-5 placeholder:text-blue placeholder:font-normal placeholder:sm:text-base placeholder:text-sm capitalize font-normal sm:text-base text-sm text-blue leading-normal w-full outline-none bg-transparent"
                       />
                     </div>
                   </div>
