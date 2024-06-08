@@ -172,6 +172,7 @@ const CreateYourAccount = () => {
                     </div>
                     <input
                       required
+                      max="16"
                       type="number"
                       placeholder="Valid Card Number"
                       className="sm:px-[14px] pl-5 capitalize placeholder:text-blue placeholder:font-normal placeholder:sm:text-base placeholder:text-sm font-normal sm:text-base text-sm  text-blue leading-normal w-full outline-none bg-transparent"
