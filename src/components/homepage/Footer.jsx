@@ -5,8 +5,7 @@ import { footerLink, footerSocialLink } from "../common/Helper";
 
 const Footer = () => {
   return (
-    <>
-      <div className="lg:pt-[102px] sm:pt-[70px] pt-[58px] relative">
+          <div className="lg:pt-[102px] sm:pt-[70px] pt-[58px] relative">
         <img
           width={106}
           height={113}
@@ -64,7 +63,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </>
+
   );
 };
 
