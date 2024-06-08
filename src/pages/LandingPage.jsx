@@ -7,12 +7,12 @@ import LendingFooter from "../components/lendingpage/LendingFooter";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Hero />
       <UniversalPrivacy />
       <FindAnyone />
       <HowItWork />
-      <LendingFooter/>
+      <LendingFooter />
     </div>
   );
 };
