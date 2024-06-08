@@ -29,14 +29,15 @@ const Footer = (props) => {
             {props.mapdata.map((obj, id) => {
               return (
                 <li key={id}>
-                  <a
+                  <Link
                     rel="noreferrer"
+                    onClick={() => window.location.replace(obj.path)}
                     aria-label="links"
                     className="leading-normal font-normal text-black opacity-70 hover:opacity-100 transition-all ease-linear duration-300 text-sm sm:text-base capitalize"
                     href={obj.path}
                   >
                     {obj.link}
-                  </a>
+                  </Link>
                 </li>
               );
             })}
