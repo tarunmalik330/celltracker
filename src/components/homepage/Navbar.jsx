@@ -33,7 +33,6 @@ const Navbar = () => {
             <li className="flex items-center gap-[6px]">
               <Quick nav={nav} />
               <Link
-                to="/landingpage"
                 href="#"
                 className={`leading-normal text-base font-normal hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[1px] relative after:left-0 after:bottom-[-0px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear transition-all ease-linear duration-300 ${
                   nav ? "text-black" : "text-white"
@@ -43,7 +42,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a
+              <Link
+                to="/landingpage"
                 rel="noreferrer"
                 aria-label="log in"
                 onClick={() => setnav(false)}
@@ -53,7 +53,7 @@ const Navbar = () => {
                 }`}
               >
                 Log in
-              </a>
+              </Link>
             </li>
             <li className="lg:block hidden">
               <CommonBtn
