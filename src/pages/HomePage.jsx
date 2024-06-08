@@ -13,7 +13,7 @@ const HomePage = () => {
     <div className="overflow-hidden max-w-[1920px] mx-auto">
       <Header />
       <Celltrackers />
-      <HowItWorks />  
+      <HowItWorks />
       <Joincompanies />
       <CreateYourAccount />
       <FindYourPhone />

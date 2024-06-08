@@ -50,7 +50,7 @@ const Footer = (props) => {
                     rel="noreferrer"
                     target="_blank"
                     aria-label={obj.arialable}
-                    href={obj.link}
+                    to={obj.link}
                   >
                     {obj.socialicon}
                   </Link>
