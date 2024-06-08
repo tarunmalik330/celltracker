@@ -1,7 +1,7 @@
 import React from "react";
 import CommonBtn from "../common/CommonBtn";
 import { joinCompanies } from "../common/Helper";
-import toplayer from "../../assets/images/webp/companies-toplayer.webp";
+import toplayer from "../../assets/images/webp/companiesToplayer.webp";
 
 const Joincompanies = () => {
   return (

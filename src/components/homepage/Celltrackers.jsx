@@ -1,7 +1,7 @@
 import React from "react";
-import heroLayer from "../../assets/images/webp/heroWhite-layer.webp";
-import vectorImg1 from "../../assets/images/webp/verctorImg1.webp";
-import vectorImg2 from "../../assets/images/webp/vectorImg2.webp";
+import heroLayer from "../../assets/images/webp/heroWhitelayer.webp";
+import vectorImg1 from "../../assets/images/webp/verctor1.webp";
+import vectorImg2 from "../../assets/images/webp/vector2.webp";
 import CommonBtn from "../common/CommonBtn";
 import { cellTrackerData } from "../common/Helper";
 
@@ -49,17 +49,17 @@ const Celltrackers = () => {
             <div
               key={index}
               className={`${
-                index === 1 || index === 3 ? "lg:mt-[24px]" : ""
+                index === 1 || index === 3 ? "lg:mt-[23px]" : ""
               } lg:w-[24%] sm:w-[48%] w-full mb-[18px] lg:mb-0`}
               data-aos="zoom-in"
             >
               <div className="lg:max-w-[271px] h-[184px] sm:h-[253px] bg-white p-[20px] shadow-[0px_16px_25.3px_0px_#00000014] border-[2px] border-solid border-lightSky rounded-[12px] hover:border-blue transition-all duration-300 ease-linear">
                 <div>{data.svg}</div>
                 <h3 className="font-normal text-xl md:text-2xl !leading-sm text-blue sm:max-w-[231px] mb-[6px] sm:mt-1 mt-4">
-                  {data.heading}
+                  {data.title}
                 </h3>
                 <p className="sm:text-base text-sm font-normal sm:max-w-[231px] leading-normal text-lghtGrey">
-                  {data.para}
+                  {data.description}
                 </p>
               </div>
             </div>

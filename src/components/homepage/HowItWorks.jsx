@@ -1,7 +1,7 @@
 import React from "react";
-import worksimg from "../../assets/images/webp/howItWorks-img.webp";
-import vectorImg1 from "../../assets/images/webp/verctorImg1.webp";
-import vectorImg2 from "../../assets/images/webp/vectorImg2.webp";
+import worksimg from "../../assets/images/webp/howItWorks.webp";
+import vectorImg1 from "../../assets/images/webp/verctor1.webp";
+import vectorImg2 from "../../assets/images/webp/vector2.webp";
 import { worksData } from "../common/Helper";
 import CommonBtn from "../common/CommonBtn";
 
@@ -52,7 +52,7 @@ const HowItWorks = () => {
             />
           </div>
           <div
-            className="lg:w-[49%] w-full flex flex-col lg:items-end mt-[40px] md:mt-[30px] lg:mt-0"
+            className="lg:w-[49%] w-full flex lg:flex-col md:flex-row md:gap-[20px] lg:gap-0 flex-col max-md:items-center max-md:justify-center lg:items-end mt-[40px] md:mt-[30px] lg:mt-0"
             data-aos="fade-up"
           >
             {worksData.map((data, index) => (
@@ -60,7 +60,7 @@ const HowItWorks = () => {
                 key={index}
                 className={`${
                   index === 0 ? "sm:px-5 px-[18px]" : ""
-                } lg:max-w-[536px] max-[576px]:h-[303px] min-h-[240px] lg:min-h-[273px] bg-white p-5 shadow-[0px_16px_25.3px_0px_#00000014] border-[1px] border-solid border-lightSky hover:border-blue transition-all duration-300 ease-linear rounded-[12px] mb-[18px]`}
+                } lg:max-w-[536px] max-w-[576px] w-full min-h-[240px] lg:min-h-[273px] bg-white p-5 shadow-[0px_16px_25.3px_0px_#00000014] border-[1px] border-solid border-lightSky hover:border-blue transition-all duration-300 ease-linear rounded-[12px] mb-[18px]`}
               >
                 <div className="max-sm:mb-4">{data.svg}</div>
                 <h3
@@ -68,21 +68,21 @@ const HowItWorks = () => {
                     index === 1 ? "lg:mt-[8px]" : ""
                   } font-normal text-xl md:text-2xl lg:max-w-[465px] !leading-sm text-blue mt-2 lg:mt-[15px] mb-[6px]`}
                 >
-                  {data.heading}
+                  {data.title}
                 </h3>
                 <p
                   className={`${
                     index === 1 ? "max-xs:!max-w-[275px]" : ""
                   } sm:text-base text-sm font-normal !leading-normal text-lghtGrey`}
                 >
-                  {data.para}
+                  {data.description}
                 </p>
               </div>
             ))}
           </div>
         </div>
         <div
-          className="flex justify-center items-center gap-[14px] sm:flex-row flex-col max-sm:w-full sm:pt-[50px] pt-[22px]"
+          className="flex justify-center items-center gap-[14px] sm:flex-row flex-col max-sm:w-full sm:pt-[50px] lg:pt-[80px] xl:pt-[100px] pt-[22px]"
           data-aos="fade-up"
         >
           <CommonBtn

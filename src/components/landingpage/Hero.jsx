@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import NavBar from "../../components/lendingpage/NavBar";
-import heroImg from "../../assets/images/webp/heroPhoneimg.webp";
+import NavBar from "../../components/landingpage/NavBar";
+import heroImg from "../../assets/images/webp/heroPhone.webp";
 import {
   HeroLocation,
   India,
@@ -9,7 +9,7 @@ import {
   SouthKorea,
   Uk,
 } from "../common/Icon";
-import vectorImg1 from "../../assets/images/webp/verctorImg1.webp";
+import vectorImg1 from "../../assets/images/webp/verctor1.webp";
 
 const Hero = () => {
   const [value, setValue] = useState("");

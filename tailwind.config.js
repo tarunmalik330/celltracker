@@ -45,18 +45,18 @@ module.exports = {
       backgroundImage: {
         bluegradient:
           "linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%)",
-        "find-phone-bg": "url('./assets/images/webp/bg-find.webp')",
+        "find-phone-bg": "url('./assets/images/webp/bgFind.webp')",
         "join-companies-bg":
           "url('./assets/images/webp/bg-join-companies.webp')",
         heroBg: "url('./assets/images/webp/headerBgimg.webp')",
         bluegradient:
           "linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%)",
-        headerBg: "url('./assets/images/webp/headerBgimg.webp')",
-        heroBg: "url('./assets/images/webp/lendingBgimg.webp')",
-        needBg: "url('./assets/images/webp/needBgimg.webp')",
+        headerBg: "url('./assets/images/webp/headerBg.webp')",
+        heroBg: "url('./assets/images/webp/landingBg.webp')",
+        needBg: "url('./assets/images/webp/needBg.webp')",
         heroBoxbg:
           "linear-gradient(0deg, #FFFFFF, #FFFFFF),linear- gradient(7.95deg, rgba(0, 181, 216, 0.05) - 3.4 %, rgba(0, 0, 128, 0.05) 114.66 %)",
-        headersmbg: "url('./assets/images/webp/lending-bgheader-sm.webp')",
+        headersmbg: "url('./assets/images/webp/landingBgheadersm.webp')",
       },
     },
     plugins: [],

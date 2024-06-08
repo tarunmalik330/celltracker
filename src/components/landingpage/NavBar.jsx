@@ -14,8 +14,7 @@ const NavBar = () => {
     document.body.classList.remove("max-lg:overflow-hidden");
   }
   return (
-    <nav>
-      <div className="container custom_container px-6 sm:px-3 mx-auto py-[20.72px] max-sm:pt-8 max-sm:pb-[10px]">
+      <nav className="container custom_container px-6 sm:px-3 mx-auto py-[20.72px] max-sm:pt-8 max-sm:pb-[10px]">
         <div className="flex justify-between items-center">
           <Link
             rel="noreferrer"
@@ -74,8 +73,7 @@ const NavBar = () => {
             )}
           </button>
         </div>
-      </div>
-    </nav>
+      </nav>
   );
 };
 

@@ -1,11 +1,10 @@
 import React from "react";
-import findphone from "../../assets/images/webp/find-phone-img.webp";
-import vectorImg1 from "../../assets/images/webp/verctorImg1.webp";
+import findphone from "../../assets/images/webp/findPhone.webp";
+import vectorImg1 from "../../assets/images/webp/verctor1.webp";
 import CommonBtn from "../common/CommonBtn";
 
 const FindYourPhone = () => {
   return (
-    <>
       <div id="foundphone" className="sm:pt-[248px] pt-[270px] relative">
         <img
           width={106}
@@ -49,7 +48,6 @@ const FindYourPhone = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 

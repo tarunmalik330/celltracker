@@ -26,7 +26,6 @@ const Header = () => {
     setSelectedOption(event.target.value);
   };
   return (
-    <>
       <div
         id="home"
         className="bg-headerBg lg:bg-bgsize bg-cover bg-no-repeat "
@@ -147,7 +146,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 export default Header;

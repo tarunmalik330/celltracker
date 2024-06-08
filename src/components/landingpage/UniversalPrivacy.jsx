@@ -1,6 +1,6 @@
 import React from "react";
 import { privacyData } from "../common/Helper";
-import vectorImg2 from "../../assets/images/webp/vectorImg2.webp";
+import vectorImg2 from "../../assets/images/webp/vector2.webp";
 
 const UniversalPrivacy = () => {
   return (
@@ -42,10 +42,10 @@ const UniversalPrivacy = () => {
                   </div>
                   <div className="py-[13px] pr-[14px] pl-[12px] relative">
                     <h3 className="font-normal text-xl group-hover:text-white group md:text-2xl !leading-sm text-black sm:max-w-[241px] mb-[6px] transition-all duration-300 ease-linear">
-                      {data.heading}
+                      {data.title}
                     </h3>
                     <p className="sm:text-base text-sm font-normal group-hover:text-white group group-hover:opacity-[70%] !leading-normal sm:max-w-[241px] text-lghtGrey transition-all duration-300 ease-linear">
-                      {data.para}
+                      {data.description}
                     </p>
                   </div>
                 </div>
