@@ -22,6 +22,12 @@ import vectorimg2 from "../../assets/images/webp/vector2.webp";
 import { Link } from "react-router-dom";
 
 const CreateYourAccount = () => {
+  const handleInput = (e) => {
+    const value = e.target.value;
+    if (value.length > 16) {
+      e.target.value = value.slice(0, 16);
+    }
+  };
   return (
     <div id="Login" className="xl:pt-[210px] sm:pt-[100px] pt-[90px] relative">
       <img
@@ -172,7 +178,7 @@ const CreateYourAccount = () => {
                     </div>
                     <input
                       required
-                      max="16"
+                      onInput={handleInput}
                       type="number"
                       placeholder="Valid Card Number"
                       className="sm:px-[14px] pl-5 capitalize placeholder:text-blue placeholder:font-normal placeholder:sm:text-base placeholder:text-sm font-normal sm:text-base text-sm  text-blue leading-normal w-full outline-none bg-transparent"
