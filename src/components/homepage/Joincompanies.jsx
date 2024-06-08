@@ -27,7 +27,7 @@ const Joincompanies = () => {
                 className={`pl-[34px] bg-white rounded-tl-xl sm:rounded-tr-xl rounded-br-xl border-y border-s border-solid w-full h-full relative max-sm:px-6 shadow-[0px_16px_25.3px_0px_#00000014] ${
                   id === 1
                     ? "max-w-[527px] sm:pt-[63px] sm:pb-[34px] pt-[60px] pb-[30px] lg:-translate-x-3"
-                    : "max-w-[467px] max-sm:py-[75.5px] py-[34px]"
+                    : "lg:max-w-[467px] max-w-[527px] max-sm:py-[75.5px] py-[34px]"
                 }`}
               >
                 <h3 className="text-blue font-normal lg:text-xxs sm:text-2lg text-2xl leading-sm mb-[18px]">
@@ -62,7 +62,7 @@ const Joincompanies = () => {
                     className="bg-blue sm:py-[15px] py-[12.68px] !px-[30px] !leading-lg !font-normal text-white max-sm:w-full"
                     btnName={obj.btn}
                   />
-                  
+
                   {id === 1 && (
                     <p className="font-normal sm:text-base text-sm text-black opacity-70 leading-normal">
                       No credit card required.
@@ -71,7 +71,7 @@ const Joincompanies = () => {
                 </div>
                 {id === 1 && (
                   <div className="absolute xl:right-[13%] py-[12.68px] md:right-[17%] right-1/2 translate-x-1/2 top-[-29px]">
-                    <div className="!font-normal leading-normal sm:!text-2xl text-xl text-nowrap md:!px-[35px] py-3 px-4 capitalize text-white bg-blue sm:py-[16.5px] rounded hover:bg-white hover:text-blue hover:shadow-button transition-all ease-linear duration-300 hover:border-blue hover:border hover:border-solid border-transparent border">
+                    <div className="!font-normal leading-normal sm:!text-2xl text-xl text-nowrap md:!px-[35px] py-3 px-4 capitalize text-white bg-blue sm:py-[16.5px] rounded border-transparent border">
                       Most Popular
                     </div>
                   </div>

@@ -3,7 +3,8 @@ import HowItWork from "../components/lendingpage/HowItWork";
 import UniversalPrivacy from "../components/lendingpage/UniversalPrivacy";
 import Hero from "../components/lendingpage/Hero";
 import FindAnyone from "../components/lendingpage/FindAnyone";
-import LendingFooter from "../components/lendingpage/LendingFooter";
+import Footer from "../components/common/Footer";
+import { footerLink2 } from "../components/common/Helper";
 
 const LandingPage = () => {
   return (
@@ -12,7 +13,7 @@ const LandingPage = () => {
       <UniversalPrivacy />
       <FindAnyone />
       <HowItWork />
-      <LendingFooter />
+      <Footer mapdata={footerLink2} />
     </div>
   );
 };

@@ -17,14 +17,14 @@ const Navbar = () => {
     <nav>
       <div className="container custom_container px-6 sm:px-3 mx-auto sm:py-[30px] lg:pt-[21px] pt-8 lg:pb-0 pb-[10px]">
         <div className="flex justify-between items-center">
-          <a
+          <Link
             rel="noreferrer"
             href="https://celltracker.vercel.app/"
             className="relative z-[4]"
             aria-label="Navlogo"
           >
             {nav ? <Navlogo2 /> : <Navlogo />}
-          </a>
+          </Link>
           <ul
             className={`flex items-center gap-[24px] max-lg:fixed max-lg:w-full max-lg:h-full max-lg:justify-start max-lg:pt-[120px] max-lg:flex-col max-lg:z-[3] max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:bg-white transition-all ease-linear duration-300 ${
               nav && "!left-0"

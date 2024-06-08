@@ -72,7 +72,7 @@ const HowItWorks = () => {
                 </h3>
                 <p
                   className={`${
-                    index === 1 ? "max-sm:!max-w-[275px]" : ""
+                    index === 1 ? "max-xs:!max-w-[275px]" : ""
                   } sm:text-base text-sm font-normal !leading-normal text-lghtGrey`}
                 >
                   {data.para}
@@ -91,7 +91,7 @@ const HowItWorks = () => {
           />
           <CommonBtn
             btnName="Got more Question?"
-            className="border border-solid !border-blue py-[16.5px] px-[27.3px] max-sm:w-full"
+            className="border border-solid !border-blue py-[16.5px] px-[27.3px] max-sm:w-full hover:!border-white hover:!bg-blue hover:text-white transition-all ease-linear duration-300"
           />
         </div>
       </div>

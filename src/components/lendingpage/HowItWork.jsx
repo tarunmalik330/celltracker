@@ -9,7 +9,7 @@ import vectorImg1 from "../../assets/images/webp/verctorImg1.webp";
 
 const HowItWork = () => {
   return (
-    <div className="pb-[45px] sm:mt-[98px] mt-[85px] sm:mb-0 xl:mb-[45px] relative ">
+    <div id="works" className="pb-[45px] sm:mt-[98px] mt-[85px] sm:mb-0 xl:mb-[45px] relative ">
       <img
         width={106}
         height={113}
@@ -78,13 +78,13 @@ const HowItWork = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-[8%] lg:w-[18%] flex md:absolute top-[40%] xl:rotate-0  xl:translate-x-0 xl:static xl:flex md:hidden justify-center relative">
-            <span className="md:absolute rotate-[90deg] md:rotate-0 sm:m-20 mt-[60px] mb-12 sm:mt-16 md:mt-0 top-[10%] sm:top-[15%]">
+          <div className="w-full md:w-[8%] lg:w-[18%] flex md:absolute top-[40%] xl:rotate-0  xl:translate-x-0 xl:static xl:flex justify-center relative">
+            <span className="md:absolute rotate-[90deg] md:rotate-90 xl:rotate-0 sm:m-20 mt-[60px] mb-12 sm:mt-16 md:mt-0 top-[10%] sm:top-[15%]">
               <RoadmapLine className="sm:w-[152px] sm:h-[19px] w-[111px] h-[14px]" />
             </span>
           </div>
           <div
-            className="w-full md:w-[40%] lg:w-[28%] xl:w-[20%] flex justify-center lg:justify-end"
+            className="w-full md:w-[40%] lg:w-[28%] xl:w-[20%] flex justify-center lg:justify-end xl:mt-0 md:mt-10 mt-0"
             data-aos="zoom-in-up"
           >
             <div className="flex flex-col max-w-[267px] min-h-[233px] md:min-h-[298px] pt-[28px] items-center pb-8">

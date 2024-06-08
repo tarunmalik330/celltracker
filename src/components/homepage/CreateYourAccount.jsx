@@ -19,10 +19,11 @@ import CommonBtn from "../common/CommonBtn";
 import layer from "../../assets/images/webp/create-acc-toplayer.webp";
 import vectorimg1 from "../../assets/images/webp/verctorImg1.webp";
 import vectorimg2 from "../../assets/images/webp/vectorImg2.webp";
+import { Link } from "react-router-dom";
 
 const CreateYourAccount = () => {
   return (
-    <div className="xl:pt-[210px] sm:pt-[100px] pt-[90px] relative">
+    <div id="Login" className="xl:pt-[210px] sm:pt-[100px] pt-[90px] relative">
       <img
         width={106}
         height={113}
@@ -50,7 +51,8 @@ const CreateYourAccount = () => {
           className="text-blue sm:text-5xl text-2lg sm:leading-xs leading-xsm font-light text-center mb-2"
           data-aos="fade-up"
         >
-          Create your <span className="font-extrabold capitalize"> account</span>
+          Create your{" "}
+          <span className="font-extrabold capitalize"> account</span>
         </h2>
         <p
           className="leading-normal sm:text-base text-sm text-black opacity-70 font-normal text-center"
@@ -60,7 +62,7 @@ const CreateYourAccount = () => {
         </p>
         <div className="flex flex-row items-center justify-center flex-wrap lg:pt-[72px] sm:pt-[50px] pt-[33.7px] gap-[37px] xl:gap-0">
           <div
-            className="lg:w-5/12 w-full flex flex-col max-lg:justify-center max-lg:items-center max-sm:items-start"
+            className="lg:w-5/12 w-full flex flex-col max-lg:justify-start"
             data-aos="fade-right"
           >
             <p className="leading-sm text-blue sm:text-xxs text-2xl font-light mb-[26px]">
@@ -98,9 +100,9 @@ const CreateYourAccount = () => {
                 the payment page. Create an account to start a 24 hour trial
                 with full access to all our tools. The service can be cancelled
                 by the user at any time from within their account.{" "}
-                <a href="/">
+                <Link href="/">
                   <span className="text-sky">View full terms.</span>
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -170,7 +172,7 @@ const CreateYourAccount = () => {
                     </div>
                     <input
                       required
-                      type="text"
+                      type="number"
                       placeholder="Valid Card Number"
                       className="sm:px-[14px] pl-5 capitalize placeholder:text-blue placeholder:font-normal placeholder:sm:text-base placeholder:text-sm font-normal sm:text-base text-sm  text-blue leading-normal w-full outline-none bg-transparent"
                     />
@@ -187,7 +189,7 @@ const CreateYourAccount = () => {
                       </div>
                       <input
                         required
-                        type="text"
+                        type="date"
                         placeholder="MM/YY"
                         className="sm:px-[14px] pl-5 placeholder:text-blue placeholder:font-normal placeholder:sm:text-base placeholder:text-sm capitalize font-normal sm:text-base text-sm  text-blue leading-normal w-full outline-none bg-transparent"
                       />
@@ -203,7 +205,7 @@ const CreateYourAccount = () => {
                       </div>
                       <input
                         required
-                        type="text"
+                        type="number"
                         placeholder="E.x @ 0123"
                         className="sm:px-[14px] pl-5 placeholder:text-blue placeholder:font-normal placeholder:sm:text-base placeholder:text-sm capitalize font-normal sm:text-base text-sm text-blue leading-normal w-full outline-none bg-transparent"
                       />
