@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { navData } from "../common/Helper";
 import { Navlogo, Navlogo2 } from "../common/Icon";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [nav, setnav] = useState(false);
