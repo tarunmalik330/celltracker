@@ -7,7 +7,7 @@ import LendingFooter from "../components/lendingpage/LendingFooter";
 
 const LandingPage = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden max-w-[1920px] mx-auto">
       <Hero />
       <UniversalPrivacy />
       <FindAnyone />

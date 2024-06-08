@@ -9,7 +9,7 @@ import CreateYourAccount from "../components/homepage/CreateYourAccount";
 
 const HomePage = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden max-w-[1920px] mx-auto">
       <Header />
       <Celltrackers />
       <HowItWorks />
