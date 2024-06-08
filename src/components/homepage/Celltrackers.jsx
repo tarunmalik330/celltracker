@@ -27,7 +27,7 @@ const Celltrackers = () => {
         alt="vectorimg"
         className="right-0 bottom-0 max-w-[41px] md:max-w-[65px] lg:max-w-[106px] w-full absolute pointer-events-none"
       />
-      <div className="container custom_container mx-auto sm:px-3 px-6 relative z-1 xl:pt-[50px] sm:pt-[30px] pt-[90px]">
+      <div className="container custom_container mx-auto sm:px-3 px-6 relative z-1 xl:pt-[65px] sm:pt-[30px] pt-[90px]">
         <div className="flex justify-center items-center flex-col">
           <h2
             className="font-light text-blue text-2lg sm:text-5xl sm:!leading-xs leading-xsm text-center mb-[12px] lg:mb-2"
@@ -44,12 +44,12 @@ const Celltrackers = () => {
             sit elit rhoncus vestibulum fames libero id.
           </p>
         </div>
-        <div className="flex flex-row flex-wrap items-center justify-between sm:mb-[50px] mb-[24px] sm:mt-[42px] mt-[42px]">
-          {cellTrackerData.map ((data, index) => (
+        <div className="flex flex-row flex-wrap justify-between sm:mb-[50px] mb-[24px] sm:mt-[42px] mt-[42px]">
+          {cellTrackerData.map((data, index) => (
             <div
               key={index}
               className={`${
-                index === 1 || index === 3 ? "lg:mt-[24px]" : ""
+                index === 1 || index === 3 ? "lg:mt-[23px]" : ""
               } lg:w-[24%] sm:w-[48%] w-full mb-[18px] lg:mb-0`}
               data-aos="zoom-in"
             >
@@ -73,7 +73,7 @@ const Celltrackers = () => {
         </div>
       </div>
     </div>
-  ); 
+  );
 };
 
 export default Celltrackers;

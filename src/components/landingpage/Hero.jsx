@@ -25,12 +25,12 @@ const Hero = () => {
     setSelectedOption(event.target.value);
   };
   return (
-    <div className="bg-heroBg max-xs:bg-headersmbg max-lg:min-h-screen lg:h-[810px] lg:bg-bgsize bg-cover bg-no-repeat relative">
+    <div
+      id="home"
+      className="bg-heroBg max-xs:bg-headersmbg max-lg:min-h-screen lg:h-[810px] lg:bg-bgsize bg-cover bg-no-repeat relative"
+    >
       <NavBar />
-      <div
-        id="home"
-        className="container custom_container mx-auto sm:px-3 px-6 mt-[56px] pb-[30px] lg:mt-[83px]"
-      >
+      <div className="container custom_container mx-auto sm:px-3 px-6 mt-[56px] pb-[30px] lg:mt-[83px]">
         <div className="flex flex-row flex-wrap items-center justify-center lg:justify-between relative">
           <div className="lg:block hidden">
             <img

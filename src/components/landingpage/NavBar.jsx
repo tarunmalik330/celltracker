@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { navData } from "../common/Helper";
 import { Navlogo, Navlogo2 } from "../common/Icon";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [nav, setnav] = useState(false);
@@ -15,14 +16,14 @@ const NavBar = () => {
   return (
       <nav className="container custom_container px-6 sm:px-3 mx-auto py-[20.72px] max-sm:pt-8 max-sm:pb-[10px]">
         <div className="flex justify-between items-center">
-          <a
+          <Link
             rel="noreferrer"
             href="https://celltracker.vercel.app/"
             className="relative z-[4]"
             aria-label="navlogo"
           >
             {nav ? <Navlogo2 /> : <Navlogo />}
-          </a>
+          </Link>
           <ul
             className={`flex items-center gap-[35px] duration-300 max-lg:fixed max-lg:w-full max-lg:h-full max-lg:justify-start max-lg:pt-[121px] max-lg:flex-col max-lg:z-[3] max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:bg-white lg:pe-[40px]  xl:pe-[80px] ${
               nav && "!left-0"
@@ -30,13 +31,14 @@ const NavBar = () => {
           >
             {navData.map((data, index) => (
               <li key={index}>
-                <a
+                <Link
+                  to={index === 0 ? "/" : data.path}
                   onClick={() => setnav(false)}
                   href={data.path}
                   className="text-black lg:text-white text-base font-normal relative z-[1] after:w-0 after:bg-white after:h-[2px] after:bottom-[-2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   {data.link}
-                </a>
+                </Link>
               </li>
             ))}
             <button

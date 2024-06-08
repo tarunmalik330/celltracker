@@ -1,11 +1,19 @@
 import React, { useState } from "react";
 import headerImg from "../../assets/images/webp/heroImage.webp";
 import Navbar from "./Navbar";
-import { Arrow, France, India, Locate, Needhelp, SouthKorea, Uk } from "../common/Icon";
+import {
+  Arrow,
+  France,
+  India,
+  Locate,
+  Needhelp,
+  SouthKorea,
+  Uk,
+} from "../common/Icon";
 import CommonBtn from "../common/CommonBtn";
 
 const Header = () => {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState("");
   const handleKeyPress = (event) => {
     // Allow only digits
     const charCode = event.charCode;
@@ -13,12 +21,15 @@ const Header = () => {
       event.preventDefault();
     }
   };
-  const [selectedOption, setSelectedOption] = useState('');
+  const [selectedOption, setSelectedOption] = useState("");
   const handleChange = (event) => {
     setSelectedOption(event.target.value);
   };
   return (
-      <div className="bg-headerBg lg:bg-bgsize bg-cover bg-no-repeat ">
+      <div
+        id="home"
+        className="bg-headerBg lg:bg-bgsize bg-cover bg-no-repeat "
+      >
         <Navbar />
         <div className="container custom_container mx-auto sm:px-3 px-6 mt-[56px] pb-[30px] lg:mt-[63.86px]">
           <div className="flex flex-row flex-wrap items-center justify-center lg:justify-between">
@@ -37,12 +48,42 @@ const Header = () => {
               <div className="flex lg:justify-start justify-center">
                 <div className="sm:max-w-[448px] max-w-[327px] w-full bg-white rounded-[4px] pl-[10px] flex items-center justify-between">
                   <div className="flex items-center gap-[7px] pr-[7px]">
-                    <span className="cursor-pointer pr-1.5">{selectedOption === '' && <India />}{selectedOption === 'UK' && <Uk />}{selectedOption === 'southkorea' && <SouthKorea />}{selectedOption === 'france' && <France />}</span>
-                    <select id="options" value={selectedOption} onChange={handleChange} className="outline-none cursor-pointer bg-white">
-                      <option value="" className="leading-6 text-sm sm:text-base sm:leading-[100%] text-black hover:bg-!blue">+91</option>
-                      <option value="UK" className="leading-6 text-sm sm:text-base sm:leading-[100%] text-black hover:bg-!blue">+44</option>
-                      <option value="southkorea" className="leading-6 text-sm sm:text-base sm:leading-[100%] text-black hover:!bg-blue">+82</option>
-                      <option value="france" className="leading-6 text-sm sm:text-base sm:leading-[100%] text-black hover:!bg-blue">+33</option>
+                    <span className="cursor-pointer pr-1.5">
+                      {selectedOption === "" && <India />}
+                      {selectedOption === "UK" && <Uk />}
+                      {selectedOption === "southkorea" && <SouthKorea />}
+                      {selectedOption === "france" && <France />}
+                    </span>
+                    <select
+                      id="options"
+                      value={selectedOption}
+                      onChange={handleChange}
+                      className="outline-none cursor-pointer bg-white"
+                    >
+                      <option
+                        value=""
+                        className="leading-6 text-sm sm:text-base sm:leading-[100%] text-black hover:bg-!blue"
+                      >
+                        +91
+                      </option>
+                      <option
+                        value="UK"
+                        className="leading-6 text-sm sm:text-base sm:leading-[100%] text-black hover:bg-!blue"
+                      >
+                        +44
+                      </option>
+                      <option
+                        value="southkorea"
+                        className="leading-6 text-sm sm:text-base sm:leading-[100%] text-black hover:!bg-blue"
+                      >
+                        +82
+                      </option>
+                      <option
+                        value="france"
+                        className="leading-6 text-sm sm:text-base sm:leading-[100%] text-black hover:!bg-blue"
+                      >
+                        +33
+                      </option>
                     </select>
                   </div>
                   <div className="flex items-center gap-[7px] w-full">
