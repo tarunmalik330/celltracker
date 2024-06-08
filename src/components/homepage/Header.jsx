@@ -18,7 +18,6 @@ const Header = () => {
     setSelectedOption(event.target.value);
   };
   return (
-    <>
       <div className="bg-headerBg lg:bg-bgsize bg-cover bg-no-repeat ">
         <Navbar />
         <div className="container custom_container mx-auto sm:px-3 px-6 mt-[56px] pb-[30px] lg:mt-[63.86px]">
@@ -106,7 +105,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 export default Header;

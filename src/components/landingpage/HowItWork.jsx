@@ -5,7 +5,7 @@ import {
   Message,
   PhoneNumber,
 } from "../common/Icon";
-import vectorImg1 from "../../assets/images/webp/verctorImg1.webp";
+import vectorImg1 from "../../assets/images/webp/verctor1.webp";
 
 const HowItWork = () => {
   return (

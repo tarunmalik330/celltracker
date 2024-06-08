@@ -6,9 +6,9 @@ import {
   MobileNumber,
   UnlimitedLocation,
 } from "../common/Icon";
-import anyoneMobile from "../../assets/images/webp/anyoneMobileimg.webp";
-import vectorImg1 from "../../assets/images/webp/verctorImg1.webp";
-import vectorImg2 from "../../assets/images/webp/vectorImg2.webp";
+import anyoneMobile from "../../assets/images/webp/anyoneMobile.webp";
+import vectorImg1 from "../../assets/images/webp/verctor1.webp";
+import vectorImg2 from "../../assets/images/webp/vector2.webp";
 
 const FindAnyone = () => {
   return (
@@ -42,7 +42,7 @@ const FindAnyone = () => {
           </p>
         </div>
         <div className="flex justify-between max-lg:flex-wrap items-center mt-[31px] md:mt-[56px]">
-          <div className="lg:w-[34%] max-lg:order-1 max-lg:mt-12  w-full">
+          <div className="lg:w-[34%] md:w-[48%] max-lg:order-1 max-lg:mt-12  w-full">
             <div className=" max-w-[500px] lg:max-w-[376px] lg:h-[156px] h-[152px] rounded flex mx-auto relative overflow-hidden z-[1] after:absolute after:inset-0 after:bg-bluegradient after:opacity-0 after:transition-all after:ease-linear after:duration-300 hover:after:opacity-100 after:z-[-1] border border-gray-low-300 lg:p-[12px_18px_12px_0] p-[16px_16px_16px_0] group mb-[24px]">
               <div className="flex gap-[14px] items-center">
                 <div className="bg-offBlue max-w-[61px] h-[57px] sm:max-w-[75px] sm:h-[70px] flex justify-center items-center group-hover:bg-white md:p-[17px_19px_17px_20px] p-[14px_16px] transition-all duration-300 ease-linear">
@@ -79,7 +79,7 @@ const FindAnyone = () => {
               className="w-full max-h-[386.58px] max-w-[211px] lg:max-w-[255.26px] mx-auto"
             />
           </div>
-          <div className="lg:w-[34%] w-full max-lg:mt-[18px] max-lg:order-2 ">
+          <div className="lg:w-[34%] md:w-[48%] w-full max-lg:mt-12 max-md:mt-[18px] max-md:order-2 max-lg:order-1 ">
             <div className="max-w-[500px] lg:max-w-[376px] lg:h-[156px] h-[152px] rounded flex mx-auto relative overflow-hidden z-[1] after:absolute after:inset-0 after:bg-bluegradient after:opacity-0 after:transition-all after:ease-linear after:duration-300 hover:after:opacity-100 after:z-[-1] border border-gray-low-300 lg:p-[12px_18px_12px_0] p-[16px_16px_16px_0] group mb-[24px]">
               <div className="flex gap-[14px] items-center">
                 <div className="bg-offBlue max-w-[61px] h-[57px] sm:max-w-[75px] sm:h-[70px] flex justify-center items-center group-hover:bg-white md:p-[17px_19px_17px_20px] p-[14px_16px] transition-all duration-300 ease-linear">

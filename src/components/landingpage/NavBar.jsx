@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { navData } from "../common/Helper";
 import { Navlogo, Navlogo2 } from "../common/Icon";
-import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [nav, setnav] = useState(false);
@@ -14,8 +13,7 @@ const NavBar = () => {
     document.body.classList.remove("max-lg:overflow-hidden");
   }
   return (
-    <nav>
-      <div className="container custom_container px-6 sm:px-3 mx-auto py-[20.72px] max-sm:pt-8 max-sm:pb-[10px]">
+      <nav className="container custom_container px-6 sm:px-3 mx-auto py-[20.72px] max-sm:pt-8 max-sm:pb-[10px]">
         <div className="flex justify-between items-center">
           <a
             rel="noreferrer"
@@ -73,8 +71,7 @@ const NavBar = () => {
             )}
           </button>
         </div>
-      </div>
-    </nav>
+      </nav>
   );
 };
 

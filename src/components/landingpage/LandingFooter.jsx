@@ -2,9 +2,8 @@ import React from "react";
 import logo from "../../assets/images/svg/footer-logo.svg";
 import { footerLink2, footerSocialLink } from "../common/Helper";
 
-const LendingFooter = () => {
+const LandingFooter = () => {
   return (
-    <>
       <div className="lg:pt-[102px] sm:pt-[70px] pt-[58px] relative sm:mt-0 mt-3">
         <div className="container sm:px-3 px-6 custom_container mx-auto">
           <div className="flex items-center md:justify-between md:flex-row max-md:gap-6 max-sm:gap-0 flex-col md:pb-12 pb-[58px]">
@@ -56,8 +55,7 @@ const LendingFooter = () => {
           </p>
         </div>
       </div>
-    </>
   );
 };
 
-export default LendingFooter;
+export default LandingFooter;

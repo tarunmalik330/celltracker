@@ -94,23 +94,23 @@ export const footerSocialLink = [
 export const cellTrackerData = [
   {
     svg: <Location />,
-    heading: "Instant location lookups",
-    para: "Check the location of your registered phones whenever you choose. Add up to 5 phones to your account.",
+    title: "Instant location lookups",
+    description: "Check the location of your registered phones whenever you choose. Add up to 5 phones to your account.",
   },
   {
     svg: <Android />,
-    heading: "Android & iPhone compatible",
-    para: "Our service works with any Android or iPhone device, and takes just minutes to set up.",
+    title: "Android & iPhone compatible",
+    description: "Our service works with any Android or iPhone device, and takes just minutes to set up.",
   },
   {
     svg: <Simple />,
-    heading: "Simple to use",
-    para: "Our service has been designed to be simple to use. Just follow our walkthrough wizard to locate your phone.",
+    title: "Simple to use",
+    description: "Our service has been designed to be simple to use. Just follow our walkthrough wizard to locate your phone.",
   },
   {
     svg: <Family />,
-    heading: "Keep your family safe",
-    para: "Keep track of your family using our tools. Know that your children or elderly relatives are safe.",
+    title: "Keep your family safe",
+    description: "Keep track of your family using our tools. Know that your children or elderly relatives are safe.",
   },
 ];
 
@@ -118,23 +118,23 @@ export const cellTrackerData = [
 export const privacyData = [
   {
     svg: <Compatible />,
-    heading: "compatible for every phones",
-    para: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
+    title: "compatible for every phones",
+    description: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
   },
   {
     svg: <Covers />,
-    heading: "Covers all networks",
-    para: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
+    title: "Covers all networks",
+    description: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
   },
   {
     svg: <Installation />,
-    heading: "No installation required",
-    para: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
+    title: "No installation required",
+    description: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
   },
   {
     svg: <Private />,
-    heading: "Totally private",
-    para: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
+    title: "Totally private",
+    description: "Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi vestibulum fames libero id.",
   },
 ];
 
@@ -142,13 +142,13 @@ export const privacyData = [
 export const worksData = [
   {
     svg: <Webdevice />,
-    heading: "Locate the people important to you, from any web device",
-    para: "Family will always be number one and keeping them safe has never been more important. Locateaphone.com allows you to keep track of up to 5 mobile phones, providing you with accurate location information from any web enabled device. Keep them safe without being invasive.",
+    title: "Locate the people important to you, from any web device",
+    description: "Family will always be number one and keeping them safe has never been more important. Locateaphone.com allows you to keep track of up to 5 mobile phones, providing you with accurate location information from any web enabled device. Keep them safe without being invasive.",
   },
   {
     svg: <Network />,
-    heading: "Accurate location info for any phone on any network.",
-    para: "Instantly track the location of a mobile phone at any time. No apps, no downloads, Locateaphone.com works with any Android or iPhone device. Locateaphone.com uses a range of different tools to find the location of a phone. Our unique phone location walkthrough process will determine the best tools to use for each situation.",
+    title: "Accurate location info for any phone on any network.",
+    description: "Instantly track the location of a mobile phone at any time. No apps, no downloads, Locateaphone.com works with any Android or iPhone device. Locateaphone.com uses a range of different tools to find the location of a phone. Our unique phone location walkthrough process will determine the best tools to use for each situation.",
   },
 ];
 

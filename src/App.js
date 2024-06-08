@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import LandingPage from "./pages/LandingPage";
 import { useState, useEffect } from "react";
-import backtotop from "./assets/images/webp/back-to-top.webp";
+import backtotop from "./assets/images/webp/backTotop.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
